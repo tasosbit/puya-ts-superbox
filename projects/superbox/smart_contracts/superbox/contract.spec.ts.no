@@ -1,0 +1,13 @@
+import { TestExecutionContext } from '@algorandfoundation/algorand-typescript-testing'
+import { describe, it } from 'vitest'
+import { Superbox } from './contract.algo'
+
+describe('Sueprbox contract', () => {
+  const ctx = new TestExecutionContext()
+  it('Logs the returned value when sayHello is called', () => {
+    const contract = ctx.contract.create(Superbox)
+    const name = 'toast'
+    const result = contract.superboxCreate(name, 1024, 2, 'uint16')
+    contract.superboxAppend(name, Buffer.from([13, 13]))
+  })
+})

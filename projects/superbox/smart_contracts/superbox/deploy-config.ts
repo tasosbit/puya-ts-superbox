@@ -1,5 +1,5 @@
 import { AlgorandClient } from '@algorandfoundation/algokit-utils'
-import { SueprboxFactory } from '../artifacts/sueprbox/SueprboxClient'
+import { SuperboxFactory } from '../artifacts/superbox/SuperboxClient'
 
 // Below is a showcase of various deployment options you can use in TypeScript Client
 export async function deploy() {
@@ -8,7 +8,7 @@ export async function deploy() {
   const algorand = AlgorandClient.fromEnvironment()
   const deployer = await algorand.account.fromEnvironment('DEPLOYER')
 
-  const factory = algorand.client.getTypedAppFactory(SueprboxFactory, {
+  const factory = algorand.client.getTypedAppFactory(SuperboxFactory, {
     defaultSender: deployer.addr,
   })
 
@@ -22,12 +22,4 @@ export async function deploy() {
       receiver: appClient.appAddress,
     })
   }
-
-  const method = 'hello'  
-  const response = await appClient.send.hello({
-    args: { name: 'world' },
-  })
-  console.log(
-    `Called ${method} on ${appClient.appClient.appName} (${appClient.appClient.appId}) with name = world, received: ${response.return}`,
-  )
 }

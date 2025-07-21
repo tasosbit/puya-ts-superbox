@@ -3,7 +3,7 @@ _commit: 0.3.3
 _src_path: gh:algorandfoundation/algokit-typescript-template
 author_email: bit@d13.co
 author_name: Bit D13
-contract_name: sueprbox
+contract_name: superbox
 preset_name: production
 project_name: superbox
 
