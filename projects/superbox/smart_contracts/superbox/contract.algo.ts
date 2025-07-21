@@ -1,6 +1,6 @@
 import { assert, Box, BoxMap, BoxRef, bytes, Bytes, Contract, uint64 } from '@algorandfoundation/algorand-typescript'
 import { abimethod, DynamicArray, Str, UintN16 } from '@algorandfoundation/algorand-typescript/arc4'
-import { au16, au32, SuperboxMeta } from './types.algo'
+import { au16, au64, SuperboxMeta } from './types.algo'
 import { itoa } from './util.algo'
 
 function sbDataBoxName(name: string, num: uint64) {
@@ -35,21 +35,21 @@ function sbAppend(name: string, data: bytes): uint64 {
   let dataWritten: uint64 = 0
 
   while (dataWritten < data.length) {
-    // evidently, puya ts dynamicarrays must be grown with push
-    // `arr[newIndex] = newValue` fails
-    if (meta.boxByteLengths.length === currentBoxNum) {
-      meta.boxByteLengths.push(au16(0))
-    }
-
     const dataBox = sbDataBoxRef(name, currentBoxNum)
     const chunkWritten = appendBox(dataBox, data.slice(dataWritten, dataWritten + maxBoxSize), maxBoxSize, valueSize)
 
-    meta.totalByteLength = au32(meta.totalByteLength.native + chunkWritten)
-    meta.boxByteLengths[currentBoxNum] = au16(meta.boxByteLengths[currentBoxNum].native + chunkWritten)
+    if (meta.boxByteLengths.length === currentBoxNum) {
+      // new box
+      meta.boxByteLengths.push(au16(chunkWritten))
+    } else {
+      // existing box
+      meta.boxByteLengths[currentBoxNum] = au16(meta.boxByteLengths[currentBoxNum].native + chunkWritten)
+    }
 
     dataWritten += chunkWritten
     currentBoxNum++
   }
+  meta.totalByteLength = au64(meta.totalByteLength.native + dataWritten)
 
   const metaBox = sbMetaBox(name)
   metaBox.delete()
@@ -88,17 +88,18 @@ function appendBox(box: BoxRef, data: bytes, maxBoxSize: uint64, valueSize: uint
     if (capacity % valueSize !== 0) {
       capacity -= capacity % valueSize
     }
-    box.value = data.slice(0, capacity)
-    return capacity
+    const dataToWrite = data.slice(0, capacity)
+    box.value = dataToWrite
+    return dataToWrite.length
   }
 }
 
 function sbCreate(name: string, maxBoxSize: uint64, valueSize: uint64, valueSchema: string) {
   const meta = new SuperboxMeta({
-    totalByteLength: au32(0),
-    maxBoxSize: au16(maxBoxSize),
+    totalByteLength: au64(0),
+    maxBoxSize: au64(maxBoxSize),
     boxByteLengths: new DynamicArray<UintN16>(),
-    valueSize: au16(valueSize),
+    valueSize: au64(valueSize),
     valueSchema: new Str(valueSchema),
   })
   const metaBox = sbMetaBox(name)

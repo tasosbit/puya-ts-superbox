@@ -14,9 +14,9 @@ export function au64(num: uint64) {
 }
 
 export class SuperboxMeta extends arc4.Struct<{
-  totalByteLength: UintN32
+  totalByteLength: UintN64
   boxByteLengths: DynamicArray<UintN16>
-  maxBoxSize: UintN16
-  valueSize: UintN16
+  maxBoxSize: UintN64
+  valueSize: UintN64
   valueSchema: Str
 }> {}
