@@ -20,3 +20,6 @@ export class SuperboxMeta extends arc4.Struct<{
   valueSize: UintN64
   valueSchema: Str
 }> {}
+
+export type BoxNum = uint64
+export type ByteOffset = uint64

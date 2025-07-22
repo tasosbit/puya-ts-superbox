@@ -18,3 +18,13 @@ export async function getSuperboxData(client: SuperboxClient, name: string): Pro
   const boxValues = await client.algorand.app.getBoxValues(client.appId, boxNames)
   return Buffer.concat(boxValues)
 }
+
+export async function getSuperboxValueLocation(client: SuperboxClient, name: string, valueIndex: number) {
+  const { return: loc } = await client.send.superboxGetLocation({ args: { name, valueIndex } })
+  return loc
+}
+
+export async function getSuperboxValue(client: SuperboxClient, name: string, valueIndex: number) {
+  const { return: value } = await client.send.superboxGetValue({ args: { name, valueIndex } })
+  return Buffer.from(value!)
+}

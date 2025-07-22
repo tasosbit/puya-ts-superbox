@@ -4,7 +4,7 @@ import { algorandFixture } from '@algorandfoundation/algokit-utils/testing'
 import { Address } from 'algosdk'
 import { beforeAll, beforeEach, describe, expect, test } from 'vitest'
 import { SuperboxArgs, SuperboxFactory } from '../artifacts/superbox/SuperboxClient'
-import { getSuperboxData, getSuperboxMeta } from './clientish'
+import { getSuperboxData, getSuperboxMeta, getSuperboxValue, getSuperboxValueLocation } from './clientish'
 
 describe('Superbox contract', () => {
   const localnet = algorandFixture()
@@ -121,12 +121,86 @@ describe('Superbox contract', () => {
 
     expect(meta).toEqual({
       boxByteLengths: [16, 8],
-      totalByteLength: 24n,
+      totalByteLength: BigInt(data.length),
       maxBoxSize,
       valueSchema,
       valueSize,
     })
     expect(writtenData).toEqual(data)
+  })
+
+  test('get location by value index', async () => {
+    const { testAccount } = localnet.context
+    const valueSize = 8n
+    const maxBoxSize = 38n
+    const { client } = await deploy(testAccount, { valueSize, maxBoxSize })
+
+    const data = makeData(8 * 9) // [32, 32, 8]
+
+    await client.send.superboxAppend({ args: { name, data } })
+
+    const meta = await getSuperboxMeta(client, name)
+    const writtenData = await getSuperboxData(client, name)
+
+    expect(meta).toEqual({
+      boxByteLengths: [32, 32, 8],
+      totalByteLength: BigInt(data.length),
+      maxBoxSize,
+      valueSchema,
+      valueSize,
+    })
+    expect(writtenData).toEqual(data)
+
+    const positions = await Promise.all(new Array(9).fill(1).map((_, i) => getSuperboxValueLocation(client, name, i)))
+
+    expect(positions[0]).toEqual([0n, valueSize * 0n])
+    expect(positions[1]).toEqual([0n, valueSize * 1n])
+    expect(positions[2]).toEqual([0n, valueSize * 2n])
+    expect(positions[3]).toEqual([0n, valueSize * 3n])
+
+    expect(positions[4]).toEqual([1n, valueSize * 0n])
+    expect(positions[5]).toEqual([1n, valueSize * 1n])
+    expect(positions[6]).toEqual([1n, valueSize * 2n])
+    expect(positions[7]).toEqual([1n, valueSize * 3n])
+
+    expect(positions[8]).toEqual([2n, valueSize * 0n])
+
+    await expect(getSuperboxValue(client, name, 9)).rejects.toThrow(/ERR:OOB/)
+  })
+
+  test('get data by value index', async () => {
+    const { testAccount } = localnet.context
+    const valueSize = 8n
+    const maxBoxSize = 38n
+    const { client } = await deploy(testAccount, { valueSize, maxBoxSize })
+
+    const valueCount = 20
+    const values = new Array(valueCount).fill(1).map((_) => makeData(8))
+    const data = Buffer.concat(values)
+
+    // send them one by one intentionally
+    for (const data of values) {
+      await client.send.superboxAppend({ args: { name, data } })
+    }
+
+    const meta = await getSuperboxMeta(client, name)
+    const writtenData = await getSuperboxData(client, name)
+
+    expect(meta).toEqual({
+      boxByteLengths: [32, 32, 32, 32, 32],
+      totalByteLength: BigInt(data.length),
+      maxBoxSize,
+      valueSchema,
+      valueSize,
+    })
+    expect(writtenData).toEqual(data)
+
+    for (let i = 0; i < valueCount; i++) {
+      const remoteValue = await getSuperboxValue(client, name, i)
+      expect(remoteValue).toEqual(values[i])
+    }
+
+    await expect(getSuperboxValue(client, name, valueCount)).rejects.toThrow(/ERR:OOB/)
   })
 })
 

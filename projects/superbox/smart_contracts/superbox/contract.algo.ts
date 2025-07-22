@@ -1,6 +1,16 @@
-import { assert, Box, BoxMap, BoxRef, bytes, Bytes, Contract, uint64 } from '@algorandfoundation/algorand-typescript'
+import {
+  assert,
+  Box,
+  BoxMap,
+  BoxRef,
+  bytes,
+  Bytes,
+  Contract,
+  err,
+  uint64,
+} from '@algorandfoundation/algorand-typescript'
 import { abimethod, DynamicArray, Str, UintN16 } from '@algorandfoundation/algorand-typescript/arc4'
-import { au16, au64, SuperboxMeta } from './types.algo'
+import { au16, au64, BoxNum, ByteOffset, SuperboxMeta } from './types.algo'
 import { itoa } from './util.algo'
 
 function sbDataBoxName(name: string, num: uint64) {
@@ -20,6 +30,19 @@ function sbMetaBoxValue(name: string): SuperboxMeta {
   const metaBox = sbMetaBox(name)
   assert(metaBox.exists, 'ERR:SBNEXIST')
   return metaBox.value
+}
+
+function sbCreate(name: string, maxBoxSize: uint64, valueSize: uint64, valueSchema: string) {
+  const meta = new SuperboxMeta({
+    totalByteLength: au64(0),
+    maxBoxSize: au64(maxBoxSize),
+    boxByteLengths: new DynamicArray<UintN16>(),
+    valueSize: au64(valueSize),
+    valueSchema: new Str(valueSchema),
+  })
+  const metaBox = sbMetaBox(name)
+  assert(!metaBox.exists, 'ERR:SBEXISTS')
+  metaBox.value = meta.copy()
 }
 
 function sbAppend(name: string, data: bytes): uint64 {
@@ -94,17 +117,36 @@ function appendBox(box: BoxRef, data: bytes, maxBoxSize: uint64, valueSize: uint
   }
 }
 
-function sbCreate(name: string, maxBoxSize: uint64, valueSize: uint64, valueSchema: string) {
-  const meta = new SuperboxMeta({
-    totalByteLength: au64(0),
-    maxBoxSize: au64(maxBoxSize),
-    boxByteLengths: new DynamicArray<UintN16>(),
-    valueSize: au64(valueSize),
-    valueSchema: new Str(valueSchema),
-  })
-  const metaBox = sbMetaBox(name)
-  assert(!metaBox.exists, 'ERR:SBEXISTS')
-  metaBox.value = meta.copy()
+function sbGetLocation(name: string, valueIndex: uint64): [BoxNum, ByteOffset] {
+  const meta = sbMetaBoxValue(name)
+  const valueSize = meta.valueSize.native
+  const totalBoxes = meta.boxByteLengths.length
+
+  // target
+  let byteIndex: uint64 = valueIndex * valueSize
+
+  // check out of bounds. must have space for byteIndex(start) plus the value
+  assert(byteIndex + valueSize <= meta.totalByteLength.native, 'ERR:OOB')
+
+  let elapsedBytes: uint64 = 0
+  for (let i: uint64 = 0; i < totalBoxes; i++) {
+    const boxSize = meta.boxByteLengths[i].native
+    if (boxSize + elapsedBytes > byteIndex) {
+      // we found the box
+      return [i, byteIndex - elapsedBytes]
+    } else {
+      elapsedBytes += boxSize
+    }
+  }
+  // out of bounds should be caught at the top
+  err('never?')
+}
+
+function sbGetData(name: string, valueIndex: uint64): bytes {
+  const [boxNum, byteOffset] = sbGetLocation(name, valueIndex)
+  const box = sbDataBoxRef(name, boxNum)
+  const valueSize = sbMetaBoxValue(name).valueSize.native
+  return box.value.slice(byteOffset, byteOffset + valueSize)
 }
 
 export class Superbox extends Contract {
@@ -129,8 +171,20 @@ export class Superbox extends Contract {
     return sbAppend(name, data)
   }
 
+  public noop() {}
+
   @abimethod({ readonly: true })
   public superboxGetMeta(name: string): SuperboxMeta {
     return sbMetaBox(name).value
+  }
+
+  @abimethod({ readonly: true })
+  public superboxGetLocation(name: string, valueIndex: uint64): [BoxNum, ByteOffset] {
+    return sbGetLocation(name, valueIndex)
+  }
+
+  @abimethod({ readonly: true })
+  public superboxGetValue(name: string, valueIndex: uint64): bytes {
+    return sbGetData(name, valueIndex)
   }
 }
