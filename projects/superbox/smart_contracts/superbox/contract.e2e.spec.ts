@@ -202,6 +202,85 @@ describe('Superbox contract', () => {
 
     await expect(getSuperboxValue(client, name, valueCount)).rejects.toThrow(/ERR:OOB/)
   })
+
+  test('Delete one value by index', async () => {
+    const { testAccount } = localnet.context
+    const valueSize = 8n
+    const maxBoxSize = 38n
+    const { client } = await deploy(testAccount, { valueSize, maxBoxSize })
+
+    let valueCount = 20
+    let values = new Array(valueCount).fill(1).map((_) => makeData(8))
+    let data = Buffer.concat(values)
+
+    await client.newGroup().noop({ args: {} }).superboxAppend({ args: { name, data } }).send()
+    await client.send.superboxDelete({ args: { name, valueIndex: 6 } })
+
+    values.splice(6, 1)
+    valueCount -= 1
+    data = Buffer.concat(values)
+
+    await expect(client.send.superboxDelete({ args: { name, valueIndex: valueCount } })).rejects.toThrow(/ERR:OOB/)
+
+    const meta = await getSuperboxMeta(client, name)
+    const writtenData = await getSuperboxData(client, name)
+
+    expect(meta).toEqual({
+      boxByteLengths: [32, 24, 32, 32, 32],
+      totalByteLength: BigInt(data.length),
+      maxBoxSize,
+      valueSchema,
+      valueSize,
+    })
+    expect(writtenData).toEqual(data)
+
+    for (let i = 0; i < valueCount; i++) {
+      console.log({ i })
+      const remoteValue = await getSuperboxValue(client, name, i)
+      expect(remoteValue).toEqual(values[i])
+    }
+  })
+
+  test('Delete all values in box by index', async () => {
+    const { testAccount } = localnet.context
+    const valueSize = 8n
+    const maxBoxSize = 38n
+    const { client } = await deploy(testAccount, { valueSize, maxBoxSize })
+
+    let valueCount = 20
+    let values = new Array(valueCount).fill(1).map((_) => makeData(8))
+    let data = Buffer.concat(values)
+
+    await client.newGroup().noop({ args: {} }).superboxAppend({ args: { name, data } }).send()
+    await client.send.superboxDelete({ args: { name, valueIndex: 7 } })
+    await client.send.superboxDelete({ args: { name, valueIndex: 6 } })
+    await client.send.superboxDelete({ args: { name, valueIndex: 5 } })
+    await client.send.superboxDelete({ args: { name, valueIndex: 4 } })
+
+    values.splice(4, 4)
+    valueCount -= 4
+    data = Buffer.concat(values)
+
+    await expect(client.send.superboxDelete({ args: { name, valueIndex: valueCount } })).rejects.toThrow(/ERR:OOB/)
+
+    const meta = await getSuperboxMeta(client, name)
+    const writtenData = await getSuperboxData(client, name)
+
+    expect(meta).toEqual({
+      boxByteLengths: [32, 0, 32, 32, 32],
+      totalByteLength: BigInt(data.length),
+      maxBoxSize,
+      valueSchema,
+      valueSize,
+    })
+    expect(writtenData).toEqual(data)
+
+    for (let i = 0; i < valueCount; i++) {
+      console.log({ i })
+      const remoteValue = await getSuperboxValue(client, name, i)
+      expect(remoteValue).toEqual(values[i])
+    }
+  })
 })
 
 export function makeData(len: number): Buffer {
