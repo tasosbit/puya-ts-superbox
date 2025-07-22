@@ -123,6 +123,8 @@ export function sbDeleteIndex(name: string, valueIndex: uint64): uint64 {
   const valueSize = meta.value.valueSize.native
   const prevBoxByteLength = meta.value.boxByteLengths[boxNum].native
 
+  // TODO delete data box if empty?
+
   // splice value out of data box. Leaves empty bytes of size valueSize at end of box
   dataBox.splice(byteOffset, valueSize, Bytes``)
   // resize box to trim the zero values
@@ -133,6 +135,48 @@ export function sbDeleteIndex(name: string, valueIndex: uint64): uint64 {
   meta.value.totalByteLength = au64(meta.value.totalByteLength.native - valueSize)
 
   return meta.value.totalByteLength.native
+}
+
+/**
+ * Delete box by box index/number
+ * @param name Superbox name/prefix
+ * @param boxNum Box number to delete
+ * @returns Superbox total data length
+ */
+export function sbDeleteBox(name: string, boxNum: uint64): uint64 {
+  const meta = sbMetaBox(name)
+  const metaValue = meta.value.copy()
+  const dataBox = sbDataBoxRef(name, boxNum)
+
+  assert(boxNum < metaValue.boxByteLengths.length, 'ERR:OOB')
+  assert(dataBox.exists, 'ERR:DLTD')
+
+  // adjust metadata
+  metaValue.totalByteLength = au64(metaValue.totalByteLength.native - metaValue.boxByteLengths[boxNum].native)
+  metaValue.boxByteLengths[boxNum] = au16(0)
+  meta.value = metaValue.copy()
+
+  // delete box
+  dataBox.delete()
+
+  return metaValue.totalByteLength.native
+}
+
+
+/**
+ * Delete box by box index/number
+ * @param name Superbox name/prefix
+ */
+export function sbDeleteSuperbox(name: string) {
+  // TODO emptying out a box by sbDeleteIndex leaves the data box itself intact. 
+  // This would allow deleting a superbox while there is still a databox in the contract
+  // Probably OK to delete box at sbDeleteIndex, but think & fix
+  const metaBox = sbMetaBox(name)
+
+  assert(metaBox.exists, 'ERR:NEXIST')
+  assert(metaBox.value.totalByteLength.native === 0, "ERR:NEMPTY")
+
+  metaBox.delete()
 }
 
 /**
