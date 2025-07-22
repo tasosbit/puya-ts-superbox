@@ -6,12 +6,12 @@ Superbox enables performing simple list operations backed by multiple boxes.
 
 Supported write ops:
 
-- append value(s)
-- delete value(s)
+- append value(s) (tail only)
+- delete value(s) (anywhere)
 
 Read ops:
 
-- Get value location (box, offset) by index 
+- Get value location [box, offset] by index 
 - Get value data by index
 - Get metadata, e.g. value count, byte length count, etc.
 
@@ -78,7 +78,8 @@ export class SuperboxMeta extends arc4.Struct<{
    */
   maxBoxSize: UintN64
   /**
-   * Byte width of individual value. Used to enforce box/value boundaries & calculate offsets when fetching values by index
+   * Byte width of individual value.
+   * Used to enforce box/value boundaries & calculate offsets when operating by value index
    */
   valueSize: UintN64
   /**
@@ -96,15 +97,17 @@ To enable this we would change one core aspect and provide an optimisation:
 
 ### Insert anywhere at finite cost ~= arbitrary data box naming
 
-1) To make it possible to operate over large superboxes, we want to avoid having to shift the box values "downstream" of our insertion point, as this would cost too many opcodes and would likely not be doable within a single group for large enough boxes. Superbox operations should be atomic and leave the data in a good state.
+To make it possible to insert at arbitrary points in large superboxes, we want to avoid having to shift the box values "downstream" of our insertion point, as this would cost too many opcodes and would likely not be doable within a single group in many cases.
 
-For this we want to be able to insert data boxes between existing ones, so we would keep the convention-based data box naming system for creating new boxes, but we would also store the data box names in their correct order. 
+> Superbox operations should be atomic and leave the data in a good state.
 
-E.g. After inserting data after box zero, we could end up with data box names:
+We can facilitate this by inserting new data boxes between existing ones: we would keep the convention-based data box naming system for creating new boxes, but we would also store the data box names in their correct order in order to be able to break this convention when inserting in the middle.
+
+E.g. After inserting data after box zero, we could end up with data box names in this order
 
 ```
 data0
-data4
+data4 (new box)
 data1
 data2
 data3
