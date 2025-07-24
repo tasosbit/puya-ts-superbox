@@ -123,15 +123,22 @@ export function sbDeleteIndex(name: string, valueIndex: uint64): uint64 {
   const valueSize = meta.value.valueSize.native
   const prevBoxByteLength = meta.value.boxByteLengths[boxNum].native
 
-  // TODO delete data box if empty?
+  if (prevBoxByteLength === valueSize) {
+    // box empty - delete
+    dataBox.delete()
+    // adjust metadata
+    meta.value.boxByteLengths[boxNum] = au16(0)
+    err('What does this do?')
+  } else {
+    // splice value out of data box. Leaves empty bytes of size valueSize at end of box
+    dataBox.splice(byteOffset, valueSize, Bytes``)
+    // resize box to trim the zero values
+    dataBox.resize(prevBoxByteLength - valueSize)
+    // adjust metadata
+    meta.value.boxByteLengths[boxNum] = au16(prevBoxByteLength - valueSize)
+  }
 
-  // splice value out of data box. Leaves empty bytes of size valueSize at end of box
-  dataBox.splice(byteOffset, valueSize, Bytes``)
-  // resize box to trim the zero values
-  dataBox.resize(prevBoxByteLength - valueSize)
-
-  // adjust metadata
-  meta.value.boxByteLengths[boxNum] = au16(prevBoxByteLength - valueSize)
+  // adjust total metadata
   meta.value.totalByteLength = au64(meta.value.totalByteLength.native - valueSize)
 
   return meta.value.totalByteLength.native
@@ -162,19 +169,18 @@ export function sbDeleteBox(name: string, boxNum: uint64): uint64 {
   return metaValue.totalByteLength.native
 }
 
-
 /**
  * Delete box by box index/number
  * @param name Superbox name/prefix
  */
 export function sbDeleteSuperbox(name: string) {
-  // TODO emptying out a box by sbDeleteIndex leaves the data box itself intact. 
+  // TODO emptying out a box by sbDeleteIndex leaves the data box itself intact.
   // This would allow deleting a superbox while there is still a databox in the contract
   // Probably OK to delete box at sbDeleteIndex, but think & fix
   const metaBox = sbMetaBox(name)
 
   assert(metaBox.exists, 'ERR:NEXIST')
-  assert(metaBox.value.totalByteLength.native === 0, "ERR:NEMPTY")
+  assert(metaBox.value.totalByteLength.native === 0, 'ERR:NEMPTY')
 
   metaBox.delete()
 }

@@ -338,20 +338,20 @@ sbMetaBoxValue:
 
 // smart_contracts/superbox/superbox.algo.ts::sbGetLocation(name: bytes, valueIndex: uint64) -> uint64, uint64:
 sbGetLocation:
-    // smart_contracts/superbox/superbox.algo.ts:188
+    // smart_contracts/superbox/superbox.algo.ts:194
     // export function sbGetLocation(name: string, valueIndex: uint64): [BoxNum, ByteOffset] {
     proto 2 2
     bytec_2 // ""
-    // smart_contracts/superbox/superbox.algo.ts:189
+    // smart_contracts/superbox/superbox.algo.ts:195
     // const meta = sbMetaBoxValue(name)
     frame_dig -2
     callsub sbMetaBoxValue
-    // smart_contracts/superbox/superbox.algo.ts:190
+    // smart_contracts/superbox/superbox.algo.ts:196
     // const valueSize = meta.valueSize.native
     dup
     pushint 18 // 18
     extract_uint64
-    // smart_contracts/superbox/superbox.algo.ts:191
+    // smart_contracts/superbox/superbox.algo.ts:197
     // const totalBoxes = meta.boxByteLengths.length
     dig 1
     intc_0 // 0
@@ -367,14 +367,14 @@ sbGetLocation:
     intc_0 // 0
     extract_uint16
     cover 2
-    // smart_contracts/superbox/superbox.algo.ts:194
+    // smart_contracts/superbox/superbox.algo.ts:200
     // let byteIndex: uint64 = valueIndex * valueSize
     frame_dig -1
     dig 1
     *
     dup
     cover 3
-    // smart_contracts/superbox/superbox.algo.ts:197
+    // smart_contracts/superbox/superbox.algo.ts:203
     // assert(byteIndex + valueSize <= meta.totalByteLength.native, 'ERR:OOB')
     +
     swap
@@ -382,22 +382,22 @@ sbGetLocation:
     extract_uint64
     <=
     assert // ERR:OOB
-    // smart_contracts/superbox/superbox.algo.ts:199
+    // smart_contracts/superbox/superbox.algo.ts:205
     // let elapsedBytes: uint64 = 0
     intc_0 // 0
-    // smart_contracts/superbox/superbox.algo.ts:200
+    // smart_contracts/superbox/superbox.algo.ts:206
     // for (let i: uint64 = 0; i < totalBoxes; i++) {
     dup
 
 sbGetLocation_while_top@1:
-    // smart_contracts/superbox/superbox.algo.ts:200
+    // smart_contracts/superbox/superbox.algo.ts:206
     // for (let i: uint64 = 0; i < totalBoxes; i++) {
     frame_dig 5
     dup
     frame_dig 2
     <
     assert // never?
-    // smart_contracts/superbox/superbox.algo.ts:201
+    // smart_contracts/superbox/superbox.algo.ts:207
     // const boxSize = meta.boxByteLengths[i].native
     frame_dig 1
     extract 2 0
@@ -407,14 +407,14 @@ sbGetLocation_while_top@1:
     extract_uint16
     dup
     frame_bury 0
-    // smart_contracts/superbox/superbox.algo.ts:202
+    // smart_contracts/superbox/superbox.algo.ts:208
     // if (boxSize + elapsedBytes > byteIndex) {
     frame_dig 4
     +
     frame_dig 3
     >
     bz sbGetLocation_else_body@4
-    // smart_contracts/superbox/superbox.algo.ts:204
+    // smart_contracts/superbox/superbox.algo.ts:210
     // return [i, byteIndex - elapsedBytes]
     frame_dig 3
     frame_dig 4
@@ -425,13 +425,13 @@ sbGetLocation_while_top@1:
     retsub
 
 sbGetLocation_else_body@4:
-    // smart_contracts/superbox/superbox.algo.ts:206
+    // smart_contracts/superbox/superbox.algo.ts:212
     // elapsedBytes += boxSize
     frame_dig 4
     frame_dig 0
     +
     frame_bury 4
-    // smart_contracts/superbox/superbox.algo.ts:200
+    // smart_contracts/superbox/superbox.algo.ts:206
     // for (let i: uint64 = 0; i < totalBoxes; i++) {
     frame_dig 5
     intc_2 // 1
@@ -1032,28 +1032,36 @@ superboxDeleteIndex:
     frame_dig -2
     bytec_0 // "_m"
     concat
+    dup
     // smart_contracts/superbox/superbox.algo.ts:120
     // const [boxNum, byteOffset] = sbGetLocation(name, valueIndex)
     frame_dig -2
     frame_dig -1
     callsub sbGetLocation
+    cover 3
+    dup
+    cover 3
     // smart_contracts/superbox/superalgo-utils.algo.ts:13
     // return Bytes(name).concat(Bytes(itoa(num)))
-    dig 1
+    dup
     callsub itoa
     frame_dig -2
     swap
     concat
+    cover 3
     // smart_contracts/superbox/superbox.algo.ts:123
     // const valueSize = meta.value.valueSize.native
-    dig 3
+    dig 1
     box_get
     assert // Box must have value
     pushint 18 // 18
     extract_uint64
+    dup
+    cover 2
+    cover 5
     // smart_contracts/superbox/superbox.algo.ts:124
     // const prevBoxByteLength = meta.value.boxByteLengths[boxNum].native
-    dig 4
+    uncover 2
     box_get
     assert // Box must have value
     dup
@@ -1064,29 +1072,26 @@ superboxDeleteIndex:
     extract_uint16
     substring3
     extract 2 0
-    dig 4
+    swap
     intc_1 // 2
     *
-    swap
-    dig 1
+    dup
+    cover 5
     extract_uint16
-    // smart_contracts/superbox/superbox.algo.ts:129
-    // dataBox.splice(byteOffset, valueSize, Bytes``)
-    dig 3
-    uncover 5
-    dig 4
-    bytec_2 // ""
-    box_splice
-    // smart_contracts/superbox/superbox.algo.ts:131
-    // dataBox.resize(prevBoxByteLength - valueSize)
-    dig 2
-    -
-    uncover 3
-    dig 1
-    box_resize
-    // smart_contracts/superbox/superbox.algo.ts:134
-    // meta.value.boxByteLengths[boxNum] = au16(prevBoxByteLength - valueSize)
-    dig 4
+    dup
+    cover 4
+    // smart_contracts/superbox/superbox.algo.ts:126
+    // if (prevBoxByteLength === valueSize) {
+    ==
+    bz superboxDeleteIndex_else_body@3
+    // smart_contracts/superbox/superbox.algo.ts:128
+    // dataBox.delete()
+    swap
+    box_del
+    pop
+    // smart_contracts/superbox/superbox.algo.ts:130
+    // meta.value.boxByteLengths[boxNum] = au16(0)
+    dup
     box_get
     assert // Box must have value
     dup
@@ -1099,15 +1104,15 @@ superboxDeleteIndex:
     dig 2
     dig 2
     substring3
-    uncover 4
+    intc_0 // 0
     callsub au16
     dig 1
     intc_0 // 0
     extract_uint16
-    uncover 8
+    frame_dig 1
     >
     assert // Index access is out of bounds
-    uncover 5
+    frame_dig 3
     intc_1 // 2
     +
     swap
@@ -1141,20 +1146,106 @@ superboxDeleteIndex:
     itob
     extract 6 2
     replace2 26
-    dig 2
+    dig 1
     box_del
     pop
+    box_put
+    // smart_contracts/superbox/superbox.algo.ts:131
+    // err('What does this do?')
+    err // What does this do?
+
+superboxDeleteIndex_else_body@3:
+    // smart_contracts/superbox/superbox.algo.ts:134
+    // dataBox.splice(byteOffset, valueSize, Bytes``)
+    swap
+    dup
+    frame_dig 0
+    frame_dig 2
+    dup
+    cover 3
+    bytec_2 // ""
+    box_splice
+    // smart_contracts/superbox/superbox.algo.ts:136
+    // dataBox.resize(prevBoxByteLength - valueSize)
+    frame_dig 4
+    dig 1
+    -
+    uncover 2
+    dig 1
+    box_resize
+    // smart_contracts/superbox/superbox.algo.ts:138
+    // meta.value.boxByteLengths[boxNum] = au16(prevBoxByteLength - valueSize)
+    uncover 2
+    dup
+    cover 2
+    box_get
+    assert // Box must have value
+    dup
+    intc_0 // 0
+    extract_uint16
+    dig 1
+    intc_3 // 26
+    extract_uint16
     dig 2
+    dig 2
+    dig 2
+    substring3
+    uncover 4
+    callsub au16
+    dig 1
+    intc_0 // 0
+    extract_uint16
+    frame_dig 1
+    >
+    assert // Index access is out of bounds
+    frame_dig 3
+    intc_1 // 2
+    +
+    swap
+    replace3
+    dig 3
+    intc_0 // 0
+    dig 4
+    extract3
+    dig 4
+    len
+    uncover 5
+    dig 4
+    uncover 2
+    substring3
+    swap
+    dig 2
+    concat
+    swap
+    concat
+    uncover 2
+    uncover 3
+    -
+    uncover 2
+    len
+    dig 2
+    intc_3 // 26
+    extract_uint16
+    +
+    swap
+    -
+    itob
+    extract 6 2
+    replace2 26
+    dig 1
+    box_del
+    pop
+    dig 1
     swap
     box_put
-    // smart_contracts/superbox/superbox.algo.ts:135
+    // smart_contracts/superbox/superbox.algo.ts:142
     // meta.value.totalByteLength = au64(meta.value.totalByteLength.native - valueSize)
-    dig 1
+    dup
     box_get
     assert // Box must have value
     intc_1 // 2
     extract_uint64
-    swap
+    uncover 2
     -
     dig 1
     box_get
@@ -1163,7 +1254,7 @@ superboxDeleteIndex:
     // return new UintN64(num)
     swap
     itob
-    // smart_contracts/superbox/superbox.algo.ts:135
+    // smart_contracts/superbox/superbox.algo.ts:142
     // meta.value.totalByteLength = au64(meta.value.totalByteLength.native - valueSize)
     replace2 2
     dig 1
@@ -1172,7 +1263,7 @@ superboxDeleteIndex:
     dig 1
     swap
     box_put
-    // smart_contracts/superbox/superbox.algo.ts:137
+    // smart_contracts/superbox/superbox.algo.ts:144
     // return meta.value.totalByteLength.native
     box_get
     assert // Box must have value
@@ -1180,6 +1271,7 @@ superboxDeleteIndex:
     extract_uint64
     // smart_contracts/superbox/contract.algo.ts:17
     // return sbDeleteIndex(name, valueIndex)
+    frame_bury 0
     retsub
 
 
@@ -1193,7 +1285,7 @@ superboxDeleteBox:
     frame_dig -2
     bytec_0 // "_m"
     concat
-    // smart_contracts/superbox/superbox.algo.ts:148
+    // smart_contracts/superbox/superbox.algo.ts:155
     // const metaValue = meta.value.copy()
     dup
     box_get
@@ -1205,7 +1297,7 @@ superboxDeleteBox:
     frame_dig -2
     swap
     concat
-    // smart_contracts/superbox/superbox.algo.ts:151
+    // smart_contracts/superbox/superbox.algo.ts:158
     // assert(boxNum < metaValue.boxByteLengths.length, 'ERR:OOB')
     dig 1
     intc_0 // 0
@@ -1222,13 +1314,13 @@ superboxDeleteBox:
     frame_dig -1
     >
     assert // ERR:OOB
-    // smart_contracts/superbox/superbox.algo.ts:152
+    // smart_contracts/superbox/superbox.algo.ts:159
     // assert(dataBox.exists, 'ERR:DLTD')
     dig 1
     box_len
     bury 1
     assert // ERR:DLTD
-    // smart_contracts/superbox/superbox.algo.ts:155
+    // smart_contracts/superbox/superbox.algo.ts:162
     // metaValue.totalByteLength = au64(metaValue.totalByteLength.native - metaValue.boxByteLengths[boxNum].native)
     dig 2
     intc_1 // 2
@@ -1247,12 +1339,12 @@ superboxDeleteBox:
     // smart_contracts/superbox/types.algo.ts:35
     // return new UintN64(num)
     itob
-    // smart_contracts/superbox/superbox.algo.ts:155
+    // smart_contracts/superbox/superbox.algo.ts:162
     // metaValue.totalByteLength = au64(metaValue.totalByteLength.native - metaValue.boxByteLengths[boxNum].native)
     uncover 3
     swap
     replace2 2
-    // smart_contracts/superbox/superbox.algo.ts:156
+    // smart_contracts/superbox/superbox.algo.ts:163
     // metaValue.boxByteLengths[boxNum] = au16(0)
     dup
     intc_0 // 0
@@ -1306,7 +1398,7 @@ superboxDeleteBox:
     itob
     extract 6 2
     replace2 26
-    // smart_contracts/superbox/superbox.algo.ts:157
+    // smart_contracts/superbox/superbox.algo.ts:164
     // meta.value = metaValue.copy()
     dig 2
     box_del
@@ -1314,12 +1406,12 @@ superboxDeleteBox:
     uncover 2
     dig 1
     box_put
-    // smart_contracts/superbox/superbox.algo.ts:160
+    // smart_contracts/superbox/superbox.algo.ts:167
     // dataBox.delete()
     swap
     box_del
     pop
-    // smart_contracts/superbox/superbox.algo.ts:162
+    // smart_contracts/superbox/superbox.algo.ts:169
     // return metaValue.totalByteLength.native
     intc_1 // 2
     extract_uint64
@@ -1338,14 +1430,14 @@ superboxDeleteSuperbox:
     frame_dig -1
     bytec_0 // "_m"
     concat
-    // smart_contracts/superbox/superbox.algo.ts:176
+    // smart_contracts/superbox/superbox.algo.ts:182
     // assert(metaBox.exists, 'ERR:NEXIST')
     dup
     box_len
     bury 1
     assert // ERR:NEXIST
-    // smart_contracts/superbox/superbox.algo.ts:177
-    // assert(metaBox.value.totalByteLength.native === 0, "ERR:NEMPTY")
+    // smart_contracts/superbox/superbox.algo.ts:183
+    // assert(metaBox.value.totalByteLength.native === 0, 'ERR:NEMPTY')
     dup
     box_get
     assert // Box must have value
@@ -1353,7 +1445,7 @@ superboxDeleteSuperbox:
     extract_uint64
     !
     assert // ERR:NEMPTY
-    // smart_contracts/superbox/superbox.algo.ts:179
+    // smart_contracts/superbox/superbox.algo.ts:185
     // metaBox.delete()
     box_del
     pop
@@ -1398,7 +1490,7 @@ superboxGetValue:
     // @abimethod({ readonly: true })
     // public superboxGetValue(name: string, valueIndex: uint64): bytes {
     proto 2 1
-    // smart_contracts/superbox/superbox.algo.ts:220
+    // smart_contracts/superbox/superbox.algo.ts:226
     // const [boxNum, byteOffset] = sbGetLocation(name, valueIndex)
     frame_dig -2
     frame_dig -1
@@ -1410,13 +1502,13 @@ superboxGetValue:
     frame_dig -2
     swap
     concat
-    // smart_contracts/superbox/superbox.algo.ts:222
+    // smart_contracts/superbox/superbox.algo.ts:228
     // const valueSize = sbMetaBoxValue(name).valueSize.native
     frame_dig -2
     callsub sbMetaBoxValue
     pushint 18 // 18
     extract_uint64
-    // smart_contracts/superbox/superbox.algo.ts:223
+    // smart_contracts/superbox/superbox.algo.ts:229
     // return box.value.slice(byteOffset, byteOffset + valueSize)
     swap
     box_get

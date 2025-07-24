@@ -6,7 +6,7 @@ import { DynamicArray, Str, UintN16, UintN64 } from '@algorandfoundation/algoran
  */
 export class SuperboxMeta extends arc4.Struct<{
   /**
-   * Size of individual boxes backing superbox
+   * Size of individual data boxes backing superbox
    */
   boxByteLengths: DynamicArray<UintN16>
   /**

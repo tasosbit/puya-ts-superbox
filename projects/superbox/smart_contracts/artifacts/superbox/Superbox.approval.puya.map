@@ -7,7 +7,7 @@
     "/home/bit/code/superbox/projects/superbox/smart_contracts/superbox/types.algo.ts",
     "/home/bit/code/superbox/projects/superbox/smart_contracts/superbox/util.algo.ts"
   ],
-  "mappings": "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",
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAMA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;;;AAAA;;AAoCE;;AAAA;AAAA;AAAA;;AAAA;AAAA;;AALC;;AAAA;AAAA;AAAA;;AAAA;AA/BH;;;AAAA;;;AAAA;;;AAAA;AA+BG;;;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AALA;;AAAA;AAAA;AAAA;;AAAA;AA1BH;;;AAAA;;;AAAA;;;AAAA;AA0BG;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AALA;;AAAA;AAAA;AAAA;;AAAA;AArBH;;;AAAA;;;AAqBG;;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAJD;;AAAA;AAAA;AAAA;;AAAA;AAjBF;;;AAAA;;;AAiBE;;;AAAA;;AAJA;;AAAA;AAAA;AAAA;;AAAA;AAbF;;;AAAA;;;AAAA;;;AAAA;AAaE;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAJA;;AAAA;AAAA;AAAA;;AAAA;AATF;;;AAAA;;;AAAA;;;AAAA;AASE;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAJA;;AAAA;AAAA;AAAA;;AAAA;AALF;;;AAAA;;;AAAA;;;AAAA;;;AAKE;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAJA;;AAAA;AAAA;AAAA;;AAAA;AADF;;;AAAA;;;AAAA;;;AAAA;AAAA;;;AAAA;AAAA;;;AAAA;;;AACE;;;AAAA;;AADF;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;;AIJA;;;AAGM;;AADiB;;AACjB;AAAJ;;;AAFe;AAGN;;AAAA;AAAA;AAAP;AAEU;;AAJS;;AAIT;AAAL;;;AAAiC;;AAJnB;;AAImB;AALzB;AAKe;AAAA;AAAA;AAAvB;AAAP;ADqBF;;;AACS;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;;AAAP;AFUF;;;AARoB;;AAAO;AAAP;AAUH;AAAA;AAAA;;AAAf;AACe;AAAA;AAAf;ACsJF;;;;AACQ;;AAAO;;;AACP;AAAiB;;AAAU;AACT;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;AAAA;;AAAe;AAAA;AAAjC;;AAGF;;AAAA;;AAAoB;AAApB;AAAA;;AAGG;AAA8C;AAAhB;AAAgB;AAA9C;AAAP;AAE2B;AACN;AAAG;;AAAA;AAAA;;AAAA;AAAxB;AACkB;;AAAA;;;AAAA;AAAA;AAAA;AAAuB;AAAjC;AAAA;;AACF;;AAAA;AAAA;;AAAA;AAAJ;;;AAEa;;AAAA;;AAAA;AAAX;;AAAA;;AAAA;;AAAA;AAEA;;AAAA;;AAAA;AAAA;;AANoC;;AAAA;AAAA;AAAA;;;;;AFtMxC;;;AG2BO;;AAAA;AAAA;;AAAA;ADhBQ;;AAAA;AAAA;AAAA;;;AAAA;;AAAA;AALF;;;;;;;;;;;;AAAA;;AAAA;AAAA;;AAAA;AAAA;;;;AAAA;AAGK;;;;AAHL;AAAA;AAAA;ADmBK;;AAAO;AAAP;ACXF;AAAA;AAAA;;AAAT;AAAP;AACA;AAAA;;AAAA;AAAA;;AFXA;;;;;;;;AEqBM;;AAAO;;;AAAP;;AACkB;;AAAW;AAA7B;AACA;AAAiB;;AAAU;AAA3B;AAAA;;AAGM;;AAAA;AAAA;AAAA;;AAAL;AAAA;AAAA;AAAP;AAEiC;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAe;AAAA;AAAA;AAApB;;;AAAmC;;;AAErC;AAAtB;;AAEG;;AAAA;;AAAA;AAAP;;;AD/BgC;;AAAA;;;AAAzB;;AAAA;AAAA;AAAA;AAAA;;ACiCmC;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;;AAAA;;AAAA;AAAwB;AAAA;;AAAA;AAAxB;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;;AA+BlC;AAAA;;AAAR;;;AAE0C;;AAAA;AAAA;AAApC;;AAAA;AAAmB;AAAnB;AAAA;;AAEA;;AAAA;AAAJ;;;AAAiC;;;AAjCxB;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAe;AAAA;AAAA;AAAA;;AAApB;;AAAA;AAAJ;;;AAEE;AAAA;;;AAAyB;;AAAA;;;AAAzB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;;AAAA;AAAA;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;;AAAA;;AAMF;;AAAA;;AAAA;AAAA;;AACA;;AAAA;AAAA;AAAA;;;;;AAJ4C;AAAA;AAAA;;;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAmC;AAAA;;AAAA;AAAnC;;AAAA;AAAL;;;AAArC;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;;AAAA;AAAA;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;;AAAA;;;;;AA8BE;;AAAA;AAAA;;AAAA;AAAA;AAAA;;;;;AAAJ;;;AACE;;AAAA;;AAAA;;;;;;;;AAEO;;AAAA;AAAA;AAAA;;AAAL;AAAJ;;;AAEgC;;AAAA;AAAA;AAAA;AACf;;AAAA;AAAA;AAAJ;;AAAA;AAAA;;AAAA;AAAX;;AAAA;AAAA;AAC0C;AAAX;;AAAA;AAAA;;AAAA;AAAW;AAAX;;AAAA;;AAAA;AAAA;;AAAA;;AAAA;AAAA;;AAAA;;AAAA;;AAAA;AAAA;;AAAA;;AAAA;AAA/B;;AAAA;;AAAA;;;AA5CmB;;;AAgDW;;AAAA;AAAA;AAAA;AACf;;AAAA;AAAA;AAAJ;;AAAA;AAAA;;AAAA;AAAX;;AAAA;AAAA;AACA;;AAAA;AAAA;;AAAA;;;AAlDmB;;;AAyDjB;;AAAA;AAAA;;AAAA;AAAA;AAAA;;;;;AAAJ;;;AACE;;AAAA;;AAAA;AAAA;;AAEkB;;AAAA;AAAA;AAAW;AAAX;;AAAA;AAAW;AAAX;;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;AACpB;;AAAA;AAAA;;AAAA;;AAAA;AACmB;;;AA9DE;;;AAa0B;;AAAA;AAAhB;AAAgB;AAArB;;AAAA;ACxBrB;ADwBP;;AD1BkB;;AAAO;AAAP;AC6BV;AAAA;;AACR;AAAA;;AAAA;;AAAA;AAEY;AAAgB;AFpD1B;;AAAA;AE2BiE;;AAA6B;AAA7B;;;;;;AFxBnE;;;ACiBkB;;AAAO;AAAP;AAAA;ACuFW;;AAAA;;AAAA;;;AAAA;;AAAA;AAAA;;AD3GG;AAAA;;;AAAzB;;AAAA;AAAA;AAAA;;AC8GgB;;AAAA;AAAA;AAAM;;AAAU;AAAjC;AAAA;;AAAA;;AACyB;;AAAA;AAAA;AAAM;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAX;;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAkC;AAAtD;AAAA;;AAEF;AAAJ;;;AAEE;AAAA;;AAEK;AAAA;AAAA;AAAM;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AAAA;;AAAA;AAA8B;AAAL;;;AAApC;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;;AAAA;;AAAA;;AAAA;AACA;AAGA;AAAA;AAAA;;AAAA;;AAAA;AAAA;;AAAsC;AAAtC;AAEe;;AAAA;;AAAA;AAAf;;AAAA;;AAAA;AAEK;;AAAA;AAAA;;AAAA;AAAA;AAAM;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AAAA;;AAAA;AAAX;;AAAoC;;;AAApC;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;;AAAA;;AAAA;;AAAA;;AAAA;AAAA;AAIqC;AAAA;AAAA;AAAM;AAAgB;AAA3B;;AAAA;AAA7B;;AAAA;AAAA;AC3GE;AAAA;AD2GP;;AAAA;;AAAA;;AAAA;;AAAA;AAAA;AAEY;AAAA;AAAM;AAAgB;AF/HhC;;AAAA;AAGF;;;ACakB;;AAAO;AAAP;AC0HK;AAAA;AAAA;AD9IS;;AAAA;;;AAAzB;;AAAA;AAAA;ACiJmB;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAe;AAAA;AAAA;AAAlC;;AAAA;AAAP;AACe;;AAAA;AAAA;;AAAf;AAG2D;;AAAhB;AAAgB;AAAS;AAAA;;;AAAA;;AAAA;AAAA;AAAiC;AAAA;;AAAA;AAApE;;AAAA;AAAA;AC/H1B;AD+HP;;AAAA;AAAA;;AACU;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AAAA;;AAAA;AAA8B;AAAL;;;AAAnC;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;;AACA;;AAAA;;AAAA;;AAAA;;AAAA;AAGA;AAAA;;AAEiB;AAAgB;AFpJ/B;AAGF;;;ACSkB;;AAAO;AAAP;ACqJH;AAAA;AAAA;;AAAf;AACe;AAAA;AAAA;AAAM;AAAgB;AAA9B;AAAP;AAEQ;;;AF7JR;;;ACKkB;;AAAO;AAAP;ADHO;AAAA;AAAvB;AAGF;;;AAES;;AAAA;;AAAA;;;AAAP;AAGF;;;AE4L6B;;AAAA;;AAAA;;;ADrNG;AAAA;;;AAAzB;;AAAA;AAAA;ACuNW;;AAAA;;;AAAqB;;AAAU;AACtC;AAAA;AAAA;AAAJ;AAAA;AAAA;;AAAA;;AAAA;AAAA;;AAAA;;AAAA;;AAAA;AAA4B;;AAAA;;AAAA;AAA5B;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AF7LL",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -14168,13 +14168,24 @@
       ]
     },
     "1164": {
+      "op": "dup",
+      "defined_out": [
+        "meta#0"
+      ],
+      "stack_out": [
+        "meta#0",
+        "meta#0"
+      ]
+    },
+    "1165": {
       "op": "frame_dig -2",
       "stack_out": [
+        "meta#0",
         "meta#0",
         "name#0 (copy)"
       ]
     },
-    "1166": {
+    "1167": {
       "op": "frame_dig -1",
       "defined_out": [
         "meta#0",
@@ -14183,11 +14194,12 @@
       ],
       "stack_out": [
         "meta#0",
+        "meta#0",
         "name#0 (copy)",
         "valueIndex#0 (copy)"
       ]
     },
-    "1168": {
+    "1169": {
       "callsub": "smart_contracts/superbox/superbox.algo.ts::sbGetLocation",
       "op": "callsub sbGetLocation",
       "defined_out": [
@@ -14197,12 +14209,52 @@
       ],
       "stack_out": [
         "meta#0",
+        "meta#0",
         "boxNum#0",
         "byteOffset#0"
       ]
     },
-    "1171": {
-      "op": "dig 1",
+    "1172": {
+      "op": "cover 3",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "meta#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "meta#0",
+        "meta#0",
+        "boxNum#0"
+      ]
+    },
+    "1174": {
+      "op": "dup",
+      "stack_out": [
+        "byteOffset#0",
+        "meta#0",
+        "meta#0",
+        "boxNum#0",
+        "boxNum#0"
+      ]
+    },
+    "1175": {
+      "op": "cover 3",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "meta#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "meta#0",
+        "meta#0",
+        "boxNum#0"
+      ]
+    },
+    "1177": {
+      "op": "dup",
       "defined_out": [
         "boxNum#0",
         "boxNum#0 (copy)",
@@ -14210,13 +14262,15 @@
         "meta#0"
       ],
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "meta#0",
         "meta#0",
         "boxNum#0",
-        "byteOffset#0",
         "boxNum#0 (copy)"
       ]
     },
-    "1173": {
+    "1178": {
       "callsub": "smart_contracts/superbox/util.algo.ts::itoa",
       "op": "callsub itoa",
       "defined_out": [
@@ -14226,33 +14280,39 @@
         "tmp%0#2"
       ],
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "meta#0",
         "meta#0",
         "boxNum#0",
-        "byteOffset#0",
         "tmp%0#2"
       ]
     },
-    "1176": {
+    "1181": {
       "op": "frame_dig -2",
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "meta#0",
         "meta#0",
         "boxNum#0",
-        "byteOffset#0",
         "tmp%0#2",
         "name#0 (copy)"
       ]
     },
-    "1178": {
+    "1183": {
       "op": "swap",
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "meta#0",
         "meta#0",
         "boxNum#0",
-        "byteOffset#0",
         "name#0 (copy)",
         "tmp%0#2"
       ]
     },
-    "1179": {
+    "1184": {
       "op": "concat",
       "defined_out": [
         "boxNum#0",
@@ -14261,14 +14321,33 @@
         "meta#0"
       ],
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "meta#0",
         "meta#0",
         "boxNum#0",
-        "byteOffset#0",
         "dataBox#0"
       ]
     },
-    "1180": {
-      "op": "dig 3",
+    "1185": {
+      "op": "cover 3",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "dataBox#0",
+        "meta#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "dataBox#0",
+        "meta#0",
+        "meta#0",
+        "boxNum#0"
+      ]
+    },
+    "1187": {
+      "op": "dig 1",
       "defined_out": [
         "boxNum#0",
         "byteOffset#0",
@@ -14277,14 +14356,16 @@
         "meta#0 (copy)"
       ],
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "dataBox#0",
+        "meta#0",
         "meta#0",
         "boxNum#0",
-        "byteOffset#0",
-        "dataBox#0",
         "meta#0 (copy)"
       ]
     },
-    "1182": {
+    "1189": {
       "op": "box_get",
       "defined_out": [
         "boxNum#0",
@@ -14295,26 +14376,30 @@
         "meta#0"
       ],
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "dataBox#0",
+        "meta#0",
         "meta#0",
         "boxNum#0",
-        "byteOffset#0",
-        "dataBox#0",
         "maybe_value%0#0",
         "maybe_exists%0#0"
       ]
     },
-    "1183": {
+    "1190": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "dataBox#0",
+        "meta#0",
         "meta#0",
         "boxNum#0",
-        "byteOffset#0",
-        "dataBox#0",
         "maybe_value%0#0"
       ]
     },
-    "1184": {
+    "1191": {
       "op": "pushint 18 // 18",
       "defined_out": [
         "18",
@@ -14325,15 +14410,17 @@
         "meta#0"
       ],
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "dataBox#0",
+        "meta#0",
         "meta#0",
         "boxNum#0",
-        "byteOffset#0",
-        "dataBox#0",
         "maybe_value%0#0",
         "18"
       ]
     },
-    "1186": {
+    "1193": {
       "op": "extract_uint64",
       "defined_out": [
         "boxNum#0",
@@ -14343,25 +14430,75 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "dataBox#0",
+        "meta#0",
         "meta#0",
         "boxNum#0",
-        "byteOffset#0",
-        "dataBox#0",
         "valueSize#0"
       ]
     },
-    "1187": {
-      "op": "dig 4",
+    "1194": {
+      "op": "dup",
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "dataBox#0",
         "meta#0",
+        "meta#0",
+        "boxNum#0",
+        "valueSize#0",
+        "valueSize#0 (copy)"
+      ]
+    },
+    "1195": {
+      "op": "cover 2",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "dataBox#0",
+        "meta#0",
+        "meta#0",
+        "valueSize#0",
+        "boxNum#0",
+        "valueSize#0"
+      ]
+    },
+    "1197": {
+      "op": "cover 5",
+      "defined_out": [
         "boxNum#0",
         "byteOffset#0",
         "dataBox#0",
+        "meta#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
-        "meta#0 (copy)"
+        "dataBox#0",
+        "meta#0",
+        "meta#0",
+        "valueSize#0",
+        "boxNum#0"
       ]
     },
-    "1189": {
+    "1199": {
+      "op": "uncover 2",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "dataBox#0",
+        "meta#0",
+        "valueSize#0",
+        "boxNum#0",
+        "meta#0"
+      ]
+    },
+    "1201": {
       "op": "box_get",
       "defined_out": [
         "boxNum#0",
@@ -14373,28 +14510,32 @@
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
-        "dataBox#0",
+        "boxNum#0",
         "valueSize#0",
+        "dataBox#0",
+        "meta#0",
+        "valueSize#0",
+        "boxNum#0",
         "maybe_value%1#0",
         "maybe_exists%1#0"
       ]
     },
-    "1190": {
+    "1202": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
-        "dataBox#0",
+        "boxNum#0",
         "valueSize#0",
+        "dataBox#0",
+        "meta#0",
+        "valueSize#0",
+        "boxNum#0",
         "maybe_value%1#0"
       ]
     },
-    "1191": {
+    "1203": {
       "op": "dup",
       "defined_out": [
         "boxNum#0",
@@ -14406,39 +14547,33 @@
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
-        "dataBox#0",
+        "boxNum#0",
         "valueSize#0",
+        "dataBox#0",
+        "meta#0",
+        "valueSize#0",
+        "boxNum#0",
         "maybe_value%1#0",
         "maybe_value%1#0 (copy)"
       ]
     },
-    "1192": {
+    "1204": {
       "op": "intc_0 // 0",
-      "defined_out": [
-        "0",
-        "boxNum#0",
-        "byteOffset#0",
-        "dataBox#0",
-        "maybe_value%1#0",
-        "maybe_value%1#0 (copy)",
-        "meta#0",
-        "valueSize#0"
-      ],
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
-        "dataBox#0",
+        "boxNum#0",
         "valueSize#0",
+        "dataBox#0",
+        "meta#0",
+        "valueSize#0",
+        "boxNum#0",
         "maybe_value%1#0",
         "maybe_value%1#0 (copy)",
         "0"
       ]
     },
-    "1193": {
+    "1205": {
       "op": "extract_uint16",
       "defined_out": [
         "boxNum#0",
@@ -14450,29 +14585,33 @@
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
-        "dataBox#0",
+        "boxNum#0",
         "valueSize#0",
+        "dataBox#0",
+        "meta#0",
+        "valueSize#0",
+        "boxNum#0",
         "maybe_value%1#0",
         "item_start_offset%0#0"
       ]
     },
-    "1194": {
+    "1206": {
       "op": "dig 1",
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
-        "dataBox#0",
+        "boxNum#0",
         "valueSize#0",
+        "dataBox#0",
+        "meta#0",
+        "valueSize#0",
+        "boxNum#0",
         "maybe_value%1#0",
         "item_start_offset%0#0",
         "maybe_value%1#0 (copy)"
       ]
     },
-    "1196": {
+    "1208": {
       "op": "intc_3 // 26",
       "defined_out": [
         "26",
@@ -14486,18 +14625,20 @@
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
-        "dataBox#0",
+        "boxNum#0",
         "valueSize#0",
+        "dataBox#0",
+        "meta#0",
+        "valueSize#0",
+        "boxNum#0",
         "maybe_value%1#0",
         "item_start_offset%0#0",
         "maybe_value%1#0 (copy)",
         "26"
       ]
     },
-    "1197": {
+    "1209": {
       "op": "extract_uint16",
       "defined_out": [
         "boxNum#0",
@@ -14510,17 +14651,19 @@
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
-        "dataBox#0",
+        "boxNum#0",
         "valueSize#0",
+        "dataBox#0",
+        "meta#0",
+        "valueSize#0",
+        "boxNum#0",
         "maybe_value%1#0",
         "item_start_offset%0#0",
         "item_end_offset%0#0"
       ]
     },
-    "1198": {
+    "1210": {
       "op": "substring3",
       "defined_out": [
         "boxNum#0",
@@ -14531,15 +14674,17 @@
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
-        "dataBox#0",
+        "boxNum#0",
         "valueSize#0",
+        "dataBox#0",
+        "meta#0",
+        "valueSize#0",
+        "boxNum#0",
         "tmp%1#0"
       ]
     },
-    "1199": {
+    "1211": {
       "op": "extract 2 0",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -14550,50 +14695,53 @@
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
-        "dataBox#0",
+        "boxNum#0",
         "valueSize#0",
+        "dataBox#0",
+        "meta#0",
+        "valueSize#0",
+        "boxNum#0",
         "array_head_and_tail%0#0"
       ]
     },
-    "1202": {
-      "op": "dig 4",
+    "1214": {
+      "op": "swap",
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
         "dataBox#0",
+        "meta#0",
         "valueSize#0",
         "array_head_and_tail%0#0",
-        "boxNum#0 (copy)"
+        "boxNum#0"
       ]
     },
-    "1204": {
+    "1215": {
       "op": "intc_1 // 2",
       "defined_out": [
         "2",
         "array_head_and_tail%0#0",
         "boxNum#0",
-        "boxNum#0 (copy)",
         "byteOffset#0",
         "dataBox#0",
         "meta#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
         "dataBox#0",
+        "meta#0",
         "valueSize#0",
         "array_head_and_tail%0#0",
-        "boxNum#0 (copy)",
+        "boxNum#0",
         "2"
       ]
     },
-    "1205": {
+    "1216": {
       "op": "*",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -14605,51 +14753,54 @@
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
         "dataBox#0",
+        "meta#0",
         "valueSize#0",
         "array_head_and_tail%0#0",
         "item_offset%0#0"
       ]
     },
-    "1206": {
-      "op": "swap",
+    "1217": {
+      "op": "dup",
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
-        "dataBox#0",
+        "boxNum#0",
         "valueSize#0",
+        "dataBox#0",
+        "meta#0",
+        "valueSize#0",
+        "array_head_and_tail%0#0",
         "item_offset%0#0",
-        "array_head_and_tail%0#0"
+        "item_offset%0#0"
       ]
     },
-    "1207": {
-      "op": "dig 1",
+    "1218": {
+      "op": "cover 5",
       "defined_out": [
         "array_head_and_tail%0#0",
         "boxNum#0",
         "byteOffset#0",
         "dataBox#0",
         "item_offset%0#0",
-        "item_offset%0#0 (copy)",
         "meta#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
-        "dataBox#0",
+        "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
+        "dataBox#0",
+        "meta#0",
+        "valueSize#0",
         "array_head_and_tail%0#0",
-        "item_offset%0#0 (copy)"
+        "item_offset%0#0"
       ]
     },
-    "1209": {
+    "1220": {
       "op": "extract_uint16",
       "defined_out": [
         "boxNum#0",
@@ -14661,354 +14812,314 @@
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
-        "boxNum#0",
         "byteOffset#0",
-        "dataBox#0",
+        "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
+        "dataBox#0",
+        "meta#0",
+        "valueSize#0",
         "prevBoxByteLength#0"
-      ]
-    },
-    "1210": {
-      "op": "dig 3",
-      "defined_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "dataBox#0",
-        "dataBox#0 (copy)",
-        "item_offset%0#0",
-        "meta#0",
-        "prevBoxByteLength#0",
-        "valueSize#0"
-      ],
-      "stack_out": [
-        "meta#0",
-        "boxNum#0",
-        "byteOffset#0",
-        "dataBox#0",
-        "valueSize#0",
-        "item_offset%0#0",
-        "prevBoxByteLength#0",
-        "dataBox#0 (copy)"
-      ]
-    },
-    "1212": {
-      "op": "uncover 5",
-      "stack_out": [
-        "meta#0",
-        "boxNum#0",
-        "dataBox#0",
-        "valueSize#0",
-        "item_offset%0#0",
-        "prevBoxByteLength#0",
-        "dataBox#0 (copy)",
-        "byteOffset#0"
-      ]
-    },
-    "1214": {
-      "op": "dig 4",
-      "defined_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "dataBox#0",
-        "dataBox#0 (copy)",
-        "item_offset%0#0",
-        "meta#0",
-        "prevBoxByteLength#0",
-        "valueSize#0",
-        "valueSize#0 (copy)"
-      ],
-      "stack_out": [
-        "meta#0",
-        "boxNum#0",
-        "dataBox#0",
-        "valueSize#0",
-        "item_offset%0#0",
-        "prevBoxByteLength#0",
-        "dataBox#0 (copy)",
-        "byteOffset#0",
-        "valueSize#0 (copy)"
-      ]
-    },
-    "1216": {
-      "op": "bytec_2 // \"\"",
-      "defined_out": [
-        "\"\"",
-        "boxNum#0",
-        "byteOffset#0",
-        "dataBox#0",
-        "dataBox#0 (copy)",
-        "item_offset%0#0",
-        "meta#0",
-        "prevBoxByteLength#0",
-        "valueSize#0",
-        "valueSize#0 (copy)"
-      ],
-      "stack_out": [
-        "meta#0",
-        "boxNum#0",
-        "dataBox#0",
-        "valueSize#0",
-        "item_offset%0#0",
-        "prevBoxByteLength#0",
-        "dataBox#0 (copy)",
-        "byteOffset#0",
-        "valueSize#0 (copy)",
-        "\"\""
-      ]
-    },
-    "1217": {
-      "op": "box_splice",
-      "stack_out": [
-        "meta#0",
-        "boxNum#0",
-        "dataBox#0",
-        "valueSize#0",
-        "item_offset%0#0",
-        "prevBoxByteLength#0"
-      ]
-    },
-    "1218": {
-      "op": "dig 2",
-      "stack_out": [
-        "meta#0",
-        "boxNum#0",
-        "dataBox#0",
-        "valueSize#0",
-        "item_offset%0#0",
-        "prevBoxByteLength#0",
-        "valueSize#0 (copy)"
-      ]
-    },
-    "1220": {
-      "op": "-",
-      "defined_out": [
-        "boxNum#0",
-        "dataBox#0",
-        "item_offset%0#0",
-        "meta#0",
-        "tmp%3#0",
-        "valueSize#0"
-      ],
-      "stack_out": [
-        "meta#0",
-        "boxNum#0",
-        "dataBox#0",
-        "valueSize#0",
-        "item_offset%0#0",
-        "tmp%3#0"
       ]
     },
     "1221": {
-      "op": "uncover 3",
+      "op": "dup",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
-        "tmp%3#0",
-        "dataBox#0"
+        "dataBox#0",
+        "meta#0",
+        "valueSize#0",
+        "prevBoxByteLength#0",
+        "prevBoxByteLength#0"
       ]
     },
-    "1223": {
-      "op": "dig 1",
+    "1222": {
+      "op": "cover 4",
       "defined_out": [
         "boxNum#0",
+        "byteOffset#0",
         "dataBox#0",
         "item_offset%0#0",
         "meta#0",
-        "tmp%3#0",
-        "tmp%3#0 (copy)",
+        "prevBoxByteLength#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
-        "tmp%3#0",
+        "prevBoxByteLength#0",
         "dataBox#0",
-        "tmp%3#0 (copy)"
+        "meta#0",
+        "valueSize#0",
+        "prevBoxByteLength#0"
       ]
     },
-    "1225": {
-      "op": "box_resize",
-      "stack_out": [
+    "1224": {
+      "op": "==",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "dataBox#0",
+        "item_offset%0#0",
         "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%3#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "dataBox#0",
+        "meta#0",
         "tmp%3#0"
       ]
     },
-    "1226": {
-      "op": "dig 4",
+    "1225": {
+      "op": "bz superboxDeleteIndex_else_body@3",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
-        "tmp%3#0",
-        "meta#0 (copy)"
+        "prevBoxByteLength#0",
+        "dataBox#0",
+        "meta#0"
       ]
     },
     "1228": {
+      "op": "swap",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "dataBox#0"
+      ]
+    },
+    "1229": {
+      "op": "box_del",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "{box_del}"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "{box_del}"
+      ]
+    },
+    "1230": {
+      "op": "pop",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0"
+      ]
+    },
+    "1231": {
+      "op": "dup",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "meta#0 (copy)"
+      ]
+    },
+    "1232": {
       "op": "box_get",
       "defined_out": [
         "boxNum#0",
+        "byteOffset#0",
         "item_offset%0#0",
         "maybe_exists%2#0",
         "maybe_value%2#0",
         "meta#0",
-        "tmp%3#0",
+        "prevBoxByteLength#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
-        "tmp%3#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "maybe_exists%2#0"
       ]
     },
-    "1229": {
+    "1233": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
-        "tmp%3#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0"
       ]
     },
-    "1230": {
+    "1234": {
       "op": "dup",
       "defined_out": [
         "boxNum#0",
+        "byteOffset#0",
         "item_offset%0#0",
         "maybe_value%2#0",
         "maybe_value%2#0 (copy)",
         "meta#0",
-        "tmp%3#0",
+        "prevBoxByteLength#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
-        "tmp%3#0",
-        "maybe_value%2#0",
-        "maybe_value%2#0 (copy)"
-      ]
-    },
-    "1231": {
-      "op": "intc_0 // 0",
-      "stack_out": [
+        "prevBoxByteLength#0",
         "meta#0",
-        "boxNum#0",
-        "valueSize#0",
-        "item_offset%0#0",
-        "tmp%3#0",
         "maybe_value%2#0",
-        "maybe_value%2#0 (copy)",
-        "0"
-      ]
-    },
-    "1232": {
-      "op": "extract_uint16",
-      "defined_out": [
-        "boxNum#0",
-        "item_offset%0#0",
-        "item_start_offset%1#0",
-        "maybe_value%2#0",
-        "meta#0",
-        "tmp%3#0",
-        "valueSize#0"
-      ],
-      "stack_out": [
-        "meta#0",
-        "boxNum#0",
-        "valueSize#0",
-        "item_offset%0#0",
-        "tmp%3#0",
-        "maybe_value%2#0",
-        "item_start_offset%1#0"
-      ]
-    },
-    "1233": {
-      "op": "dig 1",
-      "stack_out": [
-        "meta#0",
-        "boxNum#0",
-        "valueSize#0",
-        "item_offset%0#0",
-        "tmp%3#0",
-        "maybe_value%2#0",
-        "item_start_offset%1#0",
         "maybe_value%2#0 (copy)"
       ]
     },
     "1235": {
-      "op": "intc_3 // 26",
+      "op": "intc_0 // 0",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
-        "tmp%3#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
-        "item_start_offset%1#0",
         "maybe_value%2#0 (copy)",
-        "26"
+        "0"
       ]
     },
     "1236": {
       "op": "extract_uint16",
       "defined_out": [
         "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
+        "item_start_offset%1#0",
+        "maybe_value%2#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "maybe_value%2#0",
+        "item_start_offset%1#0"
+      ]
+    },
+    "1237": {
+      "op": "dig 1",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "maybe_value%2#0",
+        "item_start_offset%1#0",
+        "maybe_value%2#0 (copy)"
+      ]
+    },
+    "1239": {
+      "op": "intc_3 // 26",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "maybe_value%2#0",
+        "item_start_offset%1#0",
+        "maybe_value%2#0 (copy)",
+        "26"
+      ]
+    },
+    "1240": {
+      "op": "extract_uint16",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
         "item_end_offset%1#0",
         "item_offset%0#0",
         "item_start_offset%1#0",
         "maybe_value%2#0",
         "meta#0",
-        "tmp%3#0",
+        "prevBoxByteLength#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
-        "tmp%3#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0"
       ]
     },
-    "1237": {
+    "1241": {
       "op": "dig 2",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
-        "tmp%3#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
         "maybe_value%2#0 (copy)"
       ]
     },
-    "1239": {
+    "1243": {
       "op": "dig 2",
       "defined_out": [
         "boxNum#0",
+        "byteOffset#0",
         "item_end_offset%1#0",
         "item_offset%0#0",
         "item_start_offset%1#0",
@@ -15016,15 +15127,16 @@
         "maybe_value%2#0",
         "maybe_value%2#0 (copy)",
         "meta#0",
-        "tmp%3#0",
+        "prevBoxByteLength#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
-        "tmp%3#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
@@ -15032,10 +15144,11 @@
         "item_start_offset%1#0 (copy)"
       ]
     },
-    "1241": {
+    "1245": {
       "op": "dig 2",
       "defined_out": [
         "boxNum#0",
+        "byteOffset#0",
         "item_end_offset%1#0",
         "item_end_offset%1#0 (copy)",
         "item_offset%0#0",
@@ -15044,15 +15157,16 @@
         "maybe_value%2#0",
         "maybe_value%2#0 (copy)",
         "meta#0",
-        "tmp%3#0",
+        "prevBoxByteLength#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
-        "tmp%3#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
@@ -15061,282 +15175,344 @@
         "item_end_offset%1#0 (copy)"
       ]
     },
-    "1243": {
+    "1247": {
       "op": "substring3",
       "defined_out": [
         "boxNum#0",
+        "byteOffset#0",
         "item_end_offset%1#0",
         "item_offset%0#0",
         "item_start_offset%1#0",
         "maybe_value%2#0",
         "meta#0",
-        "tmp%3#0",
-        "tmp%5#0",
+        "prevBoxByteLength#0",
+        "tmp%4#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
-        "tmp%3#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
-        "tmp%5#0"
+        "tmp%4#0"
       ]
     },
-    "1244": {
-      "op": "uncover 4",
+    "1248": {
+      "op": "intc_0 // 0",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
-        "tmp%5#0",
-        "tmp%3#0"
+        "tmp%4#0",
+        "0"
       ]
     },
-    "1246": {
+    "1249": {
       "callsub": "smart_contracts/superbox/types.algo.ts::au16",
       "op": "callsub au16",
       "defined_out": [
         "assigned_value%0#0",
         "boxNum#0",
+        "byteOffset#0",
         "item_end_offset%1#0",
         "item_offset%0#0",
         "item_start_offset%1#0",
         "maybe_value%2#0",
         "meta#0",
-        "tmp%5#0",
+        "prevBoxByteLength#0",
+        "tmp%4#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
-        "tmp%5#0",
+        "tmp%4#0",
         "assigned_value%0#0"
       ]
     },
-    "1249": {
+    "1252": {
       "op": "dig 1",
       "defined_out": [
         "assigned_value%0#0",
         "boxNum#0",
+        "byteOffset#0",
         "item_end_offset%1#0",
         "item_offset%0#0",
         "item_start_offset%1#0",
         "maybe_value%2#0",
         "meta#0",
-        "tmp%5#0",
-        "tmp%5#0 (copy)",
+        "prevBoxByteLength#0",
+        "tmp%4#0",
+        "tmp%4#0 (copy)",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
-        "tmp%5#0",
+        "tmp%4#0",
         "assigned_value%0#0",
-        "tmp%5#0 (copy)"
+        "tmp%4#0 (copy)"
       ]
     },
-    "1251": {
+    "1254": {
       "op": "intc_0 // 0",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
-        "tmp%5#0",
+        "tmp%4#0",
         "assigned_value%0#0",
-        "tmp%5#0 (copy)",
+        "tmp%4#0 (copy)",
         "0"
       ]
     },
-    "1252": {
+    "1255": {
       "op": "extract_uint16",
       "defined_out": [
         "array_length%0#0",
         "assigned_value%0#0",
         "boxNum#0",
+        "byteOffset#0",
         "item_end_offset%1#0",
         "item_offset%0#0",
         "item_start_offset%1#0",
         "maybe_value%2#0",
         "meta#0",
-        "tmp%5#0",
+        "prevBoxByteLength#0",
+        "tmp%4#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
         "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
-        "tmp%5#0",
+        "tmp%4#0",
         "assigned_value%0#0",
         "array_length%0#0"
       ]
     },
-    "1253": {
-      "op": "uncover 8",
+    "1256": {
+      "op": "frame_dig 1",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
-        "tmp%5#0",
+        "tmp%4#0",
         "assigned_value%0#0",
         "array_length%0#0",
         "boxNum#0"
       ]
     },
-    "1255": {
+    "1258": {
       "op": ">",
       "defined_out": [
         "assigned_value%0#0",
+        "boxNum#0",
+        "byteOffset#0",
         "index_is_in_bounds%0#0",
         "item_end_offset%1#0",
         "item_offset%0#0",
         "item_start_offset%1#0",
         "maybe_value%2#0",
         "meta#0",
-        "tmp%5#0",
+        "prevBoxByteLength#0",
+        "tmp%4#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
-        "tmp%5#0",
+        "tmp%4#0",
         "assigned_value%0#0",
         "index_is_in_bounds%0#0"
       ]
     },
-    "1256": {
+    "1259": {
       "error": "Index access is out of bounds",
       "op": "assert // Index access is out of bounds",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
         "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
-        "tmp%5#0",
+        "tmp%4#0",
         "assigned_value%0#0"
       ]
     },
-    "1257": {
-      "op": "uncover 5",
+    "1260": {
+      "op": "frame_dig 3",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
-        "tmp%5#0",
+        "tmp%4#0",
         "assigned_value%0#0",
         "item_offset%0#0"
       ]
     },
-    "1259": {
+    "1262": {
       "op": "intc_1 // 2",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
-        "tmp%5#0",
+        "tmp%4#0",
         "assigned_value%0#0",
         "item_offset%0#0",
         "2"
       ]
     },
-    "1260": {
+    "1263": {
       "op": "+",
       "defined_out": [
         "assigned_value%0#0",
+        "boxNum#0",
+        "byteOffset#0",
         "item_end_offset%1#0",
+        "item_offset%0#0",
         "item_start_offset%1#0",
         "maybe_value%2#0",
         "meta#0",
-        "tmp%5#0",
+        "prevBoxByteLength#0",
+        "tmp%4#0",
         "valueSize#0",
         "write_offset%0#1"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
-        "tmp%5#0",
+        "tmp%4#0",
         "assigned_value%0#0",
         "write_offset%0#1"
       ]
     },
-    "1261": {
+    "1264": {
       "op": "swap",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
-        "tmp%5#0",
+        "tmp%4#0",
         "write_offset%0#1",
         "assigned_value%0#0"
       ]
     },
-    "1262": {
+    "1265": {
       "op": "replace3",
       "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
         "item_end_offset%1#0",
+        "item_offset%0#0",
         "item_start_offset%1#0",
         "maybe_value%2#0",
         "meta#0",
+        "prevBoxByteLength#0",
         "updated_target%0#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
         "updated_target%0#0"
       ]
     },
-    "1263": {
+    "1266": {
       "op": "dig 3",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
@@ -15344,11 +15520,15 @@
         "maybe_value%2#0 (copy)"
       ]
     },
-    "1265": {
+    "1268": {
       "op": "intc_0 // 0",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
@@ -15357,11 +15537,15 @@
         "0"
       ]
     },
-    "1266": {
+    "1269": {
       "op": "dig 4",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
@@ -15371,20 +15555,28 @@
         "item_start_offset%1#0 (copy)"
       ]
     },
-    "1268": {
+    "1271": {
       "op": "extract3",
       "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
         "data_up_to_item%0#0",
         "item_end_offset%1#0",
+        "item_offset%0#0",
         "item_start_offset%1#0",
         "maybe_value%2#0",
         "meta#0",
+        "prevBoxByteLength#0",
         "updated_target%0#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
@@ -15392,11 +15584,15 @@
         "data_up_to_item%0#0"
       ]
     },
-    "1269": {
+    "1272": {
       "op": "dig 4",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
@@ -15405,21 +15601,29 @@
         "maybe_value%2#0 (copy)"
       ]
     },
-    "1271": {
+    "1274": {
       "op": "len",
       "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
         "data_up_to_item%0#0",
         "item_end_offset%1#0",
+        "item_offset%0#0",
         "item_start_offset%1#0",
         "maybe_value%2#0",
         "meta#0",
+        "prevBoxByteLength#0",
         "total_data_length%0#0",
         "updated_target%0#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "maybe_value%2#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
@@ -15428,11 +15632,15 @@
         "total_data_length%0#0"
       ]
     },
-    "1272": {
+    "1275": {
       "op": "uncover 5",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
         "updated_target%0#0",
@@ -15441,11 +15649,15 @@
         "maybe_value%2#0"
       ]
     },
-    "1274": {
+    "1277": {
       "op": "dig 4",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
         "updated_target%0#0",
@@ -15455,11 +15667,15 @@
         "item_end_offset%1#0 (copy)"
       ]
     },
-    "1276": {
+    "1279": {
       "op": "uncover 2",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
         "updated_target%0#0",
@@ -15469,20 +15685,28 @@
         "total_data_length%0#0"
       ]
     },
-    "1278": {
+    "1281": {
       "op": "substring3",
       "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
         "data_beyond_item%0#0",
         "data_up_to_item%0#0",
         "item_end_offset%1#0",
+        "item_offset%0#0",
         "item_start_offset%1#0",
         "meta#0",
+        "prevBoxByteLength#0",
         "updated_target%0#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
         "updated_target%0#0",
@@ -15490,11 +15714,15 @@
         "data_beyond_item%0#0"
       ]
     },
-    "1279": {
+    "1282": {
       "op": "swap",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
         "updated_target%0#0",
@@ -15502,21 +15730,29 @@
         "data_up_to_item%0#0"
       ]
     },
-    "1280": {
+    "1283": {
       "op": "dig 2",
       "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
         "data_beyond_item%0#0",
         "data_up_to_item%0#0",
         "item_end_offset%1#0",
+        "item_offset%0#0",
         "item_start_offset%1#0",
         "meta#0",
+        "prevBoxByteLength#0",
         "updated_target%0#0",
         "updated_target%0#0 (copy)",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
         "updated_target%0#0",
@@ -15525,20 +15761,28 @@
         "updated_target%0#0 (copy)"
       ]
     },
-    "1282": {
+    "1285": {
       "op": "concat",
       "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
         "data_beyond_item%0#0",
         "item_end_offset%1#0",
+        "item_offset%0#0",
         "item_start_offset%1#0",
         "meta#0",
+        "prevBoxByteLength#0",
         "updated_data%0#0",
         "updated_target%0#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
         "updated_target%0#0",
@@ -15546,11 +15790,15 @@
         "updated_data%0#0"
       ]
     },
-    "1283": {
+    "1286": {
       "op": "swap",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
         "updated_target%0#0",
@@ -15558,115 +15806,163 @@
         "data_beyond_item%0#0"
       ]
     },
-    "1284": {
+    "1287": {
       "op": "concat",
       "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
         "item_end_offset%1#0",
+        "item_offset%0#0",
         "item_start_offset%1#0",
         "meta#0",
+        "prevBoxByteLength#0",
         "updated_data%1#0",
         "updated_target%0#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "item_start_offset%1#0",
         "item_end_offset%1#0",
         "updated_target%0#0",
         "updated_data%1#0"
       ]
     },
-    "1285": {
+    "1288": {
       "op": "uncover 2",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "item_start_offset%1#0",
         "updated_target%0#0",
         "updated_data%1#0",
         "item_end_offset%1#0"
       ]
     },
-    "1287": {
+    "1290": {
       "op": "uncover 3",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "updated_target%0#0",
         "updated_data%1#0",
         "item_end_offset%1#0",
         "item_start_offset%1#0"
       ]
     },
-    "1289": {
+    "1292": {
       "op": "-",
       "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
         "item_length%0#0",
+        "item_offset%0#0",
         "meta#0",
+        "prevBoxByteLength#0",
         "updated_data%1#0",
         "updated_target%0#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "updated_target%0#0",
         "updated_data%1#0",
         "item_length%0#0"
       ]
     },
-    "1290": {
+    "1293": {
       "op": "uncover 2",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "updated_data%1#0",
         "item_length%0#0",
         "updated_target%0#0"
       ]
     },
-    "1292": {
+    "1295": {
       "op": "len",
       "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
         "item_length%0#0",
+        "item_offset%0#0",
         "meta#0",
         "new_value_length%0#0",
+        "prevBoxByteLength#0",
         "updated_data%1#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "updated_data%1#0",
         "item_length%0#0",
         "new_value_length%0#0"
       ]
     },
-    "1293": {
+    "1296": {
       "op": "dig 2",
       "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
         "item_length%0#0",
+        "item_offset%0#0",
         "meta#0",
         "new_value_length%0#0",
+        "prevBoxByteLength#0",
         "updated_data%1#0",
         "updated_data%1#0 (copy)",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "updated_data%1#0",
         "item_length%0#0",
         "new_value_length%0#0",
         "updated_data%1#0 (copy)"
       ]
     },
-    "1295": {
+    "1298": {
       "op": "intc_3 // 26",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "updated_data%1#0",
         "item_length%0#0",
         "new_value_length%0#0",
@@ -15674,388 +15970,2291 @@
         "26"
       ]
     },
-    "1296": {
+    "1299": {
       "op": "extract_uint16",
       "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
         "item_length%0#0",
+        "item_offset%0#0",
         "meta#0",
         "new_value_length%0#0",
+        "prevBoxByteLength#0",
         "tail_offset%0#0",
         "updated_data%1#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "updated_data%1#0",
         "item_length%0#0",
         "new_value_length%0#0",
         "tail_offset%0#0"
       ]
     },
-    "1297": {
+    "1300": {
       "op": "+",
       "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
         "item_length%0#0",
+        "item_offset%0#0",
         "meta#0",
+        "prevBoxByteLength#0",
         "tail_offset%1#0",
         "updated_data%1#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "updated_data%1#0",
         "item_length%0#0",
         "tail_offset%1#0"
       ]
     },
-    "1298": {
+    "1301": {
       "op": "swap",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "updated_data%1#0",
         "tail_offset%1#0",
         "item_length%0#0"
       ]
     },
-    "1299": {
+    "1302": {
       "op": "-",
       "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
         "meta#0",
+        "prevBoxByteLength#0",
         "tail_offset%2#0",
         "updated_data%1#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "updated_data%1#0",
         "tail_offset%2#0"
       ]
     },
-    "1300": {
+    "1303": {
       "op": "itob",
       "defined_out": [
         "as_bytes%0#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
         "meta#0",
+        "prevBoxByteLength#0",
         "updated_data%1#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "updated_data%1#0",
         "as_bytes%0#0"
       ]
     },
-    "1301": {
+    "1304": {
       "op": "extract 6 2",
       "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
         "meta#0",
+        "prevBoxByteLength#0",
         "tail_offset_bytes%0#0",
         "updated_data%1#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "updated_data%1#0",
         "tail_offset_bytes%0#0"
       ]
     },
-    "1304": {
+    "1307": {
       "op": "replace2 26",
       "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
         "meta#0",
+        "prevBoxByteLength#0",
         "updated_data%2#0",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "updated_data%2#0"
-      ]
-    },
-    "1306": {
-      "op": "dig 2",
-      "stack_out": [
-        "meta#0",
-        "valueSize#0",
-        "updated_data%2#0",
-        "meta#0 (copy)"
-      ]
-    },
-    "1308": {
-      "op": "box_del",
-      "defined_out": [
-        "meta#0",
-        "updated_data%2#0",
-        "valueSize#0",
-        "{box_del}"
-      ],
-      "stack_out": [
-        "meta#0",
-        "valueSize#0",
-        "updated_data%2#0",
-        "{box_del}"
       ]
     },
     "1309": {
-      "op": "pop",
+      "op": "dig 1",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
-        "updated_data%2#0"
-      ]
-    },
-    "1310": {
-      "op": "dig 2",
-      "stack_out": [
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
         "meta#0",
-        "valueSize#0",
         "updated_data%2#0",
         "meta#0 (copy)"
       ]
     },
-    "1312": {
-      "op": "swap",
+    "1311": {
+      "op": "box_del",
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
-        "meta#0 (copy)",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "updated_data%2#0",
+        "{box_del}"
+      ]
+    },
+    "1312": {
+      "op": "pop",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
         "updated_data%2#0"
       ]
     },
     "1313": {
       "op": "box_put",
       "stack_out": [
-        "meta#0",
-        "valueSize#0"
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0"
       ]
     },
     "1314": {
-      "op": "dig 1",
-      "stack_out": [
-        "meta#0",
+      "error": "What does this do?",
+      "op": "err // What does this do?"
+    },
+    "1315": {
+      "block": "superboxDeleteIndex_else_body@3",
+      "stack_in": [
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
-        "meta#0 (copy)"
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "dataBox#0",
+        "meta#0"
+      ],
+      "op": "swap",
+      "defined_out": [
+        "dataBox#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "dataBox#0"
       ]
     },
     "1316": {
-      "op": "box_get",
+      "op": "dup",
       "defined_out": [
-        "maybe_exists%3#0",
-        "maybe_value%3#0",
-        "meta#0",
-        "valueSize#0"
+        "dataBox#0",
+        "dataBox#0 (copy)"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
-        "maybe_value%3#0",
-        "maybe_exists%3#0"
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "dataBox#0",
+        "dataBox#0 (copy)"
       ]
     },
     "1317": {
-      "error": "Box must have value",
-      "op": "assert // Box must have value",
+      "op": "frame_dig 0",
+      "defined_out": [
+        "byteOffset#0",
+        "dataBox#0",
+        "dataBox#0 (copy)"
+      ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
-        "maybe_value%3#0"
-      ]
-    },
-    "1318": {
-      "op": "intc_1 // 2",
-      "stack_out": [
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
         "meta#0",
-        "valueSize#0",
-        "maybe_value%3#0",
-        "2"
+        "dataBox#0",
+        "dataBox#0 (copy)",
+        "byteOffset#0"
       ]
     },
     "1319": {
-      "op": "extract_uint64",
+      "op": "frame_dig 2",
       "defined_out": [
-        "meta#0",
-        "tmp%7#0",
+        "byteOffset#0",
+        "dataBox#0",
+        "dataBox#0 (copy)",
         "valueSize#0"
       ],
       "stack_out": [
-        "meta#0",
+        "byteOffset#0",
+        "boxNum#0",
         "valueSize#0",
-        "tmp%7#0"
-      ]
-    },
-    "1320": {
-      "op": "swap",
-      "stack_out": [
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
         "meta#0",
-        "tmp%7#0",
+        "dataBox#0",
+        "dataBox#0 (copy)",
+        "byteOffset#0",
         "valueSize#0"
       ]
     },
     "1321": {
-      "op": "-",
+      "op": "dup",
       "defined_out": [
-        "meta#0",
-        "num#1"
+        "byteOffset#0",
+        "dataBox#0",
+        "dataBox#0 (copy)",
+        "valueSize#0",
+        "valueSize#0 (copy)"
       ],
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
         "meta#0",
-        "num#1"
+        "dataBox#0",
+        "dataBox#0 (copy)",
+        "byteOffset#0",
+        "valueSize#0 (copy)",
+        "valueSize#0 (copy)"
       ]
     },
     "1322": {
-      "op": "dig 1",
+      "op": "cover 3",
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
         "meta#0",
-        "num#1",
-        "meta#0 (copy)"
+        "dataBox#0",
+        "valueSize#0",
+        "dataBox#0 (copy)",
+        "byteOffset#0",
+        "valueSize#0 (copy)"
       ]
     },
     "1324": {
-      "op": "box_get",
+      "op": "bytec_2 // \"\"",
       "defined_out": [
-        "maybe_exists%4#0",
-        "maybe_value%4#0",
-        "meta#0",
-        "num#1"
+        "\"\"",
+        "byteOffset#0",
+        "dataBox#0",
+        "dataBox#0 (copy)",
+        "valueSize#0",
+        "valueSize#0 (copy)"
       ],
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
         "meta#0",
-        "num#1",
-        "maybe_value%4#0",
-        "maybe_exists%4#0"
+        "dataBox#0",
+        "valueSize#0",
+        "dataBox#0 (copy)",
+        "byteOffset#0",
+        "valueSize#0 (copy)",
+        "\"\""
       ]
     },
     "1325": {
-      "error": "Box must have value",
-      "op": "assert // Box must have value",
+      "op": "box_splice",
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
         "meta#0",
-        "num#1",
-        "maybe_value%4#0"
+        "dataBox#0",
+        "valueSize#0"
       ]
     },
     "1326": {
-      "op": "swap",
-      "stack_out": [
-        "meta#0",
-        "maybe_value%4#0",
-        "num#1"
-      ]
-    },
-    "1327": {
-      "op": "itob",
+      "op": "frame_dig 4",
       "defined_out": [
-        "maybe_value%4#0",
-        "meta#0",
-        "val_as_bytes%0#0"
+        "byteOffset#0",
+        "dataBox#0",
+        "prevBoxByteLength#0",
+        "valueSize#0"
       ],
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
         "meta#0",
-        "maybe_value%4#0",
-        "val_as_bytes%0#0"
+        "dataBox#0",
+        "valueSize#0",
+        "prevBoxByteLength#0"
       ]
     },
     "1328": {
-      "op": "replace2 2",
-      "defined_out": [
-        "meta#0",
-        "updated_data%3#0"
-      ],
+      "op": "dig 1",
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
         "meta#0",
-        "updated_data%3#0"
+        "dataBox#0",
+        "valueSize#0",
+        "prevBoxByteLength#0",
+        "valueSize#0 (copy)"
       ]
     },
     "1330": {
-      "op": "dig 1",
+      "op": "-",
+      "defined_out": [
+        "byteOffset#0",
+        "dataBox#0",
+        "prevBoxByteLength#0",
+        "tmp%5#0",
+        "valueSize#0"
+      ],
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
         "meta#0",
-        "updated_data%3#0",
-        "meta#0 (copy)"
+        "dataBox#0",
+        "valueSize#0",
+        "tmp%5#0"
       ]
     },
-    "1332": {
-      "op": "box_del",
+    "1331": {
+      "op": "uncover 2",
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
         "meta#0",
-        "updated_data%3#0",
-        "{box_del}"
+        "valueSize#0",
+        "tmp%5#0",
+        "dataBox#0"
       ]
     },
     "1333": {
-      "op": "pop",
+      "op": "dig 1",
+      "defined_out": [
+        "byteOffset#0",
+        "dataBox#0",
+        "prevBoxByteLength#0",
+        "tmp%5#0",
+        "tmp%5#0 (copy)",
+        "valueSize#0"
+      ],
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
         "meta#0",
-        "updated_data%3#0"
+        "valueSize#0",
+        "tmp%5#0",
+        "dataBox#0",
+        "tmp%5#0 (copy)"
       ]
     },
-    "1334": {
-      "op": "dig 1",
+    "1335": {
+      "op": "box_resize",
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
         "meta#0",
-        "updated_data%3#0",
-        "meta#0 (copy)"
+        "valueSize#0",
+        "tmp%5#0"
       ]
     },
     "1336": {
-      "op": "swap",
-      "stack_out": [
+      "op": "uncover 2",
+      "defined_out": [
+        "byteOffset#0",
         "meta#0",
-        "meta#0 (copy)",
-        "updated_data%3#0"
-      ]
-    },
-    "1337": {
-      "op": "box_put",
+        "prevBoxByteLength#0",
+        "tmp%5#0",
+        "valueSize#0"
+      ],
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "tmp%5#0",
         "meta#0"
       ]
     },
     "1338": {
-      "op": "box_get",
+      "op": "dup",
       "defined_out": [
-        "maybe_exists%5#0",
-        "maybe_value%5#0"
+        "byteOffset#0",
+        "meta#0 (copy)",
+        "prevBoxByteLength#0",
+        "tmp%5#0",
+        "valueSize#0"
       ],
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "tmp%5#0",
+        "meta#0 (copy)",
+        "meta#0 (copy)"
+      ]
+    },
+    "1339": {
+      "op": "cover 2",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "tmp%5#0",
+        "meta#0 (copy)"
+      ]
+    },
+    "1341": {
+      "op": "box_get",
+      "defined_out": [
+        "byteOffset#0",
+        "maybe_exists%3#0",
+        "maybe_value%3#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%5#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "tmp%5#0",
+        "maybe_value%3#0",
+        "maybe_exists%3#0"
+      ]
+    },
+    "1342": {
+      "error": "Box must have value",
+      "op": "assert // Box must have value",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "tmp%5#0",
+        "maybe_value%3#0"
+      ]
+    },
+    "1343": {
+      "op": "dup",
+      "defined_out": [
+        "byteOffset#0",
+        "maybe_value%3#0",
+        "maybe_value%3#0 (copy)",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%5#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "tmp%5#0",
+        "maybe_value%3#0",
+        "maybe_value%3#0 (copy)"
+      ]
+    },
+    "1344": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "byteOffset#0",
+        "maybe_value%3#0",
+        "maybe_value%3#0 (copy)",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%5#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "tmp%5#0",
+        "maybe_value%3#0",
+        "maybe_value%3#0 (copy)",
+        "0"
+      ]
+    },
+    "1345": {
+      "op": "extract_uint16",
+      "defined_out": [
+        "byteOffset#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%5#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "tmp%5#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0"
+      ]
+    },
+    "1346": {
+      "op": "dig 1",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "tmp%5#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0 (copy)"
+      ]
+    },
+    "1348": {
+      "op": "intc_3 // 26",
+      "defined_out": [
+        "26",
+        "byteOffset#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0",
+        "maybe_value%3#0 (copy)",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%5#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "tmp%5#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0 (copy)",
+        "26"
+      ]
+    },
+    "1349": {
+      "op": "extract_uint16",
+      "defined_out": [
+        "byteOffset#0",
+        "item_end_offset%2#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%5#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "tmp%5#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0"
+      ]
+    },
+    "1350": {
+      "op": "dig 2",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "tmp%5#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "maybe_value%3#0 (copy)"
+      ]
+    },
+    "1352": {
+      "op": "dig 2",
+      "defined_out": [
+        "byteOffset#0",
+        "item_end_offset%2#0",
+        "item_start_offset%2#0",
+        "item_start_offset%2#0 (copy)",
+        "maybe_value%3#0",
+        "maybe_value%3#0 (copy)",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%5#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "tmp%5#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "maybe_value%3#0 (copy)",
+        "item_start_offset%2#0 (copy)"
+      ]
+    },
+    "1354": {
+      "op": "dig 2",
+      "defined_out": [
+        "byteOffset#0",
+        "item_end_offset%2#0",
+        "item_end_offset%2#0 (copy)",
+        "item_start_offset%2#0",
+        "item_start_offset%2#0 (copy)",
+        "maybe_value%3#0",
+        "maybe_value%3#0 (copy)",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%5#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "tmp%5#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "maybe_value%3#0 (copy)",
+        "item_start_offset%2#0 (copy)",
+        "item_end_offset%2#0 (copy)"
+      ]
+    },
+    "1356": {
+      "op": "substring3",
+      "defined_out": [
+        "byteOffset#0",
+        "item_end_offset%2#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%5#0",
+        "tmp%7#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "tmp%5#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "tmp%7#0"
+      ]
+    },
+    "1357": {
+      "op": "uncover 4",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "tmp%7#0",
+        "tmp%5#0"
+      ]
+    },
+    "1359": {
+      "callsub": "smart_contracts/superbox/types.algo.ts::au16",
+      "op": "callsub au16",
+      "defined_out": [
+        "assigned_value%2#0",
+        "byteOffset#0",
+        "item_end_offset%2#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%7#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "tmp%7#0",
+        "assigned_value%2#0"
+      ]
+    },
+    "1362": {
+      "op": "dig 1",
+      "defined_out": [
+        "assigned_value%2#0",
+        "byteOffset#0",
+        "item_end_offset%2#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%7#0",
+        "tmp%7#0 (copy)",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "tmp%7#0",
+        "assigned_value%2#0",
+        "tmp%7#0 (copy)"
+      ]
+    },
+    "1364": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "tmp%7#0",
+        "assigned_value%2#0",
+        "tmp%7#0 (copy)",
+        "0"
+      ]
+    },
+    "1365": {
+      "op": "extract_uint16",
+      "defined_out": [
+        "array_length%1#0",
+        "assigned_value%2#0",
+        "byteOffset#0",
+        "item_end_offset%2#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%7#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "tmp%7#0",
+        "assigned_value%2#0",
+        "array_length%1#0"
+      ]
+    },
+    "1366": {
+      "op": "frame_dig 1",
+      "defined_out": [
+        "array_length%1#0",
+        "assigned_value%2#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "item_end_offset%2#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%7#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "tmp%7#0",
+        "assigned_value%2#0",
+        "array_length%1#0",
+        "boxNum#0"
+      ]
+    },
+    "1368": {
+      "op": ">",
+      "defined_out": [
+        "assigned_value%2#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "index_is_in_bounds%1#0",
+        "item_end_offset%2#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%7#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "tmp%7#0",
+        "assigned_value%2#0",
+        "index_is_in_bounds%1#0"
+      ]
+    },
+    "1369": {
+      "error": "Index access is out of bounds",
+      "op": "assert // Index access is out of bounds",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "tmp%7#0",
+        "assigned_value%2#0"
+      ]
+    },
+    "1370": {
+      "op": "frame_dig 3",
+      "defined_out": [
+        "assigned_value%2#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "item_end_offset%2#0",
+        "item_offset%0#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%7#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "tmp%7#0",
+        "assigned_value%2#0",
+        "item_offset%0#0"
+      ]
+    },
+    "1372": {
+      "op": "intc_1 // 2",
+      "defined_out": [
+        "2",
+        "assigned_value%2#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "item_end_offset%2#0",
+        "item_offset%0#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%7#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "tmp%7#0",
+        "assigned_value%2#0",
+        "item_offset%0#0",
+        "2"
+      ]
+    },
+    "1373": {
+      "op": "+",
+      "defined_out": [
+        "assigned_value%2#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "item_end_offset%2#0",
+        "item_offset%0#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%7#0",
+        "valueSize#0",
+        "write_offset%1#1"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "tmp%7#0",
+        "assigned_value%2#0",
+        "write_offset%1#1"
+      ]
+    },
+    "1374": {
+      "op": "swap",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "tmp%7#0",
+        "write_offset%1#1",
+        "assigned_value%2#0"
+      ]
+    },
+    "1375": {
+      "op": "replace3",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_end_offset%2#0",
+        "item_offset%0#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "updated_target%1#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0"
+      ]
+    },
+    "1376": {
+      "op": "dig 3",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0",
+        "maybe_value%3#0 (copy)"
+      ]
+    },
+    "1378": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0",
+        "maybe_value%3#0 (copy)",
+        "0"
+      ]
+    },
+    "1379": {
+      "op": "dig 4",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0",
+        "maybe_value%3#0 (copy)",
+        "0",
+        "item_start_offset%2#0 (copy)"
+      ]
+    },
+    "1381": {
+      "op": "extract3",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "data_up_to_item%1#0",
+        "item_end_offset%2#0",
+        "item_offset%0#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "updated_target%1#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0",
+        "data_up_to_item%1#0"
+      ]
+    },
+    "1382": {
+      "op": "dig 4",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0",
+        "data_up_to_item%1#0",
+        "maybe_value%3#0 (copy)"
+      ]
+    },
+    "1384": {
+      "op": "len",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "data_up_to_item%1#0",
+        "item_end_offset%2#0",
+        "item_offset%0#0",
+        "item_start_offset%2#0",
+        "maybe_value%3#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "total_data_length%1#0",
+        "updated_target%1#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%3#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0",
+        "data_up_to_item%1#0",
+        "total_data_length%1#0"
+      ]
+    },
+    "1385": {
+      "op": "uncover 5",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0",
+        "data_up_to_item%1#0",
+        "total_data_length%1#0",
+        "maybe_value%3#0"
+      ]
+    },
+    "1387": {
+      "op": "dig 4",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0",
+        "data_up_to_item%1#0",
+        "total_data_length%1#0",
+        "maybe_value%3#0",
+        "item_end_offset%2#0 (copy)"
+      ]
+    },
+    "1389": {
+      "op": "uncover 2",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0",
+        "data_up_to_item%1#0",
+        "maybe_value%3#0",
+        "item_end_offset%2#0 (copy)",
+        "total_data_length%1#0"
+      ]
+    },
+    "1391": {
+      "op": "substring3",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "data_beyond_item%1#0",
+        "data_up_to_item%1#0",
+        "item_end_offset%2#0",
+        "item_offset%0#0",
+        "item_start_offset%2#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "updated_target%1#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0",
+        "data_up_to_item%1#0",
+        "data_beyond_item%1#0"
+      ]
+    },
+    "1392": {
+      "op": "swap",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0",
+        "data_beyond_item%1#0",
+        "data_up_to_item%1#0"
+      ]
+    },
+    "1393": {
+      "op": "dig 2",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "data_beyond_item%1#0",
+        "data_up_to_item%1#0",
+        "item_end_offset%2#0",
+        "item_offset%0#0",
+        "item_start_offset%2#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "updated_target%1#0",
+        "updated_target%1#0 (copy)",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0",
+        "data_beyond_item%1#0",
+        "data_up_to_item%1#0",
+        "updated_target%1#0 (copy)"
+      ]
+    },
+    "1395": {
+      "op": "concat",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "data_beyond_item%1#0",
+        "item_end_offset%2#0",
+        "item_offset%0#0",
+        "item_start_offset%2#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "updated_data%3#0",
+        "updated_target%1#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0",
+        "data_beyond_item%1#0",
+        "updated_data%3#0"
+      ]
+    },
+    "1396": {
+      "op": "swap",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0",
+        "updated_data%3#0",
+        "data_beyond_item%1#0"
+      ]
+    },
+    "1397": {
+      "op": "concat",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_end_offset%2#0",
+        "item_offset%0#0",
+        "item_start_offset%2#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "updated_data%4#0",
+        "updated_target%1#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "item_start_offset%2#0",
+        "item_end_offset%2#0",
+        "updated_target%1#0",
+        "updated_data%4#0"
+      ]
+    },
+    "1398": {
+      "op": "uncover 2",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "item_start_offset%2#0",
+        "updated_target%1#0",
+        "updated_data%4#0",
+        "item_end_offset%2#0"
+      ]
+    },
+    "1400": {
+      "op": "uncover 3",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_target%1#0",
+        "updated_data%4#0",
+        "item_end_offset%2#0",
+        "item_start_offset%2#0"
+      ]
+    },
+    "1402": {
+      "op": "-",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_length%1#0",
+        "item_offset%0#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "updated_data%4#0",
+        "updated_target%1#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_target%1#0",
+        "updated_data%4#0",
+        "item_length%1#0"
+      ]
+    },
+    "1403": {
+      "op": "uncover 2",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_data%4#0",
+        "item_length%1#0",
+        "updated_target%1#0"
+      ]
+    },
+    "1405": {
+      "op": "len",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_length%1#0",
+        "item_offset%0#0",
+        "meta#0",
+        "new_value_length%1#0",
+        "prevBoxByteLength#0",
+        "updated_data%4#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_data%4#0",
+        "item_length%1#0",
+        "new_value_length%1#0"
+      ]
+    },
+    "1406": {
+      "op": "dig 2",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_length%1#0",
+        "item_offset%0#0",
+        "meta#0",
+        "new_value_length%1#0",
+        "prevBoxByteLength#0",
+        "updated_data%4#0",
+        "updated_data%4#0 (copy)",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_data%4#0",
+        "item_length%1#0",
+        "new_value_length%1#0",
+        "updated_data%4#0 (copy)"
+      ]
+    },
+    "1408": {
+      "op": "intc_3 // 26",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_data%4#0",
+        "item_length%1#0",
+        "new_value_length%1#0",
+        "updated_data%4#0 (copy)",
+        "26"
+      ]
+    },
+    "1409": {
+      "op": "extract_uint16",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_length%1#0",
+        "item_offset%0#0",
+        "meta#0",
+        "new_value_length%1#0",
+        "prevBoxByteLength#0",
+        "tail_offset%3#0",
+        "updated_data%4#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_data%4#0",
+        "item_length%1#0",
+        "new_value_length%1#0",
+        "tail_offset%3#0"
+      ]
+    },
+    "1410": {
+      "op": "+",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_length%1#0",
+        "item_offset%0#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tail_offset%4#0",
+        "updated_data%4#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_data%4#0",
+        "item_length%1#0",
+        "tail_offset%4#0"
+      ]
+    },
+    "1411": {
+      "op": "swap",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_data%4#0",
+        "tail_offset%4#0",
+        "item_length%1#0"
+      ]
+    },
+    "1412": {
+      "op": "-",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tail_offset%5#0",
+        "updated_data%4#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_data%4#0",
+        "tail_offset%5#0"
+      ]
+    },
+    "1413": {
+      "op": "itob",
+      "defined_out": [
+        "as_bytes%1#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "updated_data%4#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_data%4#0",
+        "as_bytes%1#0"
+      ]
+    },
+    "1414": {
+      "op": "extract 6 2",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tail_offset_bytes%1#0",
+        "updated_data%4#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_data%4#0",
+        "tail_offset_bytes%1#0"
+      ]
+    },
+    "1417": {
+      "op": "replace2 26",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "updated_data%5#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_data%5#0"
+      ]
+    },
+    "1419": {
+      "op": "dig 1",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_data%5#0",
+        "meta#0 (copy)"
+      ]
+    },
+    "1421": {
+      "op": "box_del",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "updated_data%5#0",
+        "valueSize#0",
+        "{box_del}"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_data%5#0",
+        "{box_del}"
+      ]
+    },
+    "1422": {
+      "op": "pop",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_data%5#0"
+      ]
+    },
+    "1423": {
+      "op": "dig 1",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "updated_data%5#0",
+        "meta#0 (copy)"
+      ]
+    },
+    "1425": {
+      "op": "swap",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "meta#0 (copy)",
+        "updated_data%5#0"
+      ]
+    },
+    "1426": {
+      "op": "box_put",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0"
+      ]
+    },
+    "1427": {
+      "op": "dup",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "meta#0 (copy)"
+      ]
+    },
+    "1428": {
+      "op": "box_get",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
+        "maybe_exists%4#0",
+        "maybe_value%4#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%4#0",
+        "maybe_exists%4#0"
+      ]
+    },
+    "1429": {
+      "error": "Box must have value",
+      "op": "assert // Box must have value",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%4#0"
+      ]
+    },
+    "1430": {
+      "op": "intc_1 // 2",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "maybe_value%4#0",
+        "2"
+      ]
+    },
+    "1431": {
+      "op": "extract_uint64",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "tmp%9#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "valueSize#0",
+        "meta#0",
+        "tmp%9#0"
+      ]
+    },
+    "1432": {
+      "op": "uncover 2",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "tmp%9#0",
+        "valueSize#0"
+      ]
+    },
+    "1434": {
+      "op": "-",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
+        "meta#0",
+        "num#0",
+        "prevBoxByteLength#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "num#0"
+      ]
+    },
+    "1435": {
+      "op": "dig 1",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "num#0",
+        "meta#0 (copy)"
+      ]
+    },
+    "1437": {
+      "op": "box_get",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
+        "maybe_exists%5#0",
+        "maybe_value%5#0",
+        "meta#0",
+        "num#0",
+        "prevBoxByteLength#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "num#0",
         "maybe_value%5#0",
         "maybe_exists%5#0"
       ]
     },
-    "1339": {
+    "1438": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "num#0",
         "maybe_value%5#0"
       ]
     },
-    "1340": {
+    "1439": {
+      "op": "swap",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "maybe_value%5#0",
+        "num#0"
+      ]
+    },
+    "1440": {
+      "op": "itob",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
+        "maybe_value%5#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "val_as_bytes%0#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "maybe_value%5#0",
+        "val_as_bytes%0#0"
+      ]
+    },
+    "1441": {
+      "op": "replace2 2",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
+        "meta#0",
+        "prevBoxByteLength#0",
+        "updated_data%6#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "updated_data%6#0"
+      ]
+    },
+    "1443": {
+      "op": "dig 1",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "updated_data%6#0",
+        "meta#0 (copy)"
+      ]
+    },
+    "1445": {
+      "op": "box_del",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "updated_data%6#0",
+        "{box_del}"
+      ]
+    },
+    "1446": {
+      "op": "pop",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "updated_data%6#0"
+      ]
+    },
+    "1447": {
+      "op": "dig 1",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "updated_data%6#0",
+        "meta#0 (copy)"
+      ]
+    },
+    "1449": {
+      "op": "swap",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "meta#0 (copy)",
+        "updated_data%6#0"
+      ]
+    },
+    "1450": {
+      "op": "box_put",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "meta#0"
+      ]
+    },
+    "1451": {
+      "op": "box_get",
+      "defined_out": [
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
+        "maybe_exists%6#0",
+        "maybe_value%6#0",
+        "prevBoxByteLength#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "maybe_value%6#0",
+        "maybe_exists%6#0"
+      ]
+    },
+    "1452": {
+      "error": "Box must have value",
+      "op": "assert // Box must have value",
+      "stack_out": [
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "maybe_value%6#0"
+      ]
+    },
+    "1453": {
       "op": "intc_1 // 2",
       "stack_out": [
-        "maybe_value%5#0",
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "maybe_value%6#0",
         "2"
       ]
     },
-    "1341": {
+    "1454": {
       "op": "extract_uint64",
       "defined_out": [
-        "tmp%10#0"
+        "boxNum#0",
+        "byteOffset#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "tmp%12#0",
+        "valueSize#0"
       ],
       "stack_out": [
-        "tmp%10#0"
+        "byteOffset#0",
+        "boxNum#0",
+        "valueSize#0",
+        "item_offset%0#0",
+        "prevBoxByteLength#0",
+        "tmp%12#0"
       ]
     },
-    "1342": {
+    "1455": {
+      "op": "frame_bury 0"
+    },
+    "1457": {
       "retsub": true,
       "op": "retsub"
     },
-    "1343": {
+    "1458": {
       "subroutine": "smart_contracts/superbox/contract.algo.ts::Superbox.superboxDeleteBox",
       "params": {
         "name#0": "bytes",
@@ -16065,7 +18264,7 @@
       "stack_in": [],
       "op": "proto 2 1"
     },
-    "1346": {
+    "1461": {
       "op": "frame_dig -2",
       "defined_out": [
         "name#0 (copy)"
@@ -16074,7 +18273,7 @@
         "name#0 (copy)"
       ]
     },
-    "1348": {
+    "1463": {
       "op": "bytec_0 // \"_m\"",
       "defined_out": [
         "\"_m\"",
@@ -16085,7 +18284,7 @@
         "\"_m\""
       ]
     },
-    "1349": {
+    "1464": {
       "op": "concat",
       "defined_out": [
         "meta#0"
@@ -16094,7 +18293,7 @@
         "meta#0"
       ]
     },
-    "1350": {
+    "1465": {
       "op": "dup",
       "defined_out": [
         "meta#0",
@@ -16105,7 +18304,7 @@
         "meta#0 (copy)"
       ]
     },
-    "1351": {
+    "1466": {
       "op": "box_get",
       "defined_out": [
         "maybe_exists%0#0",
@@ -16118,7 +18317,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "1352": {
+    "1467": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
@@ -16126,7 +18325,7 @@
         "metaValue#0"
       ]
     },
-    "1353": {
+    "1468": {
       "op": "frame_dig -1",
       "defined_out": [
         "boxNum#0 (copy)",
@@ -16139,7 +18338,7 @@
         "boxNum#0 (copy)"
       ]
     },
-    "1355": {
+    "1470": {
       "callsub": "smart_contracts/superbox/util.algo.ts::itoa",
       "op": "callsub itoa",
       "defined_out": [
@@ -16153,7 +18352,7 @@
         "tmp%0#1"
       ]
     },
-    "1358": {
+    "1473": {
       "op": "frame_dig -2",
       "stack_out": [
         "meta#0",
@@ -16162,7 +18361,7 @@
         "name#0 (copy)"
       ]
     },
-    "1360": {
+    "1475": {
       "op": "swap",
       "stack_out": [
         "meta#0",
@@ -16171,7 +18370,7 @@
         "tmp%0#1"
       ]
     },
-    "1361": {
+    "1476": {
       "op": "concat",
       "defined_out": [
         "dataBox#0",
@@ -16184,7 +18383,7 @@
         "dataBox#0"
       ]
     },
-    "1362": {
+    "1477": {
       "op": "dig 1",
       "defined_out": [
         "dataBox#0",
@@ -16199,7 +18398,7 @@
         "metaValue#0 (copy)"
       ]
     },
-    "1364": {
+    "1479": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -16216,7 +18415,7 @@
         "0"
       ]
     },
-    "1365": {
+    "1480": {
       "op": "extract_uint16",
       "defined_out": [
         "dataBox#0",
@@ -16231,7 +18430,7 @@
         "item_start_offset%0#0"
       ]
     },
-    "1366": {
+    "1481": {
       "op": "dig 2",
       "stack_out": [
         "meta#0",
@@ -16241,7 +18440,7 @@
         "metaValue#0 (copy)"
       ]
     },
-    "1368": {
+    "1483": {
       "op": "intc_3 // 26",
       "defined_out": [
         "26",
@@ -16260,7 +18459,7 @@
         "26"
       ]
     },
-    "1369": {
+    "1484": {
       "op": "extract_uint16",
       "defined_out": [
         "dataBox#0",
@@ -16277,7 +18476,7 @@
         "item_end_offset%0#0"
       ]
     },
-    "1370": {
+    "1485": {
       "op": "dig 3",
       "stack_out": [
         "meta#0",
@@ -16288,7 +18487,7 @@
         "metaValue#0 (copy)"
       ]
     },
-    "1372": {
+    "1487": {
       "op": "cover 2",
       "stack_out": [
         "meta#0",
@@ -16299,7 +18498,7 @@
         "item_end_offset%0#0"
       ]
     },
-    "1374": {
+    "1489": {
       "op": "substring3",
       "stack_out": [
         "meta#0",
@@ -16308,7 +18507,7 @@
         "tmp%0#1"
       ]
     },
-    "1375": {
+    "1490": {
       "op": "dup",
       "defined_out": [
         "dataBox#0",
@@ -16325,7 +18524,7 @@
         "tmp%0#1 (copy)"
       ]
     },
-    "1376": {
+    "1491": {
       "op": "intc_0 // 0",
       "stack_out": [
         "meta#0",
@@ -16336,7 +18535,7 @@
         "0"
       ]
     },
-    "1377": {
+    "1492": {
       "op": "extract_uint16",
       "defined_out": [
         "dataBox#0",
@@ -16353,7 +18552,7 @@
         "tmp%1#0"
       ]
     },
-    "1378": {
+    "1493": {
       "op": "frame_dig -1",
       "stack_out": [
         "meta#0",
@@ -16364,7 +18563,7 @@
         "boxNum#0 (copy)"
       ]
     },
-    "1380": {
+    "1495": {
       "op": ">",
       "defined_out": [
         "dataBox#0",
@@ -16381,7 +18580,7 @@
         "tmp%2#0"
       ]
     },
-    "1381": {
+    "1496": {
       "error": "ERR:OOB",
       "op": "assert // ERR:OOB",
       "stack_out": [
@@ -16391,7 +18590,7 @@
         "tmp%0#1"
       ]
     },
-    "1382": {
+    "1497": {
       "op": "dig 1",
       "defined_out": [
         "dataBox#0",
@@ -16408,7 +18607,7 @@
         "dataBox#0 (copy)"
       ]
     },
-    "1384": {
+    "1499": {
       "op": "box_len",
       "defined_out": [
         "dataBox#0",
@@ -16427,7 +18626,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "1385": {
+    "1500": {
       "op": "bury 1",
       "stack_out": [
         "meta#0",
@@ -16437,7 +18636,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "1387": {
+    "1502": {
       "error": "ERR:DLTD",
       "op": "assert // ERR:DLTD",
       "stack_out": [
@@ -16447,7 +18646,7 @@
         "tmp%0#1"
       ]
     },
-    "1388": {
+    "1503": {
       "op": "dig 2",
       "stack_out": [
         "meta#0",
@@ -16457,7 +18656,7 @@
         "metaValue#0 (copy)"
       ]
     },
-    "1390": {
+    "1505": {
       "op": "intc_1 // 2",
       "defined_out": [
         "2",
@@ -16476,7 +18675,7 @@
         "2"
       ]
     },
-    "1391": {
+    "1506": {
       "op": "extract_uint64",
       "defined_out": [
         "dataBox#0",
@@ -16493,7 +18692,7 @@
         "tmp%4#0"
       ]
     },
-    "1392": {
+    "1507": {
       "op": "swap",
       "stack_out": [
         "meta#0",
@@ -16503,7 +18702,7 @@
         "tmp%0#1"
       ]
     },
-    "1393": {
+    "1508": {
       "op": "extract 2 0",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -16520,7 +18719,7 @@
         "array_head_and_tail%0#0"
       ]
     },
-    "1396": {
+    "1511": {
       "op": "frame_dig -1",
       "stack_out": [
         "meta#0",
@@ -16531,7 +18730,7 @@
         "boxNum#0 (copy)"
       ]
     },
-    "1398": {
+    "1513": {
       "op": "intc_1 // 2",
       "stack_out": [
         "meta#0",
@@ -16543,7 +18742,7 @@
         "2"
       ]
     },
-    "1399": {
+    "1514": {
       "op": "*",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -16562,7 +18761,7 @@
         "item_offset%0#0"
       ]
     },
-    "1400": {
+    "1515": {
       "op": "swap",
       "stack_out": [
         "meta#0",
@@ -16573,7 +18772,7 @@
         "array_head_and_tail%0#0"
       ]
     },
-    "1401": {
+    "1516": {
       "op": "dig 1",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -16594,7 +18793,7 @@
         "item_offset%0#0 (copy)"
       ]
     },
-    "1403": {
+    "1518": {
       "op": "extract_uint16",
       "defined_out": [
         "dataBox#0",
@@ -16613,7 +18812,7 @@
         "tmp%7#0"
       ]
     },
-    "1404": {
+    "1519": {
       "op": "uncover 2",
       "stack_out": [
         "meta#0",
@@ -16624,7 +18823,7 @@
         "tmp%4#0"
       ]
     },
-    "1406": {
+    "1521": {
       "op": "swap",
       "stack_out": [
         "meta#0",
@@ -16635,7 +18834,7 @@
         "tmp%7#0"
       ]
     },
-    "1407": {
+    "1522": {
       "op": "-",
       "defined_out": [
         "dataBox#0",
@@ -16652,7 +18851,7 @@
         "num#1"
       ]
     },
-    "1408": {
+    "1523": {
       "op": "itob",
       "defined_out": [
         "dataBox#0",
@@ -16669,7 +18868,7 @@
         "val_as_bytes%0#0"
       ]
     },
-    "1409": {
+    "1524": {
       "op": "uncover 3",
       "stack_out": [
         "meta#0",
@@ -16679,7 +18878,7 @@
         "metaValue#0"
       ]
     },
-    "1411": {
+    "1526": {
       "op": "swap",
       "stack_out": [
         "meta#0",
@@ -16689,7 +18888,7 @@
         "val_as_bytes%0#0"
       ]
     },
-    "1412": {
+    "1527": {
       "op": "replace2 2",
       "stack_out": [
         "meta#0",
@@ -16698,7 +18897,7 @@
         "metaValue#0"
       ]
     },
-    "1414": {
+    "1529": {
       "op": "dup",
       "stack_out": [
         "meta#0",
@@ -16708,7 +18907,7 @@
         "metaValue#0 (copy)"
       ]
     },
-    "1415": {
+    "1530": {
       "op": "intc_0 // 0",
       "stack_out": [
         "meta#0",
@@ -16719,7 +18918,7 @@
         "0"
       ]
     },
-    "1416": {
+    "1531": {
       "op": "extract_uint16",
       "defined_out": [
         "dataBox#0",
@@ -16736,7 +18935,7 @@
         "item_start_offset%2#0"
       ]
     },
-    "1417": {
+    "1532": {
       "op": "dig 1",
       "stack_out": [
         "meta#0",
@@ -16747,7 +18946,7 @@
         "metaValue#0 (copy)"
       ]
     },
-    "1419": {
+    "1534": {
       "op": "intc_3 // 26",
       "stack_out": [
         "meta#0",
@@ -16759,7 +18958,7 @@
         "26"
       ]
     },
-    "1420": {
+    "1535": {
       "op": "extract_uint16",
       "defined_out": [
         "dataBox#0",
@@ -16778,7 +18977,7 @@
         "item_end_offset%2#0"
       ]
     },
-    "1421": {
+    "1536": {
       "op": "dig 2",
       "stack_out": [
         "meta#0",
@@ -16790,7 +18989,7 @@
         "metaValue#0 (copy)"
       ]
     },
-    "1423": {
+    "1538": {
       "op": "dig 2",
       "defined_out": [
         "dataBox#0",
@@ -16813,7 +19012,7 @@
         "item_start_offset%2#0 (copy)"
       ]
     },
-    "1425": {
+    "1540": {
       "op": "dig 2",
       "defined_out": [
         "dataBox#0",
@@ -16838,7 +19037,7 @@
         "item_end_offset%2#0 (copy)"
       ]
     },
-    "1427": {
+    "1542": {
       "op": "substring3",
       "defined_out": [
         "dataBox#0",
@@ -16859,7 +19058,7 @@
         "tmp%9#0"
       ]
     },
-    "1428": {
+    "1543": {
       "op": "intc_0 // 0",
       "stack_out": [
         "meta#0",
@@ -16872,7 +19071,7 @@
         "0"
       ]
     },
-    "1429": {
+    "1544": {
       "callsub": "smart_contracts/superbox/types.algo.ts::au16",
       "op": "callsub au16",
       "defined_out": [
@@ -16896,7 +19095,7 @@
         "assigned_value%1#0"
       ]
     },
-    "1432": {
+    "1547": {
       "op": "dig 1",
       "defined_out": [
         "assigned_value%1#0",
@@ -16921,7 +19120,7 @@
         "tmp%9#0 (copy)"
       ]
     },
-    "1434": {
+    "1549": {
       "op": "intc_0 // 0",
       "stack_out": [
         "meta#0",
@@ -16936,7 +19135,7 @@
         "0"
       ]
     },
-    "1435": {
+    "1550": {
       "op": "extract_uint16",
       "defined_out": [
         "array_length%0#0",
@@ -16961,7 +19160,7 @@
         "array_length%0#0"
       ]
     },
-    "1436": {
+    "1551": {
       "op": "frame_dig -1",
       "stack_out": [
         "meta#0",
@@ -16976,7 +19175,7 @@
         "boxNum#0 (copy)"
       ]
     },
-    "1438": {
+    "1553": {
       "op": ">",
       "defined_out": [
         "assigned_value%1#0",
@@ -17001,7 +19200,7 @@
         "index_is_in_bounds%0#0"
       ]
     },
-    "1439": {
+    "1554": {
       "error": "Index access is out of bounds",
       "op": "assert // Index access is out of bounds",
       "stack_out": [
@@ -17015,7 +19214,7 @@
         "assigned_value%1#0"
       ]
     },
-    "1440": {
+    "1555": {
       "op": "uncover 5",
       "stack_out": [
         "meta#0",
@@ -17028,7 +19227,7 @@
         "item_offset%0#0"
       ]
     },
-    "1442": {
+    "1557": {
       "op": "intc_1 // 2",
       "stack_out": [
         "meta#0",
@@ -17042,7 +19241,7 @@
         "2"
       ]
     },
-    "1443": {
+    "1558": {
       "op": "+",
       "defined_out": [
         "assigned_value%1#0",
@@ -17065,7 +19264,7 @@
         "write_offset%0#1"
       ]
     },
-    "1444": {
+    "1559": {
       "op": "swap",
       "stack_out": [
         "meta#0",
@@ -17078,7 +19277,7 @@
         "assigned_value%1#0"
       ]
     },
-    "1445": {
+    "1560": {
       "op": "replace3",
       "defined_out": [
         "dataBox#0",
@@ -17097,7 +19296,7 @@
         "updated_target%0#0"
       ]
     },
-    "1446": {
+    "1561": {
       "op": "dig 3",
       "stack_out": [
         "meta#0",
@@ -17109,7 +19308,7 @@
         "metaValue#0 (copy)"
       ]
     },
-    "1448": {
+    "1563": {
       "op": "intc_0 // 0",
       "stack_out": [
         "meta#0",
@@ -17122,7 +19321,7 @@
         "0"
       ]
     },
-    "1449": {
+    "1564": {
       "op": "dig 4",
       "stack_out": [
         "meta#0",
@@ -17136,7 +19335,7 @@
         "item_start_offset%2#0 (copy)"
       ]
     },
-    "1451": {
+    "1566": {
       "op": "extract3",
       "defined_out": [
         "dataBox#0",
@@ -17157,7 +19356,7 @@
         "data_up_to_item%0#0"
       ]
     },
-    "1452": {
+    "1567": {
       "op": "dig 4",
       "stack_out": [
         "meta#0",
@@ -17170,7 +19369,7 @@
         "metaValue#0 (copy)"
       ]
     },
-    "1454": {
+    "1569": {
       "op": "len",
       "defined_out": [
         "dataBox#0",
@@ -17193,7 +19392,7 @@
         "total_data_length%0#0"
       ]
     },
-    "1455": {
+    "1570": {
       "op": "uncover 5",
       "stack_out": [
         "meta#0",
@@ -17206,7 +19405,7 @@
         "metaValue#0"
       ]
     },
-    "1457": {
+    "1572": {
       "op": "dig 4",
       "stack_out": [
         "meta#0",
@@ -17220,7 +19419,7 @@
         "item_end_offset%2#0 (copy)"
       ]
     },
-    "1459": {
+    "1574": {
       "op": "uncover 2",
       "stack_out": [
         "meta#0",
@@ -17234,7 +19433,7 @@
         "total_data_length%0#0"
       ]
     },
-    "1461": {
+    "1576": {
       "op": "substring3",
       "defined_out": [
         "dataBox#0",
@@ -17255,7 +19454,7 @@
         "data_beyond_item%0#0"
       ]
     },
-    "1462": {
+    "1577": {
       "op": "swap",
       "stack_out": [
         "meta#0",
@@ -17267,7 +19466,7 @@
         "data_up_to_item%0#0"
       ]
     },
-    "1463": {
+    "1578": {
       "op": "dig 2",
       "defined_out": [
         "dataBox#0",
@@ -17290,7 +19489,7 @@
         "updated_target%0#0 (copy)"
       ]
     },
-    "1465": {
+    "1580": {
       "op": "concat",
       "defined_out": [
         "dataBox#0",
@@ -17311,7 +19510,7 @@
         "updated_data%1#0"
       ]
     },
-    "1466": {
+    "1581": {
       "op": "swap",
       "stack_out": [
         "meta#0",
@@ -17323,7 +19522,7 @@
         "data_beyond_item%0#0"
       ]
     },
-    "1467": {
+    "1582": {
       "op": "concat",
       "defined_out": [
         "dataBox#0",
@@ -17342,7 +19541,7 @@
         "updated_data%2#0"
       ]
     },
-    "1468": {
+    "1583": {
       "op": "uncover 2",
       "stack_out": [
         "meta#0",
@@ -17353,7 +19552,7 @@
         "item_end_offset%2#0"
       ]
     },
-    "1470": {
+    "1585": {
       "op": "uncover 3",
       "stack_out": [
         "meta#0",
@@ -17364,7 +19563,7 @@
         "item_start_offset%2#0"
       ]
     },
-    "1472": {
+    "1587": {
       "op": "-",
       "defined_out": [
         "dataBox#0",
@@ -17381,7 +19580,7 @@
         "item_length%0#0"
       ]
     },
-    "1473": {
+    "1588": {
       "op": "uncover 2",
       "stack_out": [
         "meta#0",
@@ -17391,7 +19590,7 @@
         "updated_target%0#0"
       ]
     },
-    "1475": {
+    "1590": {
       "op": "len",
       "defined_out": [
         "dataBox#0",
@@ -17408,7 +19607,7 @@
         "new_value_length%0#0"
       ]
     },
-    "1476": {
+    "1591": {
       "op": "dig 2",
       "defined_out": [
         "dataBox#0",
@@ -17427,7 +19626,7 @@
         "updated_data%2#0 (copy)"
       ]
     },
-    "1478": {
+    "1593": {
       "op": "intc_3 // 26",
       "stack_out": [
         "meta#0",
@@ -17439,7 +19638,7 @@
         "26"
       ]
     },
-    "1479": {
+    "1594": {
       "op": "extract_uint16",
       "defined_out": [
         "dataBox#0",
@@ -17458,7 +19657,7 @@
         "tail_offset%0#0"
       ]
     },
-    "1480": {
+    "1595": {
       "op": "+",
       "defined_out": [
         "dataBox#0",
@@ -17475,7 +19674,7 @@
         "tail_offset%1#0"
       ]
     },
-    "1481": {
+    "1596": {
       "op": "swap",
       "stack_out": [
         "meta#0",
@@ -17485,7 +19684,7 @@
         "item_length%0#0"
       ]
     },
-    "1482": {
+    "1597": {
       "op": "-",
       "defined_out": [
         "dataBox#0",
@@ -17500,7 +19699,7 @@
         "tail_offset%2#0"
       ]
     },
-    "1483": {
+    "1598": {
       "op": "itob",
       "defined_out": [
         "as_bytes%0#0",
@@ -17515,7 +19714,7 @@
         "as_bytes%0#0"
       ]
     },
-    "1484": {
+    "1599": {
       "op": "extract 6 2",
       "defined_out": [
         "dataBox#0",
@@ -17530,7 +19729,7 @@
         "tail_offset_bytes%0#0"
       ]
     },
-    "1487": {
+    "1602": {
       "op": "replace2 26",
       "stack_out": [
         "meta#0",
@@ -17538,7 +19737,7 @@
         "metaValue#0"
       ]
     },
-    "1489": {
+    "1604": {
       "op": "dig 2",
       "stack_out": [
         "meta#0",
@@ -17547,7 +19746,7 @@
         "meta#0 (copy)"
       ]
     },
-    "1491": {
+    "1606": {
       "op": "box_del",
       "defined_out": [
         "dataBox#0",
@@ -17562,7 +19761,7 @@
         "{box_del}"
       ]
     },
-    "1492": {
+    "1607": {
       "op": "pop",
       "stack_out": [
         "meta#0",
@@ -17570,7 +19769,7 @@
         "metaValue#0"
       ]
     },
-    "1493": {
+    "1608": {
       "op": "uncover 2",
       "stack_out": [
         "dataBox#0",
@@ -17578,7 +19777,7 @@
         "meta#0"
       ]
     },
-    "1495": {
+    "1610": {
       "op": "dig 1",
       "stack_out": [
         "dataBox#0",
@@ -17587,41 +19786,41 @@
         "metaValue#0 (copy)"
       ]
     },
-    "1497": {
+    "1612": {
       "op": "box_put",
       "stack_out": [
         "dataBox#0",
         "metaValue#0"
       ]
     },
-    "1498": {
+    "1613": {
       "op": "swap",
       "stack_out": [
         "metaValue#0",
         "dataBox#0"
       ]
     },
-    "1499": {
+    "1614": {
       "op": "box_del",
       "stack_out": [
         "metaValue#0",
         "{box_del}"
       ]
     },
-    "1500": {
+    "1615": {
       "op": "pop",
       "stack_out": [
         "metaValue#0"
       ]
     },
-    "1501": {
+    "1616": {
       "op": "intc_1 // 2",
       "stack_out": [
         "metaValue#0",
         "2"
       ]
     },
-    "1502": {
+    "1617": {
       "op": "extract_uint64",
       "defined_out": [
         "tmp%11#0"
@@ -17630,11 +19829,11 @@
         "tmp%11#0"
       ]
     },
-    "1503": {
+    "1618": {
       "retsub": true,
       "op": "retsub"
     },
-    "1504": {
+    "1619": {
       "subroutine": "smart_contracts/superbox/contract.algo.ts::Superbox.superboxDeleteSuperbox",
       "params": {
         "name#0": "bytes"
@@ -17643,7 +19842,7 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "1507": {
+    "1622": {
       "op": "frame_dig -1",
       "defined_out": [
         "name#0 (copy)"
@@ -17652,7 +19851,7 @@
         "name#0 (copy)"
       ]
     },
-    "1509": {
+    "1624": {
       "op": "bytec_0 // \"_m\"",
       "defined_out": [
         "\"_m\"",
@@ -17663,7 +19862,7 @@
         "\"_m\""
       ]
     },
-    "1510": {
+    "1625": {
       "op": "concat",
       "defined_out": [
         "metaBox#0"
@@ -17672,7 +19871,7 @@
         "metaBox#0"
       ]
     },
-    "1511": {
+    "1626": {
       "op": "dup",
       "defined_out": [
         "metaBox#0",
@@ -17683,7 +19882,7 @@
         "metaBox#0 (copy)"
       ]
     },
-    "1512": {
+    "1627": {
       "op": "box_len",
       "defined_out": [
         "maybe_exists%0#0",
@@ -17696,28 +19895,28 @@
         "maybe_exists%0#0"
       ]
     },
-    "1513": {
+    "1628": {
       "op": "bury 1",
       "stack_out": [
         "metaBox#0",
         "maybe_exists%0#0"
       ]
     },
-    "1515": {
+    "1630": {
       "error": "ERR:NEXIST",
       "op": "assert // ERR:NEXIST",
       "stack_out": [
         "metaBox#0"
       ]
     },
-    "1516": {
+    "1631": {
       "op": "dup",
       "stack_out": [
         "metaBox#0",
         "metaBox#0 (copy)"
       ]
     },
-    "1517": {
+    "1632": {
       "op": "box_get",
       "defined_out": [
         "maybe_exists%1#0",
@@ -17730,7 +19929,7 @@
         "maybe_exists%1#0"
       ]
     },
-    "1518": {
+    "1633": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
@@ -17738,7 +19937,7 @@
         "maybe_value%1#0"
       ]
     },
-    "1519": {
+    "1634": {
       "op": "intc_1 // 2",
       "defined_out": [
         "2",
@@ -17751,7 +19950,7 @@
         "2"
       ]
     },
-    "1520": {
+    "1635": {
       "op": "extract_uint64",
       "defined_out": [
         "metaBox#0",
@@ -17762,7 +19961,7 @@
         "tmp%1#0"
       ]
     },
-    "1521": {
+    "1636": {
       "op": "!",
       "defined_out": [
         "metaBox#0",
@@ -17773,14 +19972,14 @@
         "tmp%2#0"
       ]
     },
-    "1522": {
+    "1637": {
       "error": "ERR:NEMPTY",
       "op": "assert // ERR:NEMPTY",
       "stack_out": [
         "metaBox#0"
       ]
     },
-    "1523": {
+    "1638": {
       "op": "box_del",
       "defined_out": [
         "{box_del}"
@@ -17789,15 +19988,15 @@
         "{box_del}"
       ]
     },
-    "1524": {
+    "1639": {
       "op": "pop",
       "stack_out": []
     },
-    "1525": {
+    "1640": {
       "retsub": true,
       "op": "retsub"
     },
-    "1526": {
+    "1641": {
       "subroutine": "smart_contracts/superbox/contract.algo.ts::Superbox.superboxGetMeta",
       "params": {
         "name#0": "bytes"
@@ -17806,7 +20005,7 @@
       "stack_in": [],
       "op": "proto 1 1"
     },
-    "1529": {
+    "1644": {
       "op": "frame_dig -1",
       "defined_out": [
         "name#0 (copy)"
@@ -17815,7 +20014,7 @@
         "name#0 (copy)"
       ]
     },
-    "1531": {
+    "1646": {
       "op": "bytec_0 // \"_m\"",
       "defined_out": [
         "\"_m\"",
@@ -17826,7 +20025,7 @@
         "\"_m\""
       ]
     },
-    "1532": {
+    "1647": {
       "op": "concat",
       "defined_out": [
         "tmp%0#1"
@@ -17835,7 +20034,7 @@
         "tmp%0#1"
       ]
     },
-    "1533": {
+    "1648": {
       "op": "box_get",
       "defined_out": [
         "maybe_exists%0#0",
@@ -17846,18 +20045,18 @@
         "maybe_exists%0#0"
       ]
     },
-    "1534": {
+    "1649": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
         "maybe_value%0#0"
       ]
     },
-    "1535": {
+    "1650": {
       "retsub": true,
       "op": "retsub"
     },
-    "1536": {
+    "1651": {
       "subroutine": "smart_contracts/superbox/contract.algo.ts::Superbox.superboxGetLocation",
       "params": {
         "name#0": "bytes",
@@ -17867,7 +20066,7 @@
       "stack_in": [],
       "op": "proto 2 2"
     },
-    "1539": {
+    "1654": {
       "op": "frame_dig -2",
       "defined_out": [
         "name#0 (copy)"
@@ -17876,7 +20075,7 @@
         "name#0 (copy)"
       ]
     },
-    "1541": {
+    "1656": {
       "op": "frame_dig -1",
       "defined_out": [
         "name#0 (copy)",
@@ -17887,7 +20086,7 @@
         "valueIndex#0 (copy)"
       ]
     },
-    "1543": {
+    "1658": {
       "callsub": "smart_contracts/superbox/superbox.algo.ts::sbGetLocation",
       "op": "callsub sbGetLocation",
       "defined_out": [
@@ -17899,11 +20098,11 @@
         "tmp%1#0"
       ]
     },
-    "1546": {
+    "1661": {
       "retsub": true,
       "op": "retsub"
     },
-    "1547": {
+    "1662": {
       "subroutine": "smart_contracts/superbox/contract.algo.ts::Superbox.superboxGetValue",
       "params": {
         "name#0": "bytes",
@@ -17913,7 +20112,7 @@
       "stack_in": [],
       "op": "proto 2 1"
     },
-    "1550": {
+    "1665": {
       "op": "frame_dig -2",
       "defined_out": [
         "name#0 (copy)"
@@ -17922,7 +20121,7 @@
         "name#0 (copy)"
       ]
     },
-    "1552": {
+    "1667": {
       "op": "frame_dig -1",
       "defined_out": [
         "name#0 (copy)",
@@ -17933,7 +20132,7 @@
         "valueIndex#0 (copy)"
       ]
     },
-    "1554": {
+    "1669": {
       "callsub": "smart_contracts/superbox/superbox.algo.ts::sbGetLocation",
       "op": "callsub sbGetLocation",
       "defined_out": [
@@ -17945,14 +20144,14 @@
         "byteOffset#0"
       ]
     },
-    "1557": {
+    "1672": {
       "op": "swap",
       "stack_out": [
         "byteOffset#0",
         "boxNum#0"
       ]
     },
-    "1558": {
+    "1673": {
       "callsub": "smart_contracts/superbox/util.algo.ts::itoa",
       "op": "callsub itoa",
       "defined_out": [
@@ -17964,7 +20163,7 @@
         "tmp%0#1"
       ]
     },
-    "1561": {
+    "1676": {
       "op": "frame_dig -2",
       "stack_out": [
         "byteOffset#0",
@@ -17972,7 +20171,7 @@
         "name#0 (copy)"
       ]
     },
-    "1563": {
+    "1678": {
       "op": "swap",
       "stack_out": [
         "byteOffset#0",
@@ -17980,7 +20179,7 @@
         "tmp%0#1"
       ]
     },
-    "1564": {
+    "1679": {
       "op": "concat",
       "defined_out": [
         "box#0",
@@ -17991,7 +20190,7 @@
         "box#0"
       ]
     },
-    "1565": {
+    "1680": {
       "op": "frame_dig -2",
       "stack_out": [
         "byteOffset#0",
@@ -17999,7 +20198,7 @@
         "name#0 (copy)"
       ]
     },
-    "1567": {
+    "1682": {
       "callsub": "smart_contracts/superbox/superalgo-utils.algo.ts::sbMetaBoxValue",
       "op": "callsub sbMetaBoxValue",
       "stack_out": [
@@ -18008,7 +20207,7 @@
         "tmp%0#1"
       ]
     },
-    "1570": {
+    "1685": {
       "op": "pushint 18 // 18",
       "defined_out": [
         "18",
@@ -18023,7 +20222,7 @@
         "18"
       ]
     },
-    "1572": {
+    "1687": {
       "op": "extract_uint64",
       "defined_out": [
         "box#0",
@@ -18036,7 +20235,7 @@
         "valueSize#0"
       ]
     },
-    "1573": {
+    "1688": {
       "op": "swap",
       "stack_out": [
         "byteOffset#0",
@@ -18044,7 +20243,7 @@
         "box#0"
       ]
     },
-    "1574": {
+    "1689": {
       "op": "box_get",
       "defined_out": [
         "byteOffset#0",
@@ -18059,7 +20258,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "1575": {
+    "1690": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
@@ -18068,7 +20267,7 @@
         "maybe_value%0#0"
       ]
     },
-    "1576": {
+    "1691": {
       "op": "dup",
       "defined_out": [
         "byteOffset#0",
@@ -18083,7 +20282,7 @@
         "maybe_value%0#0 (copy)"
       ]
     },
-    "1577": {
+    "1692": {
       "op": "len",
       "defined_out": [
         "byteOffset#0",
@@ -18098,7 +20297,7 @@
         "length%0#0"
       ]
     },
-    "1578": {
+    "1693": {
       "op": "dig 3",
       "defined_out": [
         "byteOffset#0",
@@ -18115,7 +20314,7 @@
         "byteOffset#0 (copy)"
       ]
     },
-    "1580": {
+    "1695": {
       "op": "dig 1",
       "defined_out": [
         "byteOffset#0",
@@ -18134,7 +20333,7 @@
         "length%0#0 (copy)"
       ]
     },
-    "1582": {
+    "1697": {
       "op": ">=",
       "defined_out": [
         "byteOffset#0",
@@ -18151,7 +20350,7 @@
         "is_out_of_bounds%0#0"
       ]
     },
-    "1583": {
+    "1698": {
       "op": "dig 4",
       "stack_out": [
         "byteOffset#0",
@@ -18162,7 +20361,7 @@
         "byteOffset#0 (copy)"
       ]
     },
-    "1585": {
+    "1700": {
       "op": "dig 2",
       "stack_out": [
         "byteOffset#0",
@@ -18174,7 +20373,7 @@
         "length%0#0 (copy)"
       ]
     },
-    "1587": {
+    "1702": {
       "op": "uncover 2",
       "stack_out": [
         "byteOffset#0",
@@ -18186,7 +20385,7 @@
         "is_out_of_bounds%0#0"
       ]
     },
-    "1589": {
+    "1704": {
       "op": "select",
       "defined_out": [
         "bounded_index%0#0",
@@ -18203,7 +20402,7 @@
         "bounded_index%0#0"
       ]
     },
-    "1590": {
+    "1705": {
       "op": "uncover 4",
       "stack_out": [
         "valueSize#0",
@@ -18213,7 +20412,7 @@
         "byteOffset#0"
       ]
     },
-    "1592": {
+    "1707": {
       "op": "uncover 4",
       "stack_out": [
         "maybe_value%0#0",
@@ -18223,7 +20422,7 @@
         "valueSize#0"
       ]
     },
-    "1594": {
+    "1709": {
       "op": "+",
       "defined_out": [
         "bounded_index%0#0",
@@ -18238,7 +20437,7 @@
         "tmp%2#0"
       ]
     },
-    "1595": {
+    "1710": {
       "op": "dup",
       "defined_out": [
         "bounded_index%0#0",
@@ -18255,7 +20454,7 @@
         "tmp%2#0 (copy)"
       ]
     },
-    "1596": {
+    "1711": {
       "op": "dig 3",
       "stack_out": [
         "maybe_value%0#0",
@@ -18266,7 +20465,7 @@
         "length%0#0 (copy)"
       ]
     },
-    "1598": {
+    "1713": {
       "op": ">=",
       "defined_out": [
         "bounded_index%0#0",
@@ -18283,7 +20482,7 @@
         "is_out_of_bounds%1#0"
       ]
     },
-    "1599": {
+    "1714": {
       "op": "swap",
       "stack_out": [
         "maybe_value%0#0",
@@ -18293,7 +20492,7 @@
         "tmp%2#0"
       ]
     },
-    "1600": {
+    "1715": {
       "op": "uncover 3",
       "stack_out": [
         "maybe_value%0#0",
@@ -18303,7 +20502,7 @@
         "length%0#0"
       ]
     },
-    "1602": {
+    "1717": {
       "op": "uncover 2",
       "stack_out": [
         "maybe_value%0#0",
@@ -18313,7 +20512,7 @@
         "is_out_of_bounds%1#0"
       ]
     },
-    "1604": {
+    "1719": {
       "op": "select",
       "defined_out": [
         "bounded_index%0#0",
@@ -18326,7 +20525,7 @@
         "bounded_index%1#0"
       ]
     },
-    "1605": {
+    "1720": {
       "op": "dup",
       "defined_out": [
         "bounded_index%0#0",
@@ -18341,7 +20540,7 @@
         "bounded_index%1#0 (copy)"
       ]
     },
-    "1606": {
+    "1721": {
       "op": "dig 2",
       "defined_out": [
         "bounded_index%0#0",
@@ -18358,7 +20557,7 @@
         "bounded_index%0#0 (copy)"
       ]
     },
-    "1608": {
+    "1723": {
       "op": "<",
       "defined_out": [
         "bounded_index%0#0",
@@ -18373,10 +20572,10 @@
         "end_before_start%0#0"
       ]
     },
-    "1609": {
+    "1724": {
       "op": "dig 2"
     },
-    "1611": {
+    "1726": {
       "op": "swap",
       "stack_out": [
         "maybe_value%0#0",
@@ -18386,7 +20585,7 @@
         "end_before_start%0#0"
       ]
     },
-    "1612": {
+    "1727": {
       "op": "select",
       "defined_out": [
         "bounded_index%0#0",
@@ -18399,7 +20598,7 @@
         "end%0#0"
       ]
     },
-    "1613": {
+    "1728": {
       "op": "substring3",
       "defined_out": [
         "tmp%3#0"
@@ -18408,7 +20607,7 @@
         "tmp%3#0"
       ]
     },
-    "1614": {
+    "1729": {
       "retsub": true,
       "op": "retsub"
     }
