@@ -128,7 +128,6 @@ export function sbDeleteIndex(name: string, valueIndex: uint64): uint64 {
     dataBox.delete()
     // adjust metadata
     meta.value.boxByteLengths[boxNum] = au16(0)
-    err('What does this do?')
   } else {
     // splice value out of data box. Leaves empty bytes of size valueSize at end of box
     dataBox.splice(byteOffset, valueSize, Bytes``)
