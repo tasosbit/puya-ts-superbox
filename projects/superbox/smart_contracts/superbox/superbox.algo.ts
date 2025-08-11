@@ -1,5 +1,5 @@
-import { assert, BoxRef, Bytes, bytes, err, uint64 } from '@algorandfoundation/algorand-typescript'
-import { DynamicArray, Str, UintN16 } from '@algorandfoundation/algorand-typescript/arc4'
+import { assert, BoxRef, Bytes, bytes, clone, err, uint64 } from '@algorandfoundation/algorand-typescript'
+import { DynamicArray, Str, Uint16 } from '@algorandfoundation/algorand-typescript/arc4'
 import { sbDataBoxRef, sbMetaBox, sbMetaBoxValue } from './superalgo-utils.algo'
 import { au16, au64, BoxNum, ByteOffset, SuperboxMeta } from './types.algo'
 
@@ -14,13 +14,13 @@ export function sbCreate(name: string, maxBoxSize: uint64, valueSize: uint64, va
   const meta = new SuperboxMeta({
     totalByteLength: au64(0),
     maxBoxSize: au64(maxBoxSize),
-    boxByteLengths: new DynamicArray<UintN16>(),
+    boxByteLengths: new DynamicArray<Uint16>(),
     valueSize: au64(valueSize),
     valueSchema: new Str(valueSchema),
   })
   const metaBox = sbMetaBox(name)
   assert(!metaBox.exists, 'ERR:SBEXISTS')
-  metaBox.value = meta.copy()
+  metaBox.value = clone(meta)
 }
 
 /**
@@ -60,7 +60,7 @@ export function sbAppend(name: string, data: bytes): uint64 {
 
   const metaBox = sbMetaBox(name)
   metaBox.delete()
-  metaBox.value = meta.copy()
+  metaBox.value = clone(meta)
 
   return meta.totalByteLength.native
 }
@@ -152,7 +152,7 @@ export function sbDeleteIndex(name: string, valueIndex: uint64): uint64 {
  */
 export function sbDeleteBox(name: string, boxNum: uint64): uint64 {
   const meta = sbMetaBox(name)
-  const metaValue = meta.value.copy()
+  const metaValue = clone(meta.value)
   const dataBox = sbDataBoxRef(name, boxNum)
 
   assert(boxNum < metaValue.boxByteLengths.length, 'ERR:OOB')
@@ -161,7 +161,7 @@ export function sbDeleteBox(name: string, boxNum: uint64): uint64 {
   // adjust metadata
   metaValue.totalByteLength = au64(metaValue.totalByteLength.native - metaValue.boxByteLengths[boxNum].native)
   metaValue.boxByteLengths[boxNum] = au16(0)
-  meta.value = metaValue.copy()
+  meta.value = clone(metaValue)
 
   // delete box
   dataBox.delete()

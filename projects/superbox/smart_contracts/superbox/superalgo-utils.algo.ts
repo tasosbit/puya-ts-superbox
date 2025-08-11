@@ -1,7 +1,6 @@
 import { assert, Box, BoxMap, BoxRef, Bytes, uint64 } from '@algorandfoundation/algorand-typescript'
 import { SuperboxMeta } from './types.algo'
 import { itoa } from './util.algo'
-import { DynamicArray, UintN16 } from '@algorandfoundation/algorand-typescript/arc4'
 
 /**
  * Get data box key

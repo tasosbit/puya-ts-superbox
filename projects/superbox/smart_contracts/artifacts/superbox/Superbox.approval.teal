@@ -3,7 +3,7 @@
 
 // @algorandfoundation/algorand-typescript/arc4/index.d.ts::Contract.approvalProgram() -> uint64:
 main:
-    intcblock 0 2 1 26
+    intcblock 0 2 1 8
     bytecblock "_m" 0x151f7c75 "" "0123456789"
     // smart_contracts/superbox/contract.algo.ts:7
     // export class Superbox extends Contract {
@@ -77,11 +77,6 @@ main_superboxGetLocation_route@9:
     // smart_contracts/superbox/contract.algo.ts:33
     // @abimethod({ readonly: true })
     callsub superboxGetLocation
-    swap
-    itob
-    swap
-    itob
-    concat
     bytec_1 // 0x151f7c75
     swap
     concat
@@ -255,11 +250,9 @@ itoa:
     // if (i < radix) {
     <
     bz itoa_after_if_else@2
-    // smart_contracts/superbox/util.algo.ts:4
-    // const digits = Bytes`0123456789`
-    bytec_3 // "0123456789"
     // smart_contracts/superbox/util.algo.ts:7
     // return digits.at(i).toString()
+    bytec_3 // "0123456789"
     frame_dig -1
     intc_2 // 1
     extract3
@@ -283,11 +276,7 @@ itoa_after_if_else@2:
     // smart_contracts/superbox/util.algo.ts:9
     // return itoa(i / radix).concat(digits.at(i % radix).toString())
     %
-    // smart_contracts/superbox/util.algo.ts:4
-    // const digits = Bytes`0123456789`
     bytec_3 // "0123456789"
-    // smart_contracts/superbox/util.algo.ts:9
-    // return itoa(i / radix).concat(digits.at(i % radix).toString())
     swap
     intc_2 // 1
     extract3
@@ -301,7 +290,7 @@ au16:
     // export function au16(num: uint64) {
     proto 1 1
     // smart_contracts/superbox/types.algo.ts:31
-    // return new UintN16(num)
+    // return new Uint16(num)
     frame_dig -1
     itob
     dup
@@ -315,32 +304,32 @@ au16:
 
 // smart_contracts/superbox/superalgo-utils.algo.ts::sbMetaBoxValue(name: bytes) -> bytes:
 sbMetaBoxValue:
-    // smart_contracts/superbox/superalgo-utils.algo.ts:41
+    // smart_contracts/superbox/superalgo-utils.algo.ts:40
     // export function sbMetaBoxValue(name: string): SuperboxMeta {
     proto 1 1
-    // smart_contracts/superbox/superalgo-utils.algo.ts:33
+    // smart_contracts/superbox/superalgo-utils.algo.ts:32
     // return metaBoxMap(name + '_m')
     frame_dig -1
     bytec_0 // "_m"
     concat
-    // smart_contracts/superbox/superalgo-utils.algo.ts:43
+    // smart_contracts/superbox/superalgo-utils.algo.ts:42
     // assert(metaBox.exists, 'ERR:SBNEXIST')
     dup
     box_len
     bury 1
     assert // ERR:SBNEXIST
-    // smart_contracts/superbox/superalgo-utils.algo.ts:44
+    // smart_contracts/superbox/superalgo-utils.algo.ts:43
     // return metaBox.value
     box_get
-    assert // Box must have value
+    pop
     retsub
 
 
-// smart_contracts/superbox/superbox.algo.ts::sbGetLocation(name: bytes, valueIndex: uint64) -> uint64, uint64:
+// smart_contracts/superbox/superbox.algo.ts::sbGetLocation(name: bytes, valueIndex: uint64) -> bytes:
 sbGetLocation:
     // smart_contracts/superbox/superbox.algo.ts:194
     // export function sbGetLocation(name: string, valueIndex: uint64): [BoxNum, ByteOffset] {
-    proto 2 2
+    proto 2 1
     bytec_2 // ""
     // smart_contracts/superbox/superbox.algo.ts:195
     // const meta = sbMetaBoxValue(name)
@@ -357,7 +346,7 @@ sbGetLocation:
     intc_0 // 0
     extract_uint16
     dig 2
-    intc_3 // 26
+    pushint 26 // 26
     extract_uint16
     dig 3
     cover 2
@@ -420,8 +409,11 @@ sbGetLocation_while_top@1:
     frame_dig 4
     -
     frame_dig 5
+    itob
+    swap
+    itob
+    concat
     frame_bury 0
-    frame_bury 1
     retsub
 
 sbGetLocation_else_body@4:
@@ -446,7 +438,7 @@ superboxCreate:
     // public superboxCreate(name: string, maxBoxSize: uint64, valueSize: uint64, valueSchema: string) {
     proto 4 0
     // smart_contracts/superbox/types.algo.ts:35
-    // return new UintN64(num)
+    // return new Uint64(num)
     frame_dig -3
     itob
     frame_dig -2
@@ -463,7 +455,7 @@ superboxCreate:
     // const meta = new SuperboxMeta({
     //   totalByteLength: au64(0),
     //   maxBoxSize: au64(maxBoxSize),
-    //   boxByteLengths: new DynamicArray<UintN16>(),
+    //   boxByteLengths: new DynamicArray<Uint16>(),
     //   valueSize: au64(valueSize),
     //   valueSchema: new Str(valueSchema),
     // })
@@ -472,23 +464,11 @@ superboxCreate:
     concat
     uncover 2
     concat
-    pushbytes 0x001e
-    concat
-    // smart_contracts/superbox/superbox.algo.ts:17
-    // boxByteLengths: new DynamicArray<UintN16>(),
-    pushbytes 0x0000
-    // smart_contracts/superbox/superbox.algo.ts:14-20
-    // const meta = new SuperboxMeta({
-    //   totalByteLength: au64(0),
-    //   maxBoxSize: au64(maxBoxSize),
-    //   boxByteLengths: new DynamicArray<UintN16>(),
-    //   valueSize: au64(valueSize),
-    //   valueSchema: new Str(valueSchema),
-    // })
+    pushbytes 0x001e0000
     concat
     swap
     concat
-    // smart_contracts/superbox/superalgo-utils.algo.ts:33
+    // smart_contracts/superbox/superalgo-utils.algo.ts:32
     // return metaBoxMap(name + '_m')
     frame_dig -4
     bytec_0 // "_m"
@@ -501,7 +481,7 @@ superboxCreate:
     !
     assert // ERR:SBEXISTS
     // smart_contracts/superbox/superbox.algo.ts:23
-    // metaBox.value = meta.copy()
+    // metaBox.value = clone(meta)
     dup
     box_del
     pop
@@ -552,7 +532,7 @@ superboxAppend:
     intc_0 // 0
     extract_uint16
     dig 1
-    intc_3 // 26
+    pushint 26 // 26
     extract_uint16
     substring3
     intc_0 // 0
@@ -560,18 +540,18 @@ superboxAppend:
     dup
     bnz superboxAppend_ternary_false@3
     intc_0 // 0
-    frame_bury 6
+    frame_bury 8
 
 superboxAppend_ternary_merge@4:
     // smart_contracts/superbox/superbox.algo.ts:42
     // let dataWritten: uint64 = 0
     intc_0 // 0
-    frame_bury 7
+    frame_bury 9
 
 superboxAppend_while_top@5:
     // smart_contracts/superbox/superbox.algo.ts:44
     // while (dataWritten < data.length) {
-    frame_dig 7
+    frame_dig 9
     frame_dig 15
     <
     // smart_contracts/superbox/superbox.algo.ts:44-58
@@ -591,9 +571,9 @@ superboxAppend_while_top@5:
     //   currentBoxNum++
     // }
     bz superboxAppend_after_while@21
-    // smart_contracts/superbox/superalgo-utils.algo.ts:13
+    // smart_contracts/superbox/superalgo-utils.algo.ts:12
     // return Bytes(name).concat(Bytes(itoa(num)))
-    frame_dig 6
+    frame_dig 8
     callsub itoa
     frame_dig -2
     swap
@@ -602,7 +582,7 @@ superboxAppend_while_top@5:
     frame_bury 1
     // smart_contracts/superbox/superbox.algo.ts:46
     // const chunkWritten = appendBox(dataBox, data.slice(dataWritten, dataWritten + maxBoxSize), maxBoxSize, valueSize)
-    frame_dig 7
+    frame_dig 9
     dup
     frame_dig 15
     dup
@@ -646,14 +626,14 @@ superboxAppend_while_top@5:
     swap
     -
     dup
-    frame_bury 2
+    frame_bury 4
     // smart_contracts/superbox/superbox.algo.ts:81
     // if (capacity < valueSize) return 0
     frame_dig 14
     <
     bz superboxAppend_after_if_else@9
     intc_0 // 0
-    frame_bury 5
+    frame_bury 7
 
 superboxAppend_after_inlined_smart_contracts/superbox/superbox.algo.ts::appendBox@17:
     // smart_contracts/superbox/superbox.algo.ts:48
@@ -663,12 +643,13 @@ superboxAppend_after_inlined_smart_contracts/superbox/superbox.algo.ts::appendBo
     intc_0 // 0
     extract_uint16
     dup
-    uncover 2
+    cover 2
+    frame_bury 3
     dup
-    intc_3 // 26
+    pushint 26 // 26
     extract_uint16
     dup
-    frame_bury 8
+    cover 3
     swap
     cover 2
     substring3
@@ -677,51 +658,50 @@ superboxAppend_after_inlined_smart_contracts/superbox/superbox.algo.ts::appendBo
     intc_0 // 0
     extract_uint16
     dup
-    frame_bury 11
-    frame_dig 6
+    frame_bury 2
+    frame_dig 8
     ==
     bz superboxAppend_else_body@19
     // smart_contracts/superbox/superbox.algo.ts:50
     // meta.boxByteLengths.push(au16(chunkWritten))
-    swap
-    extract 2 0
-    frame_dig 5
+    frame_dig 7
     callsub au16
-    concat
-    dup
-    len
-    intc_1 // 2
-    /
+    uncover 2
+    swap
+    concat // on error: max array length exceeded
+    frame_dig 2
+    intc_2 // 1
+    +
     itob
     extract 6 2
-    swap
-    concat
+    replace2 0
     frame_dig 12
     dup
+    cover 2
     intc_0 // 0
-    dig 4
+    frame_dig 3
+    dup
+    cover 5
     extract3
     dig 1
+    concat
+    dig 2
     len
-    uncover 2
-    frame_dig 8
+    uncover 3
+    uncover 5
     dup
-    cover 4
+    cover 3
     uncover 2
     substring3
-    swap
-    dig 3
-    concat
-    swap
-    concat
-    swap
-    uncover 3
-    -
     uncover 2
+    swap
+    concat
+    dig 1
+    uncover 4
+    -
+    uncover 3
     len
-    dig 2
-    intc_3 // 26
-    extract_uint16
+    uncover 3
     +
     swap
     -
@@ -733,16 +713,16 @@ superboxAppend_after_inlined_smart_contracts/superbox/superbox.algo.ts::appendBo
 superboxAppend_after_if_else@20:
     // smart_contracts/superbox/superbox.algo.ts:56
     // dataWritten += chunkWritten
+    frame_dig 9
     frame_dig 7
-    frame_dig 5
     +
-    frame_bury 7
+    frame_bury 9
     // smart_contracts/superbox/superbox.algo.ts:57
     // currentBoxNum++
-    frame_dig 6
+    frame_dig 8
     intc_2 // 1
     +
-    frame_bury 6
+    frame_bury 8
     b superboxAppend_while_top@5
 
 superboxAppend_else_body@19:
@@ -751,21 +731,15 @@ superboxAppend_else_body@19:
     swap
     dup
     extract 2 0
-    frame_dig 6
-    dup
-    cover 2
+    frame_dig 8
     intc_1 // 2
     *
     swap
     dig 1
     extract_uint16
-    frame_dig 5
+    frame_dig 7
     +
     callsub au16
-    uncover 2
-    frame_dig 11
-    <
-    assert // Index access is out of bounds
     swap
     intc_1 // 2
     +
@@ -773,30 +747,31 @@ superboxAppend_else_body@19:
     replace3
     frame_dig 12
     dup
+    cover 2
     intc_0 // 0
-    dig 4
+    frame_dig 3
+    dup
+    cover 5
     extract3
     dig 1
+    concat
+    dig 2
     len
-    uncover 2
-    frame_dig 8
+    uncover 3
+    uncover 5
     dup
-    cover 4
+    cover 3
     uncover 2
     substring3
-    swap
-    dig 3
-    concat
-    swap
-    concat
-    swap
-    uncover 3
-    -
     uncover 2
+    swap
+    concat
+    dig 1
+    uncover 4
+    -
+    uncover 3
     len
-    dig 2
-    intc_3 // 26
-    extract_uint16
+    uncover 3
     +
     swap
     -
@@ -809,26 +784,26 @@ superboxAppend_else_body@19:
 superboxAppend_after_if_else@9:
     // smart_contracts/superbox/superbox.algo.ts:83
     // if (capacity % valueSize !== 0) {
-    frame_dig 2
+    frame_dig 4
     dup
     frame_dig 14
     %
     dup
-    frame_bury 9
+    frame_bury 11
     swap
-    frame_bury 3
+    frame_bury 5
     bz superboxAppend_after_if_else@11
     // smart_contracts/superbox/superbox.algo.ts:84
     // capacity -= capacity % valueSize
-    frame_dig 2
-    frame_dig 9
+    frame_dig 4
+    frame_dig 11
     -
-    frame_bury 3
+    frame_bury 5
 
 superboxAppend_after_if_else@11:
-    frame_dig 3
+    frame_dig 5
     dup
-    frame_bury 2
+    frame_bury 4
     // smart_contracts/superbox/superbox.algo.ts:86
     // if (data.length > capacity) {
     frame_dig 0
@@ -845,10 +820,8 @@ superboxAppend_after_if_else@11:
     assert // Box must have value
     // smart_contracts/superbox/superbox.algo.ts:89
     // box.resize(box.length + capacity)
-    dig 1
-    box_len
-    assert // Box must have value
-    frame_dig 2
+    dup
+    frame_dig 4
     dup
     cover 3
     +
@@ -879,7 +852,7 @@ superboxAppend_after_if_else@11:
     uncover 3
     cover 2
     box_replace
-    frame_bury 5
+    frame_bury 7
     // smart_contracts/superbox/superbox.algo.ts:46
     // const chunkWritten = appendBox(dataBox, data.slice(dataWritten, dataWritten + maxBoxSize), maxBoxSize, valueSize)
     b superboxAppend_after_inlined_smart_contracts/superbox/superbox.algo.ts::appendBox@17
@@ -893,23 +866,17 @@ superboxAppend_else_body@13:
     assert // Box must have value
     // smart_contracts/superbox/superbox.algo.ts:95
     // box.resize(box.length + data.length)
-    dig 1
-    box_len
-    assert // Box must have value
-    uncover 3
     dup
-    cover 3
-    +
     dig 3
+    +
+    dig 2
     swap
     box_resize
     // smart_contracts/superbox/superbox.algo.ts:96
     // box.replace(originalBoxLength, data)
-    uncover 2
-    swap
     frame_dig 0
     box_replace
-    frame_bury 5
+    frame_bury 7
     // smart_contracts/superbox/superbox.algo.ts:46
     // const chunkWritten = appendBox(dataBox, data.slice(dataWritten, dataWritten + maxBoxSize), maxBoxSize, valueSize)
     b superboxAppend_after_inlined_smart_contracts/superbox/superbox.algo.ts::appendBox@17
@@ -924,14 +891,14 @@ superboxAppend_else_body@14:
     dup
     frame_bury 10
     swap
-    frame_bury 4
+    frame_bury 6
     bz superboxAppend_after_if_else@16
     // smart_contracts/superbox/superbox.algo.ts:104
     // capacity -= capacity % valueSize
     frame_dig 13
     frame_dig 10
     -
-    frame_bury 4
+    frame_bury 6
 
 superboxAppend_after_if_else@16:
     // smart_contracts/superbox/superbox.algo.ts:106
@@ -946,7 +913,7 @@ superboxAppend_after_if_else@16:
     dig 2
     uncover 2
     select
-    frame_dig 4
+    frame_dig 6
     dup
     dig 3
     >=
@@ -966,7 +933,7 @@ superboxAppend_after_if_else@16:
     // smart_contracts/superbox/superbox.algo.ts:108
     // return dataToWrite.length
     len
-    frame_bury 5
+    frame_bury 7
     // smart_contracts/superbox/superbox.algo.ts:46
     // const chunkWritten = appendBox(dataBox, data.slice(dataWritten, dataWritten + maxBoxSize), maxBoxSize, valueSize)
     b superboxAppend_after_inlined_smart_contracts/superbox/superbox.algo.ts::appendBox@17
@@ -978,15 +945,15 @@ superboxAppend_after_while@21:
     dup
     intc_1 // 2
     extract_uint64
-    frame_dig 7
+    frame_dig 9
     +
     // smart_contracts/superbox/types.algo.ts:35
-    // return new UintN64(num)
+    // return new Uint64(num)
     itob
     // smart_contracts/superbox/superbox.algo.ts:59
     // meta.totalByteLength = au64(meta.totalByteLength.native + dataWritten)
     replace2 2
-    // smart_contracts/superbox/superalgo-utils.algo.ts:33
+    // smart_contracts/superbox/superalgo-utils.algo.ts:32
     // return metaBoxMap(name + '_m')
     frame_dig -2
     bytec_0 // "_m"
@@ -997,7 +964,7 @@ superboxAppend_after_while@21:
     box_del
     pop
     // smart_contracts/superbox/superbox.algo.ts:63
-    // metaBox.value = meta.copy()
+    // metaBox.value = clone(meta)
     dup
     box_del
     pop
@@ -1018,7 +985,7 @@ superboxAppend_ternary_false@3:
     frame_dig 16
     intc_2 // 1
     -
-    frame_bury 6
+    frame_bury 8
     b superboxAppend_ternary_merge@4
 
 
@@ -1027,7 +994,7 @@ superboxDeleteIndex:
     // smart_contracts/superbox/contract.algo.ts:16
     // public superboxDeleteIndex(name: string, valueIndex: uint64): uint64 {
     proto 2 1
-    // smart_contracts/superbox/superalgo-utils.algo.ts:33
+    // smart_contracts/superbox/superalgo-utils.algo.ts:32
     // return metaBoxMap(name + '_m')
     frame_dig -2
     bytec_0 // "_m"
@@ -1038,10 +1005,16 @@ superboxDeleteIndex:
     frame_dig -2
     frame_dig -1
     callsub sbGetLocation
-    cover 3
     dup
+    intc_0 // 0
+    extract_uint64
+    dup
+    cover 2
+    cover 4
+    intc_3 // 8
+    extract_uint64
     cover 3
-    // smart_contracts/superbox/superalgo-utils.algo.ts:13
+    // smart_contracts/superbox/superalgo-utils.algo.ts:12
     // return Bytes(name).concat(Bytes(itoa(num)))
     dup
     callsub itoa
@@ -1052,32 +1025,32 @@ superboxDeleteIndex:
     // smart_contracts/superbox/superbox.algo.ts:123
     // const valueSize = meta.value.valueSize.native
     dig 1
-    box_get
-    assert // Box must have value
     pushint 18 // 18
-    extract_uint64
+    intc_3 // 8
+    box_extract
+    btoi
     dup
-    cover 2
+    cover 3
     cover 5
     // smart_contracts/superbox/superbox.algo.ts:124
     // const prevBoxByteLength = meta.value.boxByteLengths[boxNum].native
-    uncover 2
-    box_get
-    assert // Box must have value
-    dup
-    intc_0 // 0
-    extract_uint16
     dig 1
-    intc_3 // 26
-    extract_uint16
-    substring3
-    extract 2 0
-    swap
+    pushint 28 // 28
+    intc_1 // 2
+    box_extract
+    btoi
+    dig 1
+    >
+    assert // index out of bounds
     intc_1 // 2
     *
+    pushint 30 // 30
+    +
     dup
     cover 5
-    extract_uint16
+    intc_1 // 2
+    box_extract
+    btoi
     dup
     cover 4
     // smart_contracts/superbox/superbox.algo.ts:126
@@ -1091,65 +1064,20 @@ superboxDeleteIndex:
     pop
     // smart_contracts/superbox/superbox.algo.ts:130
     // meta.value.boxByteLengths[boxNum] = au16(0)
-    dup
-    box_get
-    assert // Box must have value
-    dup
-    intc_0 // 0
-    extract_uint16
-    dig 1
-    intc_3 // 26
-    extract_uint16
-    dig 2
-    dig 2
-    dig 2
-    substring3
     intc_0 // 0
     callsub au16
-    dig 1
-    intc_0 // 0
-    extract_uint16
-    frame_dig 1
-    >
-    assert // Index access is out of bounds
-    frame_dig 3
+    swap
+    dup
+    pushint 28 // 28
     intc_1 // 2
-    +
-    swap
-    replace3
-    dig 3
-    intc_0 // 0
-    dig 4
-    extract3
-    dig 4
-    len
-    uncover 5
-    dig 4
+    box_extract
+    btoi
+    frame_dig 0
+    >
+    assert // index out of bounds
+    frame_dig 3
     uncover 2
-    substring3
-    swap
-    dig 2
-    concat
-    swap
-    concat
-    uncover 2
-    uncover 3
-    -
-    uncover 2
-    len
-    dig 2
-    intc_3 // 26
-    extract_uint16
-    +
-    swap
-    -
-    itob
-    extract 6 2
-    replace2 26
-    dig 1
-    box_del
-    pop
-    box_put
+    box_replace
     // smart_contracts/superbox/superbox.algo.ts:131
     // err('What does this do?')
     err // What does this do?
@@ -1159,7 +1087,7 @@ superboxDeleteIndex_else_body@3:
     // dataBox.splice(byteOffset, valueSize, Bytes``)
     swap
     dup
-    frame_dig 0
+    frame_dig 1
     frame_dig 2
     dup
     cover 3
@@ -1175,100 +1103,44 @@ superboxDeleteIndex_else_body@3:
     box_resize
     // smart_contracts/superbox/superbox.algo.ts:138
     // meta.value.boxByteLengths[boxNum] = au16(prevBoxByteLength - valueSize)
-    uncover 2
-    dup
-    cover 2
-    box_get
-    assert // Box must have value
-    dup
-    intc_0 // 0
-    extract_uint16
-    dig 1
-    intc_3 // 26
-    extract_uint16
-    dig 2
-    dig 2
-    dig 2
-    substring3
-    uncover 4
     callsub au16
-    dig 1
-    intc_0 // 0
-    extract_uint16
-    frame_dig 1
-    >
-    assert // Index access is out of bounds
-    frame_dig 3
+    uncover 2
+    dup
+    pushint 28 // 28
     intc_1 // 2
-    +
-    swap
-    replace3
-    dig 3
-    intc_0 // 0
-    dig 4
-    extract3
-    dig 4
-    len
-    uncover 5
-    dig 4
-    uncover 2
-    substring3
-    swap
-    dig 2
-    concat
-    swap
-    concat
-    uncover 2
+    box_extract
+    btoi
+    frame_dig 0
+    >
+    assert // index out of bounds
+    dup
+    frame_dig 3
     uncover 3
-    -
-    uncover 2
-    len
-    dig 2
-    intc_3 // 26
-    extract_uint16
-    +
-    swap
-    -
-    itob
-    extract 6 2
-    replace2 26
-    dig 1
-    box_del
-    pop
-    dig 1
-    swap
-    box_put
+    box_replace
     // smart_contracts/superbox/superbox.algo.ts:142
     // meta.value.totalByteLength = au64(meta.value.totalByteLength.native - valueSize)
     dup
-    box_get
-    assert // Box must have value
     intc_1 // 2
-    extract_uint64
+    intc_3 // 8
+    box_extract
+    btoi
     uncover 2
     -
-    dig 1
-    box_get
-    assert // Box must have value
     // smart_contracts/superbox/types.algo.ts:35
-    // return new UintN64(num)
-    swap
+    // return new Uint64(num)
     itob
     // smart_contracts/superbox/superbox.algo.ts:142
     // meta.value.totalByteLength = au64(meta.value.totalByteLength.native - valueSize)
-    replace2 2
     dig 1
-    box_del
-    pop
-    dig 1
-    swap
-    box_put
+    intc_1 // 2
+    uncover 2
+    box_replace
     // smart_contracts/superbox/superbox.algo.ts:144
     // return meta.value.totalByteLength.native
-    box_get
-    assert // Box must have value
     intc_1 // 2
-    extract_uint64
+    intc_3 // 8
+    box_extract
+    btoi
     // smart_contracts/superbox/contract.algo.ts:17
     // return sbDeleteIndex(name, valueIndex)
     frame_bury 0
@@ -1280,64 +1152,70 @@ superboxDeleteBox:
     // smart_contracts/superbox/contract.algo.ts:20
     // public superboxDeleteBox(name: string, boxNum: uint64): uint64 {
     proto 2 1
-    // smart_contracts/superbox/superalgo-utils.algo.ts:33
+    // smart_contracts/superbox/superalgo-utils.algo.ts:32
     // return metaBoxMap(name + '_m')
     frame_dig -2
     bytec_0 // "_m"
     concat
     // smart_contracts/superbox/superbox.algo.ts:155
-    // const metaValue = meta.value.copy()
+    // const metaValue = clone(meta.value)
     dup
     box_get
     assert // Box must have value
-    // smart_contracts/superbox/superalgo-utils.algo.ts:13
+    // smart_contracts/superbox/superalgo-utils.algo.ts:12
     // return Bytes(name).concat(Bytes(itoa(num)))
     frame_dig -1
     callsub itoa
     frame_dig -2
     swap
     concat
+    // smart_contracts/superbox/superbox.algo.ts:155
+    // const metaValue = clone(meta.value)
+    dig 2
+    pushint 28 // 28
+    intc_1 // 2
+    box_extract
+    btoi
     // smart_contracts/superbox/superbox.algo.ts:158
     // assert(boxNum < metaValue.boxByteLengths.length, 'ERR:OOB')
-    dig 1
-    intc_0 // 0
-    extract_uint16
-    dig 2
-    intc_3 // 26
-    extract_uint16
-    dig 3
-    cover 2
-    substring3
-    dup
-    intc_0 // 0
-    extract_uint16
     frame_dig -1
     >
     assert // ERR:OOB
     // smart_contracts/superbox/superbox.algo.ts:159
     // assert(dataBox.exists, 'ERR:DLTD')
-    dig 1
+    dup
     box_len
     bury 1
     assert // ERR:DLTD
-    // smart_contracts/superbox/superbox.algo.ts:162
-    // metaValue.totalByteLength = au64(metaValue.totalByteLength.native - metaValue.boxByteLengths[boxNum].native)
+    // smart_contracts/superbox/superbox.algo.ts:155
+    // const metaValue = clone(meta.value)
     dig 2
     intc_1 // 2
-    extract_uint64
-    swap
-    extract 2 0
+    intc_3 // 8
+    box_extract
+    // smart_contracts/superbox/superbox.algo.ts:162
+    // metaValue.totalByteLength = au64(metaValue.totalByteLength.native - metaValue.boxByteLengths[boxNum].native)
+    btoi
+    // smart_contracts/superbox/superbox.algo.ts:155
+    // const metaValue = clone(meta.value)
     frame_dig -1
     intc_1 // 2
     *
-    swap
+    pushint 30 // 30
     dig 1
-    extract_uint16
+    +
+    dig 5
+    swap
+    intc_1 // 2
+    box_extract
+    // smart_contracts/superbox/superbox.algo.ts:162
+    // metaValue.totalByteLength = au64(metaValue.totalByteLength.native - metaValue.boxByteLengths[boxNum].native)
+    btoi
     uncover 2
     swap
     -
     // smart_contracts/superbox/types.algo.ts:35
-    // return new UintN64(num)
+    // return new Uint64(num)
     itob
     // smart_contracts/superbox/superbox.algo.ts:162
     // metaValue.totalByteLength = au64(metaValue.totalByteLength.native - metaValue.boxByteLengths[boxNum].native)
@@ -1346,52 +1224,42 @@ superboxDeleteBox:
     replace2 2
     // smart_contracts/superbox/superbox.algo.ts:163
     // metaValue.boxByteLengths[boxNum] = au16(0)
-    dup
-    intc_0 // 0
-    extract_uint16
-    dig 1
-    intc_3 // 26
-    extract_uint16
-    dig 2
-    dig 2
-    dig 2
-    substring3
     intc_0 // 0
     callsub au16
     dig 1
     intc_0 // 0
     extract_uint16
-    frame_dig -1
-    >
-    assert // Index access is out of bounds
+    dig 2
+    pushint 26 // 26
+    extract_uint16
+    dig 3
+    dig 2
+    dig 2
+    substring3
     uncover 5
     intc_1 // 2
     +
-    swap
+    uncover 4
     replace3
     dig 3
     intc_0 // 0
     dig 4
     extract3
+    dig 1
+    concat
     dig 4
     len
     uncover 5
     dig 4
     uncover 2
     substring3
-    swap
+    concat
     dig 2
-    concat
-    swap
-    concat
-    uncover 2
-    uncover 3
+    uncover 4
     -
     uncover 2
     len
-    dig 2
-    intc_3 // 26
-    extract_uint16
+    uncover 3
     +
     swap
     -
@@ -1399,7 +1267,7 @@ superboxDeleteBox:
     extract 6 2
     replace2 26
     // smart_contracts/superbox/superbox.algo.ts:164
-    // meta.value = metaValue.copy()
+    // meta.value = clone(metaValue)
     dig 2
     box_del
     pop
@@ -1425,7 +1293,7 @@ superboxDeleteSuperbox:
     // smart_contracts/superbox/contract.algo.ts:24
     // public superboxDeleteSuperbox(name: string) {
     proto 1 0
-    // smart_contracts/superbox/superalgo-utils.algo.ts:33
+    // smart_contracts/superbox/superalgo-utils.algo.ts:32
     // return metaBoxMap(name + '_m')
     frame_dig -1
     bytec_0 // "_m"
@@ -1439,10 +1307,10 @@ superboxDeleteSuperbox:
     // smart_contracts/superbox/superbox.algo.ts:183
     // assert(metaBox.value.totalByteLength.native === 0, 'ERR:NEMPTY')
     dup
-    box_get
-    assert // Box must have value
     intc_1 // 2
-    extract_uint64
+    intc_3 // 8
+    box_extract
+    btoi
     !
     assert // ERR:NEMPTY
     // smart_contracts/superbox/superbox.algo.ts:185
@@ -1458,7 +1326,7 @@ superboxGetMeta:
     // @abimethod({ readonly: true })
     // public superboxGetMeta(name: string): SuperboxMeta {
     proto 1 1
-    // smart_contracts/superbox/superalgo-utils.algo.ts:33
+    // smart_contracts/superbox/superalgo-utils.algo.ts:32
     // return metaBoxMap(name + '_m')
     frame_dig -1
     bytec_0 // "_m"
@@ -1470,12 +1338,12 @@ superboxGetMeta:
     retsub
 
 
-// smart_contracts/superbox/contract.algo.ts::Superbox.superboxGetLocation(name: bytes, valueIndex: uint64) -> uint64, uint64:
+// smart_contracts/superbox/contract.algo.ts::Superbox.superboxGetLocation(name: bytes, valueIndex: uint64) -> bytes:
 superboxGetLocation:
     // smart_contracts/superbox/contract.algo.ts:33-34
     // @abimethod({ readonly: true })
     // public superboxGetLocation(name: string, valueIndex: uint64): [BoxNum, ByteOffset] {
-    proto 2 2
+    proto 2 1
     // smart_contracts/superbox/contract.algo.ts:35
     // return sbGetLocation(name, valueIndex)
     frame_dig -2
@@ -1495,7 +1363,13 @@ superboxGetValue:
     frame_dig -2
     frame_dig -1
     callsub sbGetLocation
-    // smart_contracts/superbox/superalgo-utils.algo.ts:13
+    dup
+    intc_0 // 0
+    extract_uint64
+    swap
+    intc_3 // 8
+    extract_uint64
+    // smart_contracts/superbox/superalgo-utils.algo.ts:12
     // return Bytes(name).concat(Bytes(itoa(num)))
     swap
     callsub itoa
