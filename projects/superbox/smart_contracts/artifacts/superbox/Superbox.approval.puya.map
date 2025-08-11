@@ -7,7 +7,7 @@
     "/home/bit/code/superbox/projects/superbox/smart_contracts/superbox/types.algo.ts",
     "/home/bit/code/superbox/projects/superbox/smart_contracts/superbox/util.algo.ts"
   ],
-  "mappings": "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",
+  "mappings": "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",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -13805,15 +13805,15 @@
       ]
     },
     "1165": {
-      "op": "cover 4",
+      "op": "cover 3",
       "defined_out": [
         "awst_tmp%0#0",
         "boxNum#0",
         "meta#0"
       ],
       "stack_out": [
-        "boxNum#0",
         "meta#0",
+        "boxNum#0",
         "meta#0",
         "boxNum#0",
         "awst_tmp%0#0"
@@ -13828,8 +13828,8 @@
         "meta#0"
       ],
       "stack_out": [
-        "boxNum#0",
         "meta#0",
+        "boxNum#0",
         "meta#0",
         "boxNum#0",
         "awst_tmp%0#0",
@@ -13844,24 +13844,24 @@
         "meta#0"
       ],
       "stack_out": [
-        "boxNum#0",
         "meta#0",
+        "boxNum#0",
         "meta#0",
         "boxNum#0",
         "byteOffset#0"
       ]
     },
     "1169": {
-      "op": "cover 3",
+      "op": "cover 2",
       "defined_out": [
         "boxNum#0",
         "byteOffset#0",
         "meta#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
-        "meta#0",
         "meta#0",
         "boxNum#0"
       ]
@@ -13875,9 +13875,9 @@
         "meta#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
-        "meta#0",
         "meta#0",
         "boxNum#0",
         "boxNum#0 (copy)"
@@ -13893,9 +13893,9 @@
         "tmp%0#1"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
-        "meta#0",
         "meta#0",
         "boxNum#0",
         "tmp%0#1"
@@ -13904,9 +13904,9 @@
     "1175": {
       "op": "frame_dig -2",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
-        "meta#0",
         "meta#0",
         "boxNum#0",
         "tmp%0#1",
@@ -13916,9 +13916,9 @@
     "1177": {
       "op": "swap",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
-        "meta#0",
         "meta#0",
         "boxNum#0",
         "name#0 (copy)",
@@ -13934,16 +13934,16 @@
         "meta#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
-        "meta#0",
         "meta#0",
         "boxNum#0",
         "dataBox#0"
       ]
     },
     "1179": {
-      "op": "cover 3",
+      "op": "cover 2",
       "defined_out": [
         "boxNum#0",
         "byteOffset#0",
@@ -13951,10 +13951,10 @@
         "meta#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "dataBox#0",
-        "meta#0",
         "meta#0",
         "boxNum#0"
       ]
@@ -13969,10 +13969,10 @@
         "meta#0 (copy)"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "dataBox#0",
-        "meta#0",
         "meta#0",
         "boxNum#0",
         "meta#0 (copy)"
@@ -13989,10 +13989,10 @@
         "meta#0 (copy)"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "dataBox#0",
-        "meta#0",
         "meta#0",
         "boxNum#0",
         "meta#0 (copy)",
@@ -14002,10 +14002,10 @@
     "1185": {
       "op": "intc_3 // 8",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "dataBox#0",
-        "meta#0",
         "meta#0",
         "boxNum#0",
         "meta#0 (copy)",
@@ -14023,10 +14023,10 @@
         "meta#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "dataBox#0",
-        "meta#0",
         "meta#0",
         "boxNum#0",
         "box%box_extract%0#0"
@@ -14042,10 +14042,10 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "dataBox#0",
-        "meta#0",
         "meta#0",
         "boxNum#0",
         "valueSize#0"
@@ -14054,10 +14054,10 @@
     "1188": {
       "op": "dup",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "dataBox#0",
-        "meta#0",
         "meta#0",
         "boxNum#0",
         "valueSize#0",
@@ -14067,10 +14067,10 @@
     "1189": {
       "op": "cover 3",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "boxNum#0",
@@ -14078,7 +14078,7 @@
       ]
     },
     "1191": {
-      "op": "cover 5",
+      "op": "cover 4",
       "defined_out": [
         "boxNum#0",
         "byteOffset#0",
@@ -14087,11 +14087,11 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "boxNum#0"
@@ -14100,11 +14100,11 @@
     "1193": {
       "op": "dig 1",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "boxNum#0",
@@ -14123,11 +14123,11 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "boxNum#0",
@@ -14148,11 +14148,11 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "boxNum#0",
@@ -14172,11 +14172,11 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "boxNum#0",
@@ -14194,11 +14194,11 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "boxNum#0",
@@ -14208,11 +14208,11 @@
     "1200": {
       "op": "dig 1",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "boxNum#0",
@@ -14231,11 +14231,11 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "boxNum#0",
@@ -14246,11 +14246,11 @@
       "error": "index out of bounds",
       "op": "assert // index out of bounds",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "boxNum#0"
@@ -14259,11 +14259,11 @@
     "1204": {
       "op": "intc_1 // 2",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "boxNum#0",
@@ -14281,11 +14281,11 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "box%element_offset%0#0"
@@ -14303,11 +14303,11 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "box%element_offset%0#0",
@@ -14325,11 +14325,11 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "box%offset%2#0"
@@ -14338,11 +14338,11 @@
     "1209": {
       "op": "dup",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "box%offset%2#0",
@@ -14350,7 +14350,7 @@
       ]
     },
     "1210": {
-      "op": "cover 5",
+      "op": "cover 4",
       "defined_out": [
         "box%offset%2#0",
         "boxNum#0",
@@ -14360,12 +14360,12 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "box%offset%2#0"
@@ -14374,12 +14374,12 @@
     "1212": {
       "op": "intc_1 // 2",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "meta#0",
         "box%offset%2#0",
@@ -14398,12 +14398,12 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "box%box_extract%2#0"
       ]
@@ -14420,12 +14420,12 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "prevBoxByteLength#0"
       ]
@@ -14433,19 +14433,19 @@
     "1215": {
       "op": "dup",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "prevBoxByteLength#0",
         "prevBoxByteLength#0"
       ]
     },
     "1216": {
-      "op": "cover 4",
+      "op": "cover 3",
       "defined_out": [
         "box%offset%2#0",
         "boxNum#0",
@@ -14456,13 +14456,13 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
         "dataBox#0",
-        "meta#0",
         "valueSize#0",
         "prevBoxByteLength#0"
       ]
@@ -14480,41 +14480,29 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
         "dataBox#0",
-        "meta#0",
         "tmp%4#0"
       ]
     },
     "1219": {
       "op": "bz superboxDeleteIndex_else_body@3",
       "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "dataBox#0",
-        "meta#0"
-      ]
-    },
-    "1222": {
-      "op": "swap",
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
         "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
         "dataBox#0"
       ]
     },
-    "1223": {
+    "1222": {
       "op": "box_del",
       "defined_out": [
         "box%offset%2#0",
@@ -14526,39 +14514,39 @@
         "{box_del}"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
         "{box_del}"
       ]
     },
-    "1224": {
+    "1223": {
       "op": "pop",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "meta#0"
+        "prevBoxByteLength#0"
       ]
     },
-    "1225": {
+    "1224": {
       "op": "intc_0 // 0",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
         "0"
       ]
     },
-    "1226": {
+    "1225": {
       "callsub": "smart_contracts/superbox/types.algo.ts::au16",
       "op": "callsub au16",
       "defined_out": [
@@ -14571,18 +14559,19 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
         "tmp%5#0"
       ]
     },
-    "1229": {
-      "op": "swap",
+    "1228": {
+      "op": "frame_dig 0",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
@@ -14595,6 +14584,7 @@
     "1230": {
       "op": "dup",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
@@ -14608,6 +14598,7 @@
     "1231": {
       "op": "pushint 28 // 28",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
@@ -14622,6 +14613,7 @@
     "1233": {
       "op": "intc_1 // 2",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
@@ -14647,6 +14639,7 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
@@ -14670,6 +14663,7 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
@@ -14681,8 +14675,9 @@
       ]
     },
     "1236": {
-      "op": "frame_dig 0",
+      "op": "frame_dig 1",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
@@ -14707,6 +14702,7 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
@@ -14721,6 +14717,7 @@
       "error": "index out of bounds",
       "op": "assert // index out of bounds",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
@@ -14731,8 +14728,9 @@
       ]
     },
     "1240": {
-      "op": "frame_dig 3",
+      "op": "frame_dig 4",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
@@ -14746,6 +14744,7 @@
     "1242": {
       "op": "uncover 2",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
@@ -14759,6 +14758,7 @@
     "1244": {
       "op": "box_replace",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
@@ -14767,72 +14767,347 @@
       ]
     },
     "1245": {
-      "error": "What does this do?",
-      "op": "err // What does this do?"
-    },
-    "1246": {
-      "block": "superboxDeleteIndex_else_body@3",
+      "block": "superboxDeleteIndex_after_if_else@4",
       "stack_in": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0"
+      ],
+      "op": "frame_dig 0",
+      "defined_out": [
+        "meta#0"
+      ],
+      "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "dataBox#0",
         "meta#0"
-      ],
-      "op": "swap",
+      ]
+    },
+    "1247": {
+      "op": "dup",
       "defined_out": [
-        "dataBox#0"
+        "meta#0",
+        "meta#0 (copy)"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
         "meta#0",
-        "dataBox#0"
+        "meta#0 (copy)"
       ]
     },
-    "1247": {
+    "1248": {
+      "op": "intc_1 // 2",
+      "defined_out": [
+        "2",
+        "meta#0",
+        "meta#0 (copy)"
+      ],
+      "stack_out": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "meta#0 (copy)",
+        "2"
+      ]
+    },
+    "1249": {
+      "op": "intc_3 // 8",
+      "defined_out": [
+        "2",
+        "8",
+        "meta#0",
+        "meta#0 (copy)"
+      ],
+      "stack_out": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "meta#0 (copy)",
+        "2",
+        "8"
+      ]
+    },
+    "1250": {
+      "op": "box_extract",
+      "defined_out": [
+        "box%box_extract%5#0",
+        "meta#0"
+      ],
+      "stack_out": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "box%box_extract%5#0"
+      ]
+    },
+    "1251": {
+      "op": "btoi",
+      "defined_out": [
+        "meta#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "tmp%9#0"
+      ]
+    },
+    "1252": {
+      "op": "frame_dig 3",
+      "defined_out": [
+        "meta#0",
+        "tmp%9#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "tmp%9#0",
+        "valueSize#0"
+      ]
+    },
+    "1254": {
+      "op": "-",
+      "defined_out": [
+        "meta#0",
+        "num#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "num#0"
+      ]
+    },
+    "1255": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0",
+        "meta#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "1256": {
+      "op": "dig 1",
+      "stack_out": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "aggregate%val_as_bytes%0#0",
+        "meta#0 (copy)"
+      ]
+    },
+    "1258": {
+      "op": "intc_1 // 2",
+      "stack_out": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "aggregate%val_as_bytes%0#0",
+        "meta#0 (copy)",
+        "2"
+      ]
+    },
+    "1259": {
+      "op": "uncover 2",
+      "stack_out": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "meta#0 (copy)",
+        "2",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "1261": {
+      "op": "box_replace",
+      "stack_out": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "meta#0"
+      ]
+    },
+    "1262": {
+      "op": "intc_1 // 2",
+      "stack_out": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "2"
+      ]
+    },
+    "1263": {
+      "op": "intc_3 // 8",
+      "stack_out": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "meta#0",
+        "2",
+        "8"
+      ]
+    },
+    "1264": {
+      "op": "box_extract",
+      "defined_out": [
+        "box%box_extract%6#0",
+        "meta#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "box%box_extract%6#0"
+      ]
+    },
+    "1265": {
+      "op": "btoi",
+      "defined_out": [
+        "meta#0",
+        "tmp%12#0",
+        "valueSize#0"
+      ],
+      "stack_out": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "tmp%12#0"
+      ]
+    },
+    "1266": {
+      "op": "frame_bury 0"
+    },
+    "1268": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "1269": {
+      "block": "superboxDeleteIndex_else_body@3",
+      "stack_in": [
+        "meta#0",
+        "boxNum#0",
+        "byteOffset#0",
+        "valueSize#0",
+        "box%offset%2#0",
+        "prevBoxByteLength#0",
+        "dataBox#0"
+      ],
       "op": "dup",
       "defined_out": [
         "dataBox#0",
         "dataBox#0 (copy)"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
         "dataBox#0",
         "dataBox#0 (copy)"
       ]
     },
-    "1248": {
-      "op": "frame_dig 1",
+    "1270": {
+      "op": "frame_dig 2",
       "defined_out": [
         "byteOffset#0",
         "dataBox#0",
         "dataBox#0 (copy)"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
         "dataBox#0",
         "dataBox#0 (copy)",
         "byteOffset#0"
       ]
     },
-    "1250": {
-      "op": "frame_dig 2",
+    "1272": {
+      "op": "frame_dig 3",
       "defined_out": [
         "byteOffset#0",
         "dataBox#0",
@@ -14840,19 +15115,19 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
         "dataBox#0",
         "dataBox#0 (copy)",
         "byteOffset#0",
         "valueSize#0"
       ]
     },
-    "1252": {
+    "1274": {
       "op": "dup",
       "defined_out": [
         "byteOffset#0",
@@ -14862,12 +15137,12 @@
         "valueSize#0 (copy)"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
         "dataBox#0",
         "dataBox#0 (copy)",
         "byteOffset#0",
@@ -14875,15 +15150,15 @@
         "valueSize#0 (copy)"
       ]
     },
-    "1253": {
+    "1275": {
       "op": "cover 3",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
         "dataBox#0",
         "valueSize#0",
         "dataBox#0 (copy)",
@@ -14891,7 +15166,7 @@
         "valueSize#0 (copy)"
       ]
     },
-    "1255": {
+    "1277": {
       "op": "bytec_2 // \"\"",
       "defined_out": [
         "\"\"",
@@ -14902,12 +15177,12 @@
         "valueSize#0 (copy)"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
         "dataBox#0",
         "valueSize#0",
         "dataBox#0 (copy)",
@@ -14916,21 +15191,21 @@
         "\"\""
       ]
     },
-    "1256": {
+    "1278": {
       "op": "box_splice",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
         "dataBox#0",
         "valueSize#0"
       ]
     },
-    "1257": {
-      "op": "frame_dig 4",
+    "1279": {
+      "op": "frame_dig 5",
       "defined_out": [
         "byteOffset#0",
         "dataBox#0",
@@ -14938,33 +15213,32 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
         "dataBox#0",
         "valueSize#0",
         "prevBoxByteLength#0"
       ]
     },
-    "1259": {
-      "op": "dig 1",
+    "1281": {
+      "op": "swap",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
         "dataBox#0",
-        "valueSize#0",
         "prevBoxByteLength#0",
-        "valueSize#0 (copy)"
+        "valueSize#0"
       ]
     },
-    "1261": {
+    "1282": {
       "op": "-",
       "defined_out": [
         "byteOffset#0",
@@ -14974,32 +15248,30 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
         "dataBox#0",
-        "valueSize#0",
         "tmp%6#0"
       ]
     },
-    "1262": {
-      "op": "uncover 2",
+    "1283": {
+      "op": "swap",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
-        "valueSize#0",
         "tmp%6#0",
         "dataBox#0"
       ]
     },
-    "1264": {
+    "1284": {
       "op": "dig 1",
       "defined_out": [
         "byteOffset#0",
@@ -15010,32 +15282,30 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
-        "valueSize#0",
         "tmp%6#0",
         "dataBox#0",
         "tmp%6#0 (copy)"
       ]
     },
-    "1266": {
+    "1286": {
       "op": "box_resize",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
-        "valueSize#0",
         "tmp%6#0"
       ]
     },
-    "1267": {
+    "1287": {
       "callsub": "smart_contracts/superbox/types.algo.ts::au16",
       "op": "callsub au16",
       "defined_out": [
@@ -15045,18 +15315,17 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "meta#0",
-        "valueSize#0",
         "tmp%8#0"
       ]
     },
-    "1270": {
-      "op": "uncover 2",
+    "1290": {
+      "op": "frame_dig 0",
       "defined_out": [
         "byteOffset#0",
         "meta#0",
@@ -15065,17 +15334,17 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "valueSize#0",
         "tmp%8#0",
         "meta#0"
       ]
     },
-    "1272": {
+    "1292": {
       "op": "dup",
       "defined_out": [
         "byteOffset#0",
@@ -15086,18 +15355,18 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "valueSize#0",
         "tmp%8#0",
         "meta#0",
         "meta#0 (copy)"
       ]
     },
-    "1273": {
+    "1293": {
       "op": "pushint 28 // 28",
       "defined_out": [
         "28",
@@ -15109,19 +15378,19 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "valueSize#0",
         "tmp%8#0",
         "meta#0",
         "meta#0 (copy)",
         "28"
       ]
     },
-    "1275": {
+    "1295": {
       "op": "intc_1 // 2",
       "defined_out": [
         "2",
@@ -15134,12 +15403,12 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "valueSize#0",
         "tmp%8#0",
         "meta#0",
         "meta#0 (copy)",
@@ -15147,7 +15416,7 @@
         "2"
       ]
     },
-    "1276": {
+    "1296": {
       "op": "box_extract",
       "defined_out": [
         "box%box_extract%4#0",
@@ -15158,18 +15427,18 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "valueSize#0",
         "tmp%8#0",
         "meta#0",
         "box%box_extract%4#0"
       ]
     },
-    "1277": {
+    "1297": {
       "op": "btoi",
       "defined_out": [
         "box%btoi%2#0",
@@ -15180,19 +15449,19 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "valueSize#0",
         "tmp%8#0",
         "meta#0",
         "box%btoi%2#0"
       ]
     },
-    "1278": {
-      "op": "frame_dig 0",
+    "1298": {
+      "op": "frame_dig 1",
       "defined_out": [
         "box%btoi%2#0",
         "boxNum#0",
@@ -15203,19 +15472,19 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "valueSize#0",
         "tmp%8#0",
         "meta#0",
         "box%btoi%2#0",
         "boxNum#0"
       ]
     },
-    "1280": {
+    "1300": {
       "op": ">",
       "defined_out": [
         "box%index_ok%2#0",
@@ -15227,370 +15496,81 @@
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "valueSize#0",
         "tmp%8#0",
         "meta#0",
         "box%index_ok%2#0"
       ]
     },
-    "1281": {
+    "1301": {
       "error": "index out of bounds",
       "op": "assert // index out of bounds",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "valueSize#0",
         "tmp%8#0",
         "meta#0"
       ]
     },
-    "1282": {
-      "op": "dup",
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "valueSize#0",
-        "tmp%8#0",
-        "meta#0",
-        "meta#0 (copy)"
-      ]
-    },
-    "1283": {
-      "op": "frame_dig 3",
+    "1302": {
+      "op": "frame_dig 4",
       "defined_out": [
         "box%offset%2#0",
         "boxNum#0",
         "byteOffset#0",
         "meta#0",
-        "meta#0 (copy)",
         "prevBoxByteLength#0",
         "tmp%8#0",
         "valueSize#0"
       ],
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "valueSize#0",
         "tmp%8#0",
         "meta#0",
-        "meta#0 (copy)",
         "box%offset%2#0"
       ]
     },
-    "1285": {
-      "op": "uncover 3",
+    "1304": {
+      "op": "uncover 2",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
         "prevBoxByteLength#0",
-        "valueSize#0",
         "meta#0",
-        "meta#0 (copy)",
         "box%offset%2#0",
         "tmp%8#0"
       ]
     },
-    "1287": {
-      "op": "box_replace",
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "valueSize#0",
-        "meta#0"
-      ]
-    },
-    "1288": {
-      "op": "dup",
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "valueSize#0",
-        "meta#0",
-        "meta#0 (copy)"
-      ]
-    },
-    "1289": {
-      "op": "intc_1 // 2",
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "valueSize#0",
-        "meta#0",
-        "meta#0 (copy)",
-        "2"
-      ]
-    },
-    "1290": {
-      "op": "intc_3 // 8",
-      "defined_out": [
-        "2",
-        "8",
-        "box%offset%2#0",
-        "boxNum#0",
-        "byteOffset#0",
-        "meta#0",
-        "meta#0 (copy)",
-        "prevBoxByteLength#0",
-        "valueSize#0"
-      ],
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "valueSize#0",
-        "meta#0",
-        "meta#0 (copy)",
-        "2",
-        "8"
-      ]
-    },
-    "1291": {
-      "op": "box_extract",
-      "defined_out": [
-        "box%box_extract%5#0",
-        "box%offset%2#0",
-        "boxNum#0",
-        "byteOffset#0",
-        "meta#0",
-        "prevBoxByteLength#0",
-        "valueSize#0"
-      ],
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "valueSize#0",
-        "meta#0",
-        "box%box_extract%5#0"
-      ]
-    },
-    "1292": {
-      "op": "btoi",
-      "defined_out": [
-        "box%offset%2#0",
-        "boxNum#0",
-        "byteOffset#0",
-        "meta#0",
-        "prevBoxByteLength#0",
-        "tmp%9#0",
-        "valueSize#0"
-      ],
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "valueSize#0",
-        "meta#0",
-        "tmp%9#0"
-      ]
-    },
-    "1293": {
-      "op": "uncover 2",
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "meta#0",
-        "tmp%9#0",
-        "valueSize#0"
-      ]
-    },
-    "1295": {
-      "op": "-",
-      "defined_out": [
-        "box%offset%2#0",
-        "boxNum#0",
-        "byteOffset#0",
-        "meta#0",
-        "num#0",
-        "prevBoxByteLength#0",
-        "valueSize#0"
-      ],
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "meta#0",
-        "num#0"
-      ]
-    },
-    "1296": {
-      "op": "itob",
-      "defined_out": [
-        "aggregate%val_as_bytes%0#0",
-        "box%offset%2#0",
-        "boxNum#0",
-        "byteOffset#0",
-        "meta#0",
-        "prevBoxByteLength#0",
-        "valueSize#0"
-      ],
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "meta#0",
-        "aggregate%val_as_bytes%0#0"
-      ]
-    },
-    "1297": {
-      "op": "dig 1",
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "meta#0",
-        "aggregate%val_as_bytes%0#0",
-        "meta#0 (copy)"
-      ]
-    },
-    "1299": {
-      "op": "intc_1 // 2",
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "meta#0",
-        "aggregate%val_as_bytes%0#0",
-        "meta#0 (copy)",
-        "2"
-      ]
-    },
-    "1300": {
-      "op": "uncover 2",
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "meta#0",
-        "meta#0 (copy)",
-        "2",
-        "aggregate%val_as_bytes%0#0"
-      ]
-    },
-    "1302": {
-      "op": "box_replace",
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "meta#0"
-      ]
-    },
-    "1303": {
-      "op": "intc_1 // 2",
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "meta#0",
-        "2"
-      ]
-    },
-    "1304": {
-      "op": "intc_3 // 8",
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "meta#0",
-        "2",
-        "8"
-      ]
-    },
-    "1305": {
-      "op": "box_extract",
-      "defined_out": [
-        "box%box_extract%6#0",
-        "box%offset%2#0",
-        "boxNum#0",
-        "byteOffset#0",
-        "prevBoxByteLength#0",
-        "valueSize#0"
-      ],
-      "stack_out": [
-        "boxNum#0",
-        "byteOffset#0",
-        "valueSize#0",
-        "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "box%box_extract%6#0"
-      ]
-    },
     "1306": {
-      "op": "btoi",
-      "defined_out": [
-        "box%offset%2#0",
-        "boxNum#0",
-        "byteOffset#0",
-        "prevBoxByteLength#0",
-        "tmp%12#0",
-        "valueSize#0"
-      ],
+      "op": "box_replace",
       "stack_out": [
+        "meta#0",
         "boxNum#0",
         "byteOffset#0",
         "valueSize#0",
         "box%offset%2#0",
-        "prevBoxByteLength#0",
-        "tmp%12#0"
+        "prevBoxByteLength#0"
       ]
     },
     "1307": {
-      "op": "frame_bury 0"
-    },
-    "1309": {
-      "retsub": true,
-      "op": "retsub"
+      "op": "b superboxDeleteIndex_after_if_else@4"
     },
     "1310": {
       "subroutine": "smart_contracts/superbox/contract.algo.ts::Superbox.superboxDeleteBox",
