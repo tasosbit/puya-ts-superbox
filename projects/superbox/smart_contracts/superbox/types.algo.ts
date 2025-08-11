@@ -1,5 +1,5 @@
 import { arc4, uint64 } from '@algorandfoundation/algorand-typescript'
-import { DynamicArray, Str, UintN16, UintN64 } from '@algorandfoundation/algorand-typescript/arc4'
+import { DynamicArray, Str, Uint16, Uint64 } from '@algorandfoundation/algorand-typescript/arc4'
 
 /**
  * Metadata struct. Stored per superbox
@@ -8,19 +8,19 @@ export class SuperboxMeta extends arc4.Struct<{
   /**
    * Size of individual data boxes backing superbox
    */
-  boxByteLengths: DynamicArray<UintN16>
+  boxByteLengths: DynamicArray<Uint16>
   /**
    * Total data in superbox
    */
-  totalByteLength: UintN64
+  totalByteLength: Uint64
   /**
    * Max individual box size to use
    */
-  maxBoxSize: UintN64
+  maxBoxSize: Uint64
   /**
    * Byte width of individual value. Used to enforce box/value boundaries & calculate offsets when fetching values by index
    */
-  valueSize: UintN64
+  valueSize: Uint64
   /**
    * Informational. Schema of value, e.g. `(uint16,uint16)` for Tuple<uint16, uint16>
    */
@@ -28,11 +28,11 @@ export class SuperboxMeta extends arc4.Struct<{
 }> {}
 
 export function au16(num: uint64) {
-  return new UintN16(num)
+  return new Uint16(num)
 }
 
 export function au64(num: uint64) {
-  return new UintN64(num)
+  return new Uint64(num)
 }
 
 export type BoxNum = uint64
