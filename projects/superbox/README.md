@@ -1,8 +1,261 @@
-# superbox
+# puya-ts superbox: simple box list operations backed by multiple boxes
 
-This project has been generated using AlgoKit. See below for default getting started instructions.
+## Overview
 
-# Setup
+Superbox enables performing simple list operations backed by multiple boxes.
+
+Supported write ops:
+
+- append value(s) (tail only)
+- delete value(s) (anywhere)
+
+Read ops:
+
+- Get value data by index
+- Get value location [box number, byte offset] by index
+- Get metadata, e.g. value count, byte length count, etc.
+
+Restrictions:
+
+- Fixed value sizes
+- Not able to insert data at middle (see future work)
+
+## Status
+
+Beta
+
+## Setup
+
+```
+npm i @d13co/superbox
+```
+
+## Usage
+
+Import the `sb*` functions from your puya-ts files, e.g.
+
+```typescript
+import { sbCreate } from "@d13co/superbox";
+
+// ... inside your contract:
+
+public startAddingData() {
+  sbCreate("myBox", 2048, 2, "uint16")
+
+  const singleValue = new arc4.Uint16(13).bytes)
+
+  // add one value
+  sbAppend("myBox", singleValue)
+}
+
+public addMoreData() {
+  sbAppend("myBox", arc4.Uint16(13).bytes)
+
+  const multipleValues = new arc4.Uint16(13).bytes
+    .concat(new arc4.Uint16(37).bytes)
+    .concat(new arc4.Uint16(41).bytes)
+    .concat(new arc4.Uint16(60).bytes)
+
+  // add multiple values
+  sbAppend("myBox", multipleValues)
+}
+```
+
+## API Reference
+
+### `sbCreate(name, maxBoxSize, valueSize, valueSchema)`
+
+Create a new superbox metadata record.
+
+**Parameters:**
+
+* `name` *(string)* – Superbox name/prefix.
+* `maxBoxSize` *(uint64)* – Maximum size of each box in bytes.
+* `valueSize` *(uint64)* – Size of each stored value in bytes.
+* `valueSchema` *(string)* – Description of value type (e.g., `"uint32"`).
+
+---
+
+### `sbAppend(name, data)`
+
+Append data to the superbox in multiples of `valueSize`.
+
+**Parameters:**
+
+* `name` *(string)* – Superbox name/prefix.
+* `data` *(bytes)* – Data to append. Can be multiple values concatenated together.
+
+**Returns:** `uint64` – New total byte length of the superbox.
+
+---
+
+### `sbGetData(name, valueIndex)`
+
+Retrieve a value by index.
+
+**Parameters:**
+
+* `name` *(string)* – Superbox name/prefix.
+* `valueIndex` *(uint64)* – Value index.
+
+**Returns:** `bytes` – Stored value data.
+
+---
+
+### `sbGetLocation(name, valueIndex)`
+
+Get the location of a value in the underlying box.
+Prefer to use `sbGetData` when possible.
+
+**Parameters:**
+
+* `name` *(string)* – Superbox name/prefix.
+* `valueIndex` *(uint64)* – Value index.
+
+**Returns:** `[BoxNum, ByteOffset]` – Box index and byte offset.
+
+---
+
+### `sbDeleteIndex(name, valueIndex)`
+
+Delete a single value by its index.
+Provide the index of the value - not the byte offset.
+
+**Parameters:**
+
+* `name` *(string)* – Superbox name/prefix.
+* `valueIndex` *(uint64)* – Index of the value to delete.
+
+**Returns:** `uint64` – New total byte length of the superbox.
+
+---
+
+### `sbDeleteBox(name, boxNum)`
+
+Delete an entire box by its number.
+Only allowed if the box is empty.
+
+**Parameters:**
+
+* `name` *(string)* – Superbox name/prefix.
+* `boxNum` *(uint64)* – Box number to delete.
+
+**Returns:** `uint64` – New total byte length of the superbox.
+
+---
+
+### `sbDeleteSuperbox(name)`
+
+Delete a superbox entirely.
+Only allowed if the superbox is empty.
+
+**Parameters:**
+
+* `name` *(string)* – Superbox name/prefix.
+
+---
+
+## Error Codes
+
+* `ERR:SBEXISTS` – Superbox already exists.
+* `ERR:DATALEN` – Data length not a multiple of `valueSize`.
+* `ERR:OOB` – Out of bounds access.
+* `ERR:DLTD` – Attempt to delete a non-existent box.
+* `ERR:NEXIST` – Superbox does not exist.
+* `ERR:NEMPTY` – Attempt to delete a non-empty superbox.
+
+## Use case
+
+The original use case for this is to facilitate very large VRF shuffles, where the options would not fit in a single box.
+
+The superbox abstraction spreads option values over multiple boxes, making it easier to 1) compose the options list, and 2) retrieve the winner value by index.
+
+A stretch goal was to facilitate a straightforward way to do multiple VRF draws without repeated winners, hence the delete operations.
+
+## Box naming convention
+
+Boxes are currently named by convention:
+
+Metadata boxes are suffixed with `_m`.
+
+Data boxes are suffixed with an integer counter starting from `0`.
+
+Example: A Superbox named `chunky` with two data boxes would have the following keys;
+
+- chunky_m
+- chunky0
+- chunky1
+
+## Metadata
+
+Superbox metadata extends the configuration values specified above with some managed values:
+
+```
+/**
+ * Metadata struct. Stored per superbox
+ */
+export class SuperboxMeta extends arc4.Struct<{
+  /**
+   * Size of individual boxes backing superbox
+   */
+  boxByteLengths: DynamicArray<UintN16>
+  /**
+   * Total data in superbox
+   */
+  totalByteLength: UintN64
+  /**
+   * Max individual box size to use
+   */
+  maxBoxSize: UintN64
+  /**
+   * Byte width of individual value.
+   * Used to enforce box/value boundaries & calculate offsets when operating by value index
+   */
+  valueSize: UintN64
+  /**
+   * Informational. Schema of value, e.g. `(uint16,uint16)` for Tuple<uint16, uint16>
+   */
+  valueSchema: Str
+}> {}
+```
+
+## Future work
+
+For "full marks", this could be changed to allow arbitrary data writes at any point in the superbox.
+
+To enable this we would change one core aspect and provide an optimisation:
+
+### Insert anywhere at finite cost ~= arbitrary data box naming
+
+To make it possible to insert at arbitrary points in large superboxes, we want to avoid having to shift the box values "downstream" of our insertion point, as this would cost too many opcodes and would likely not be doable within a single group in many cases.
+
+> Superbox operations should be atomic and leave the data in a good state.
+
+We can facilitate this by inserting new data boxes between existing ones: we would keep the convention-based data box naming system for creating new boxes, but we would also store the data box names in their correct order in order to be able to break this convention when inserting in the middle.
+
+E.g. After inserting data after box zero, we could end up with data box names in this order
+
+```
+data0
+data4 (new box)
+data1
+data2
+data3
+```
+
+The order of these boxes would be stored in Metadata
+
+### Available space optimization
+
+In order to facilitate efficient insertion at arbitrary locations, we could optimize our writing strategy to take two factors into account:
+
+- maxBoxSize: would remain the hard limit of individual box size
+- optimalBoxSize: would be the box size at which we stop appending
+
+An example would be a maxBoxSize of 1024, with a smaller optinal size of ~80% / 820 bytes. When appending data, boxes would be kept to 820 bytes, with capacity to grow from arbitrary insertions up to 1024 before a new box is created.
+
+
+# Development Setup - Algokit README
 
 ### Pre-requisites
 
