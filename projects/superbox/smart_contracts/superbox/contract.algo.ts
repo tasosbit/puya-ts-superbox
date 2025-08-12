@@ -1,8 +1,16 @@
 import { bytes, Contract, uint64 } from '@algorandfoundation/algorand-typescript'
 import { abimethod } from '@algorandfoundation/algorand-typescript/arc4'
-import { sbMetaBox } from './superalgo-utils.algo'
-import { sbAppend, sbCreate, sbDeleteBox, sbDeleteIndex, sbDeleteSuperbox, sbGetData, sbGetLocation } from './superbox.algo'
-import { BoxNum, ByteOffset, SuperboxMeta } from './types.algo'
+import {
+  sbAppend,
+  sbCreate,
+  sbDeleteBox,
+  sbDeleteIndex,
+  sbDeleteSuperbox,
+  sbGetData,
+  sbGetLocation,
+} from './lib/superbox.algo'
+import { BoxNum, ByteOffset, SuperboxMeta } from './lib/types.algo'
+import { sbMetaBox } from './lib/utils.algo'
 
 export class Superbox extends Contract {
   public superboxCreate(name: string, maxBoxSize: uint64, valueSize: uint64, valueSchema: string) {

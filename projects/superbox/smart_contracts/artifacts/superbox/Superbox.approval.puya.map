@@ -2,12 +2,11 @@
   "version": 3,
   "sources": [
     "/home/bit/code/superbox/projects/superbox/smart_contracts/superbox/contract.algo.ts",
-    "/home/bit/code/superbox/projects/superbox/smart_contracts/superbox/superalgo-utils.algo.ts",
-    "/home/bit/code/superbox/projects/superbox/smart_contracts/superbox/superbox.algo.ts",
-    "/home/bit/code/superbox/projects/superbox/smart_contracts/superbox/types.algo.ts",
-    "/home/bit/code/superbox/projects/superbox/smart_contracts/superbox/util.algo.ts"
+    "/home/bit/code/superbox/projects/superbox/smart_contracts/superbox/lib/superbox.algo.ts",
+    "/home/bit/code/superbox/projects/superbox/smart_contracts/superbox/lib/types.algo.ts",
+    "/home/bit/code/superbox/projects/superbox/smart_contracts/superbox/lib/utils.algo.ts"
   ],
-  "mappings": "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",
+  "mappings": "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",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -1299,218 +1298,7 @@
       "stack_out": []
     },
     "341": {
-      "subroutine": "smart_contracts/superbox/util.algo.ts::itoa",
-      "params": {
-        "i#0": "uint64"
-      },
-      "block": "itoa",
-      "stack_in": [],
-      "op": "proto 1 1"
-    },
-    "344": {
-      "op": "frame_dig -1",
-      "defined_out": [
-        "i#0 (copy)"
-      ],
-      "stack_out": [
-        "i#0 (copy)"
-      ]
-    },
-    "346": {
-      "op": "pushint 10 // 10",
-      "defined_out": [
-        "10",
-        "i#0 (copy)"
-      ],
-      "stack_out": [
-        "i#0 (copy)",
-        "10"
-      ]
-    },
-    "348": {
-      "op": "<",
-      "defined_out": [
-        "tmp%1#0"
-      ],
-      "stack_out": [
-        "tmp%1#0"
-      ]
-    },
-    "349": {
-      "op": "bz itoa_after_if_else@2",
-      "stack_out": []
-    },
-    "352": {
-      "op": "bytec_3 // \"0123456789\"",
-      "defined_out": [
-        "\"0123456789\""
-      ],
-      "stack_out": [
-        "\"0123456789\""
-      ]
-    },
-    "353": {
-      "op": "frame_dig -1",
-      "stack_out": [
-        "\"0123456789\"",
-        "i#0 (copy)"
-      ]
-    },
-    "355": {
-      "op": "intc_2 // 1",
-      "defined_out": [
-        "\"0123456789\"",
-        "1",
-        "i#0 (copy)"
-      ],
-      "stack_out": [
-        "\"0123456789\"",
-        "i#0 (copy)",
-        "1"
-      ]
-    },
-    "356": {
-      "op": "extract3",
-      "defined_out": [
-        "extract%0#0"
-      ],
-      "stack_out": [
-        "extract%0#0"
-      ]
-    },
-    "357": {
-      "retsub": true,
-      "op": "retsub"
-    },
-    "358": {
-      "block": "itoa_after_if_else@2",
-      "stack_in": [],
-      "op": "frame_dig -1",
-      "defined_out": [
-        "i#0 (copy)"
-      ],
-      "stack_out": [
-        "i#0 (copy)"
-      ]
-    },
-    "360": {
-      "op": "pushint 10 // 10",
-      "defined_out": [
-        "10",
-        "i#0 (copy)"
-      ],
-      "stack_out": [
-        "i#0 (copy)",
-        "10"
-      ]
-    },
-    "362": {
-      "op": "/",
-      "defined_out": [
-        "tmp%2#0"
-      ],
-      "stack_out": [
-        "tmp%2#0"
-      ]
-    },
-    "363": {
-      "callsub": "smart_contracts/superbox/util.algo.ts::itoa",
-      "op": "callsub itoa",
-      "defined_out": [
-        "tmp%3#0"
-      ],
-      "stack_out": [
-        "tmp%3#0"
-      ]
-    },
-    "366": {
-      "op": "frame_dig -1",
-      "stack_out": [
-        "tmp%3#0",
-        "i#0 (copy)"
-      ]
-    },
-    "368": {
-      "op": "pushint 10 // 10",
-      "stack_out": [
-        "tmp%3#0",
-        "i#0 (copy)",
-        "10"
-      ]
-    },
-    "370": {
-      "op": "%",
-      "defined_out": [
-        "tmp%3#0",
-        "tmp%4#0"
-      ],
-      "stack_out": [
-        "tmp%3#0",
-        "tmp%4#0"
-      ]
-    },
-    "371": {
-      "op": "bytec_3 // \"0123456789\"",
-      "defined_out": [
-        "\"0123456789\"",
-        "tmp%3#0",
-        "tmp%4#0"
-      ],
-      "stack_out": [
-        "tmp%3#0",
-        "tmp%4#0",
-        "\"0123456789\""
-      ]
-    },
-    "372": {
-      "op": "swap",
-      "stack_out": [
-        "tmp%3#0",
-        "\"0123456789\"",
-        "tmp%4#0"
-      ]
-    },
-    "373": {
-      "op": "intc_2 // 1",
-      "defined_out": [
-        "\"0123456789\"",
-        "1",
-        "tmp%3#0",
-        "tmp%4#0"
-      ],
-      "stack_out": [
-        "tmp%3#0",
-        "\"0123456789\"",
-        "tmp%4#0",
-        "1"
-      ]
-    },
-    "374": {
-      "op": "extract3",
-      "defined_out": [
-        "extract%1#0",
-        "tmp%3#0"
-      ],
-      "stack_out": [
-        "tmp%3#0",
-        "extract%1#0"
-      ]
-    },
-    "375": {
-      "op": "concat",
-      "defined_out": [
-        "tmp%5#0"
-      ],
-      "stack_out": [
-        "tmp%5#0"
-      ]
-    },
-    "376": {
-      "retsub": true,
-      "op": "retsub"
-    },
-    "377": {
-      "subroutine": "smart_contracts/superbox/types.algo.ts::au16",
+      "subroutine": "smart_contracts/superbox/lib/types.algo.ts::au16",
       "params": {
         "num#0": "uint64"
       },
@@ -1518,7 +1306,7 @@
       "stack_in": [],
       "op": "proto 1 1"
     },
-    "380": {
+    "344": {
       "op": "frame_dig -1",
       "defined_out": [
         "num#0 (copy)"
@@ -1527,7 +1315,7 @@
         "num#0 (copy)"
       ]
     },
-    "382": {
+    "346": {
       "op": "itob",
       "defined_out": [
         "aggregate%val_as_bytes%0#0"
@@ -1536,7 +1324,7 @@
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "383": {
+    "347": {
       "op": "dup",
       "defined_out": [
         "aggregate%val_as_bytes%0#0",
@@ -1547,7 +1335,7 @@
         "aggregate%val_as_bytes%0#0 (copy)"
       ]
     },
-    "384": {
+    "348": {
       "op": "bitlen",
       "defined_out": [
         "aggregate%bitlen%0#0",
@@ -1558,7 +1346,7 @@
         "aggregate%bitlen%0#0"
       ]
     },
-    "385": {
+    "349": {
       "op": "pushint 16 // 16",
       "defined_out": [
         "16",
@@ -1571,7 +1359,7 @@
         "16"
       ]
     },
-    "387": {
+    "351": {
       "op": "<=",
       "defined_out": [
         "aggregate%no_overflow%0#0",
@@ -1582,14 +1370,14 @@
         "aggregate%no_overflow%0#0"
       ]
     },
-    "388": {
+    "352": {
       "error": "overflow",
       "op": "assert // overflow",
       "stack_out": [
         "aggregate%val_as_bytes%0#0"
       ]
     },
-    "389": {
+    "353": {
       "op": "extract 6 2",
       "defined_out": [
         "aggregate%uint16%0#0"
@@ -1598,12 +1386,223 @@
         "aggregate%uint16%0#0"
       ]
     },
+    "356": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "357": {
+      "subroutine": "smart_contracts/superbox/lib/utils.algo.ts::itoa",
+      "params": {
+        "i#0": "uint64"
+      },
+      "block": "itoa",
+      "stack_in": [],
+      "op": "proto 1 1"
+    },
+    "360": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "i#0 (copy)"
+      ],
+      "stack_out": [
+        "i#0 (copy)"
+      ]
+    },
+    "362": {
+      "op": "pushint 10 // 10",
+      "defined_out": [
+        "10",
+        "i#0 (copy)"
+      ],
+      "stack_out": [
+        "i#0 (copy)",
+        "10"
+      ]
+    },
+    "364": {
+      "op": "<",
+      "defined_out": [
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%1#0"
+      ]
+    },
+    "365": {
+      "op": "bz itoa_after_if_else@2",
+      "stack_out": []
+    },
+    "368": {
+      "op": "bytec_3 // \"0123456789\"",
+      "defined_out": [
+        "\"0123456789\""
+      ],
+      "stack_out": [
+        "\"0123456789\""
+      ]
+    },
+    "369": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "\"0123456789\"",
+        "i#0 (copy)"
+      ]
+    },
+    "371": {
+      "op": "intc_2 // 1",
+      "defined_out": [
+        "\"0123456789\"",
+        "1",
+        "i#0 (copy)"
+      ],
+      "stack_out": [
+        "\"0123456789\"",
+        "i#0 (copy)",
+        "1"
+      ]
+    },
+    "372": {
+      "op": "extract3",
+      "defined_out": [
+        "extract%0#0"
+      ],
+      "stack_out": [
+        "extract%0#0"
+      ]
+    },
+    "373": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "374": {
+      "block": "itoa_after_if_else@2",
+      "stack_in": [],
+      "op": "frame_dig -1",
+      "defined_out": [
+        "i#0 (copy)"
+      ],
+      "stack_out": [
+        "i#0 (copy)"
+      ]
+    },
+    "376": {
+      "op": "pushint 10 // 10",
+      "defined_out": [
+        "10",
+        "i#0 (copy)"
+      ],
+      "stack_out": [
+        "i#0 (copy)",
+        "10"
+      ]
+    },
+    "378": {
+      "op": "/",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "379": {
+      "callsub": "smart_contracts/superbox/lib/utils.algo.ts::itoa",
+      "op": "callsub itoa",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "382": {
+      "op": "frame_dig -1",
+      "stack_out": [
+        "tmp%3#0",
+        "i#0 (copy)"
+      ]
+    },
+    "384": {
+      "op": "pushint 10 // 10",
+      "stack_out": [
+        "tmp%3#0",
+        "i#0 (copy)",
+        "10"
+      ]
+    },
+    "386": {
+      "op": "%",
+      "defined_out": [
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%3#0",
+        "tmp%4#0"
+      ]
+    },
+    "387": {
+      "op": "bytec_3 // \"0123456789\"",
+      "defined_out": [
+        "\"0123456789\"",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%3#0",
+        "tmp%4#0",
+        "\"0123456789\""
+      ]
+    },
+    "388": {
+      "op": "swap",
+      "stack_out": [
+        "tmp%3#0",
+        "\"0123456789\"",
+        "tmp%4#0"
+      ]
+    },
+    "389": {
+      "op": "intc_2 // 1",
+      "defined_out": [
+        "\"0123456789\"",
+        "1",
+        "tmp%3#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%3#0",
+        "\"0123456789\"",
+        "tmp%4#0",
+        "1"
+      ]
+    },
+    "390": {
+      "op": "extract3",
+      "defined_out": [
+        "extract%1#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0",
+        "extract%1#0"
+      ]
+    },
+    "391": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "tmp%5#0"
+      ]
+    },
     "392": {
       "retsub": true,
       "op": "retsub"
     },
     "393": {
-      "subroutine": "smart_contracts/superbox/superalgo-utils.algo.ts::sbMetaBoxValue",
+      "subroutine": "smart_contracts/superbox/lib/utils.algo.ts::sbMetaBoxValue",
       "params": {
         "name#0": "bytes"
       },
@@ -1700,7 +1699,7 @@
       "op": "retsub"
     },
     "408": {
-      "subroutine": "smart_contracts/superbox/superbox.algo.ts::sbGetLocation",
+      "subroutine": "smart_contracts/superbox/lib/superbox.algo.ts::sbGetLocation",
       "params": {
         "name#0": "bytes",
         "valueIndex#0": "uint64"
@@ -1726,7 +1725,7 @@
       ]
     },
     "414": {
-      "callsub": "smart_contracts/superbox/superalgo-utils.algo.ts::sbMetaBoxValue",
+      "callsub": "smart_contracts/superbox/lib/utils.algo.ts::sbMetaBoxValue",
       "op": "callsub sbMetaBoxValue",
       "defined_out": [
         "meta#0"
@@ -3195,7 +3194,7 @@
       ]
     },
     "588": {
-      "callsub": "smart_contracts/superbox/superalgo-utils.algo.ts::sbMetaBoxValue",
+      "callsub": "smart_contracts/superbox/lib/utils.algo.ts::sbMetaBoxValue",
       "op": "callsub sbMetaBoxValue",
       "defined_out": [
         "meta#0"
@@ -4242,7 +4241,7 @@
       ]
     },
     "645": {
-      "callsub": "smart_contracts/superbox/util.algo.ts::itoa",
+      "callsub": "smart_contracts/superbox/lib/utils.algo.ts::itoa",
       "op": "callsub itoa",
       "defined_out": [
         "currentBoxNum#0",
@@ -5767,7 +5766,7 @@
       ]
     },
     "726": {
-      "block": "superboxAppend_after_inlined_smart_contracts/superbox/superbox.algo.ts::appendBox@17",
+      "block": "superboxAppend_after_inlined_smart_contracts/superbox/lib/superbox.algo.ts::appendBox@17",
       "stack_in": [
         "data#2",
         "dataBox#0",
@@ -6501,7 +6500,7 @@
       ]
     },
     "763": {
-      "callsub": "smart_contracts/superbox/types.algo.ts::au16",
+      "callsub": "smart_contracts/superbox/lib/types.algo.ts::au16",
       "op": "callsub au16",
       "defined_out": [
         "aggregate%array_length%2#0",
@@ -8461,7 +8460,7 @@
       ]
     },
     "865": {
-      "callsub": "smart_contracts/superbox/types.algo.ts::au16",
+      "callsub": "smart_contracts/superbox/lib/types.algo.ts::au16",
       "op": "callsub au16",
       "defined_out": [
         "aggregate%bytes_offset%0#0",
@@ -11366,7 +11365,7 @@
       ]
     },
     "1019": {
-      "op": "b superboxAppend_after_inlined_smart_contracts/superbox/superbox.algo.ts::appendBox@17"
+      "op": "b superboxAppend_after_inlined_smart_contracts/superbox/lib/superbox.algo.ts::appendBox@17"
     },
     "1022": {
       "block": "superboxAppend_else_body@13",
@@ -11766,7 +11765,7 @@
       ]
     },
     "1040": {
-      "op": "b superboxAppend_after_inlined_smart_contracts/superbox/superbox.algo.ts::appendBox@17"
+      "op": "b superboxAppend_after_inlined_smart_contracts/superbox/lib/superbox.algo.ts::appendBox@17"
     },
     "1043": {
       "block": "superboxAppend_else_body@14",
@@ -12931,7 +12930,7 @@
       ]
     },
     "1103": {
-      "op": "b superboxAppend_after_inlined_smart_contracts/superbox/superbox.algo.ts::appendBox@17"
+      "op": "b superboxAppend_after_inlined_smart_contracts/superbox/lib/superbox.algo.ts::appendBox@17"
     },
     "1106": {
       "block": "superboxAppend_after_while@21",
@@ -13734,7 +13733,7 @@
       ]
     },
     "1156": {
-      "callsub": "smart_contracts/superbox/superbox.algo.ts::sbGetLocation",
+      "callsub": "smart_contracts/superbox/lib/superbox.algo.ts::sbGetLocation",
       "op": "callsub sbGetLocation",
       "defined_out": [
         "awst_tmp%0#0",
@@ -13884,7 +13883,7 @@
       ]
     },
     "1172": {
-      "callsub": "smart_contracts/superbox/util.algo.ts::itoa",
+      "callsub": "smart_contracts/superbox/lib/utils.algo.ts::itoa",
       "op": "callsub itoa",
       "defined_out": [
         "boxNum#0",
@@ -14547,7 +14546,7 @@
       ]
     },
     "1225": {
-      "callsub": "smart_contracts/superbox/types.algo.ts::au16",
+      "callsub": "smart_contracts/superbox/lib/types.algo.ts::au16",
       "op": "callsub au16",
       "defined_out": [
         "box%offset%2#0",
@@ -15306,7 +15305,7 @@
       ]
     },
     "1287": {
-      "callsub": "smart_contracts/superbox/types.algo.ts::au16",
+      "callsub": "smart_contracts/superbox/lib/types.algo.ts::au16",
       "op": "callsub au16",
       "defined_out": [
         "byteOffset#0",
@@ -15657,7 +15656,7 @@
       ]
     },
     "1322": {
-      "callsub": "smart_contracts/superbox/util.algo.ts::itoa",
+      "callsub": "smart_contracts/superbox/lib/utils.algo.ts::itoa",
       "op": "callsub itoa",
       "defined_out": [
         "meta#0",
@@ -16203,7 +16202,7 @@
       ]
     },
     "1377": {
-      "callsub": "smart_contracts/superbox/types.algo.ts::au16",
+      "callsub": "smart_contracts/superbox/lib/types.algo.ts::au16",
       "op": "callsub au16",
       "defined_out": [
         "box%element_offset%0#0",
@@ -17236,7 +17235,7 @@
       ]
     },
     "1496": {
-      "callsub": "smart_contracts/superbox/superbox.algo.ts::sbGetLocation",
+      "callsub": "smart_contracts/superbox/lib/superbox.algo.ts::sbGetLocation",
       "op": "callsub sbGetLocation",
       "defined_out": [
         "tmp%0#0"
@@ -17280,7 +17279,7 @@
       ]
     },
     "1507": {
-      "callsub": "smart_contracts/superbox/superbox.algo.ts::sbGetLocation",
+      "callsub": "smart_contracts/superbox/lib/superbox.algo.ts::sbGetLocation",
       "op": "callsub sbGetLocation",
       "defined_out": [
         "awst_tmp%0#0"
@@ -17363,7 +17362,7 @@
       ]
     },
     "1517": {
-      "callsub": "smart_contracts/superbox/util.algo.ts::itoa",
+      "callsub": "smart_contracts/superbox/lib/utils.algo.ts::itoa",
       "op": "callsub itoa",
       "defined_out": [
         "byteOffset#0",
@@ -17410,7 +17409,7 @@
       ]
     },
     "1526": {
-      "callsub": "smart_contracts/superbox/superalgo-utils.algo.ts::sbMetaBoxValue",
+      "callsub": "smart_contracts/superbox/lib/utils.algo.ts::sbMetaBoxValue",
       "op": "callsub sbMetaBoxValue",
       "defined_out": [
         "box#0",
