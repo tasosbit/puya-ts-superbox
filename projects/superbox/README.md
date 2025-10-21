@@ -89,6 +89,19 @@ Append data to the superbox in multiples of `valueSize`.
 
 ---
 
+### `sbGetMeta(name)`
+
+Retrieve metadata for a superbox
+
+**Parameters:**
+
+* `name` *(string)* – Superbox name/prefix.
+
+**Returns:** `SuperboxMeta` – Superbox metadata
+
+---
+
+
 ### `sbGetData(name, valueIndex)`
 
 Retrieve a value by index.
