@@ -1,4 +1,4 @@
-import { assert, BoxRef, Bytes, bytes, clone, err, uint64 } from '@algorandfoundation/algorand-typescript'
+import { assert, Box, Bytes, bytes, clone, err, uint64 } from '@algorandfoundation/algorand-typescript'
 import { DynamicArray, Str, Uint16 } from '@algorandfoundation/algorand-typescript/arc4'
 import { au16, au64, BoxNum, ByteOffset, SuperboxMeta } from './types.algo'
 import { sbDataBoxRef, sbMetaBox, sbMetaBoxValue } from './utils.algo'
@@ -31,8 +31,8 @@ export function sbCreate(name: string, maxBoxSize: uint64, valueSize: uint64, va
  */
 export function sbAppend(name: string, data: bytes): uint64 {
   const meta = sbMetaBoxValue(name)
-  const maxBoxSize = meta.maxBoxSize.native
-  const valueSize = meta.valueSize.native
+  const maxBoxSize = meta.maxBoxSize.asUint64()
+  const valueSize = meta.valueSize.asUint64()
 
   // data can be multiple concatenated values for all we care, but it must be the right size
   assert(data.length % valueSize === 0, 'ERR:DATALEN')
@@ -50,19 +50,19 @@ export function sbAppend(name: string, data: bytes): uint64 {
       meta.boxByteLengths.push(au16(chunkWritten))
     } else {
       // existing box
-      meta.boxByteLengths[currentBoxNum] = au16(meta.boxByteLengths[currentBoxNum].native + chunkWritten)
+      meta.boxByteLengths[currentBoxNum] = au16(meta.boxByteLengths[currentBoxNum].asUint64() + chunkWritten)
     }
 
     dataWritten += chunkWritten
     currentBoxNum++
   }
-  meta.totalByteLength = au64(meta.totalByteLength.native + dataWritten)
+  meta.totalByteLength = au64(meta.totalByteLength.asUint64() + dataWritten)
 
   const metaBox = sbMetaBox(name)
   metaBox.delete()
   metaBox.value = clone(meta)
 
-  return meta.totalByteLength.native
+  return meta.totalByteLength.asUint64()
 }
 
 /**
@@ -73,7 +73,7 @@ export function sbAppend(name: string, data: bytes): uint64 {
  * @param valueSize Size of values, e.g. 4 for uint32
  * @returns Length of data written
  */
-function appendBox(box: BoxRef, data: bytes, maxBoxSize: uint64, valueSize: uint64): uint64 {
+function appendBox(box: Box<bytes>, data: bytes, maxBoxSize: uint64, valueSize: uint64): uint64 {
   if (box.exists) {
     // existing box
     let capacity: uint64 = maxBoxSize - box.length
@@ -131,8 +131,8 @@ export function sbDeleteIndex(name: string, valueIndex: uint64): uint64 {
   const [boxNum, byteOffset] = sbGetLocation(name, valueIndex)
   const dataBox = sbDataBoxRef(name, boxNum)
 
-  const valueSize = meta.value.valueSize.native
-  const prevBoxByteLength = meta.value.boxByteLengths[boxNum].native
+  const valueSize = meta.value.valueSize.asUint64()
+  const prevBoxByteLength = meta.value.boxByteLengths[boxNum].asUint64()
 
   if (prevBoxByteLength === valueSize) {
     // box empty - delete
@@ -149,9 +149,9 @@ export function sbDeleteIndex(name: string, valueIndex: uint64): uint64 {
   }
 
   // adjust total metadata
-  meta.value.totalByteLength = au64(meta.value.totalByteLength.native - valueSize)
+  meta.value.totalByteLength = au64(meta.value.totalByteLength.asUint64() - valueSize)
 
-  return meta.value.totalByteLength.native
+  return meta.value.totalByteLength.asUint64()
 }
 
 /**
@@ -169,14 +169,14 @@ export function sbDeleteBox(name: string, boxNum: uint64): uint64 {
   assert(dataBox.exists, 'ERR:DLTD')
 
   // adjust metadata
-  metaValue.totalByteLength = au64(metaValue.totalByteLength.native - metaValue.boxByteLengths[boxNum].native)
+  metaValue.totalByteLength = au64(metaValue.totalByteLength.asUint64() - metaValue.boxByteLengths[boxNum].asUint64())
   metaValue.boxByteLengths[boxNum] = au16(0)
   meta.value = clone(metaValue)
 
   // delete box
   dataBox.delete()
 
-  return metaValue.totalByteLength.native
+  return metaValue.totalByteLength.asUint64()
 }
 
 /**
@@ -190,7 +190,7 @@ export function sbDeleteSuperbox(name: string) {
   const metaBox = sbMetaBox(name)
 
   assert(metaBox.exists, 'ERR:NEXIST')
-  assert(metaBox.value.totalByteLength.native === 0, 'ERR:NEMPTY')
+  assert(metaBox.value.totalByteLength.asUint64() === 0, 'ERR:NEMPTY')
 
   metaBox.delete()
 }
@@ -203,18 +203,18 @@ export function sbDeleteSuperbox(name: string) {
  */
 export function sbGetLocation(name: string, valueIndex: uint64): [BoxNum, ByteOffset] {
   const meta = sbMetaBoxValue(name)
-  const valueSize = meta.valueSize.native
+  const valueSize = meta.valueSize.asUint64()
   const totalBoxes = meta.boxByteLengths.length
 
   // target
   let byteIndex: uint64 = valueIndex * valueSize
 
   // check out of bounds. must have space for byteIndex(start) plus the value
-  assert(byteIndex + valueSize <= meta.totalByteLength.native, 'ERR:OOB')
+  assert(byteIndex + valueSize <= meta.totalByteLength.asUint64(), 'ERR:OOB')
 
   let elapsedBytes: uint64 = 0
   for (let i: uint64 = 0; i < totalBoxes; i++) {
-    const boxSize = meta.boxByteLengths[i].native
+    const boxSize = meta.boxByteLengths[i].asUint64()
     if (boxSize + elapsedBytes > byteIndex) {
       // we found the box
       return [i, byteIndex - elapsedBytes]
@@ -235,6 +235,6 @@ export function sbGetLocation(name: string, valueIndex: uint64): [BoxNum, ByteOf
 export function sbGetData(name: string, valueIndex: uint64): bytes {
   const [boxNum, byteOffset] = sbGetLocation(name, valueIndex)
   const box = sbDataBoxRef(name, boxNum)
-  const valueSize = sbMetaBoxValue(name).valueSize.native
+  const valueSize = sbMetaBoxValue(name).valueSize.asUint64()
   return box.value.slice(byteOffset, byteOffset + valueSize)
 }

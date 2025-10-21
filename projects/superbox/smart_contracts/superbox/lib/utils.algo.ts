@@ -1,4 +1,4 @@
-import { assert, Box, BoxMap, BoxRef, Bytes, uint64 } from '@algorandfoundation/algorand-typescript'
+import { assert, Box, BoxMap, bytes, Bytes, uint64 } from '@algorandfoundation/algorand-typescript'
 import { SuperboxMeta } from './types.algo'
 
 /**
@@ -31,8 +31,8 @@ export function sbDataBoxName(name: string, num: uint64) {
  * @param num Data box index
  * @returns Data box BoxRef
  */
-export function sbDataBoxRef(name: string, num: uint64): BoxRef {
-  return BoxRef({ key: sbDataBoxName(name, num) })
+export function sbDataBoxRef(name: string, num: uint64): Box<bytes> {
+  return Box({ key: sbDataBoxName(name, num) })
 }
 
 /**
