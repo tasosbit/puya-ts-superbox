@@ -338,7 +338,7 @@ describe('Superbox contract', () => {
     await client.send.superboxDeleteBox({ args: { name, boxNum: 3 } })
     await client.send.superboxDeleteBox({ args: { name, boxNum: 2 } })
     await client.send.superboxDeleteBox({ args: { name, boxNum: 0 } })
-    
+
     await client.send.superboxDeleteSuperbox({ args: { name } })
 
     await expect(client.send.superboxDeleteSuperbox({ args: { name } })).rejects.toThrow(/ERR:NEXIST/)
@@ -347,7 +347,6 @@ describe('Superbox contract', () => {
     expect(boxNames).toEqual([])
   })
 
-  
   test('Delete Superbox', async () => {
     const { testAccount } = localnet.context
     const valueSize = 8n
@@ -370,6 +369,22 @@ describe('Superbox contract', () => {
 
     const boxNames = await client.algorand.app.getBoxNames(client.appId)
     expect(boxNames).toEqual([])
+  })
+
+  test('sbExists works (exists true)', async () => {
+    const { testAccount } = localnet.context
+    const { client } = await deploy(testAccount, { valueSize, maxBoxSize })
+
+    const { return: retVal } = await client.send.superboxExists({ args: { name } })
+    expect(retVal).toBe(true)
+  })
+
+  test('sbExists works (exists false)', async () => {
+    const { testAccount } = localnet.context
+    const { client } = await deploy(testAccount, { valueSize, maxBoxSize })
+
+    const { return: retVal } = await client.send.superboxExists({ args: { name: 'a' + name } })
+    expect(retVal).toBe(false)
   })
 })
 

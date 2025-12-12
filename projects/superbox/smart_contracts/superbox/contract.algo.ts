@@ -6,6 +6,7 @@ import {
   sbDeleteBox,
   sbDeleteIndex,
   sbDeleteSuperbox,
+  sbExists,
   sbGetData,
   sbGetLocation,
 } from './lib/superbox.algo'
@@ -46,6 +47,11 @@ export class Superbox extends Contract {
   @abimethod({ readonly: true })
   public superboxGetValue(name: string, valueIndex: uint64): bytes {
     return sbGetData(name, valueIndex)
+  }
+
+  @abimethod({ readonly: true })
+  public superboxExists(name: string): boolean {
+    return sbExists(name)
   }
 
   public noop() {}

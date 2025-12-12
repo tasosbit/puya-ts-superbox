@@ -89,6 +89,18 @@ Append data to the superbox in multiples of `valueSize`.
 
 ---
 
+### `sbExists(name)`
+
+Check whether a superbox metadata record exists for the given name/prefix.
+
+**Parameters:**
+
+* `name` *(string)* – Superbox name/prefix.
+
+**Returns:** `boolean` – `true` if the superbox exists, otherwise `false`.
+
+---
+
 ### `sbGetMeta(name)`
 
 Retrieve metadata for a superbox

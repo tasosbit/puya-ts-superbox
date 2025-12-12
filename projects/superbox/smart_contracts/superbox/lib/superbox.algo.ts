@@ -109,6 +109,17 @@ function appendBox(box: Box<bytes>, data: bytes, maxBoxSize: uint64, valueSize: 
   }
 }
 
+
+/**
+ * Get whether a superbox (meta) exists for this name/prefix
+ * 
+ * @param name Superbox name/prefix
+ * @returns boolean true if exists
+ */
+export function sbExists(name: string): boolean {
+  return sbMetaBox(name).exists
+}
+
 /**
  * Get superbox metadata
  * @param name Superbox name/prefix
