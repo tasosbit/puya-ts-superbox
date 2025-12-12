@@ -2,7 +2,7 @@ import { TestExecutionContext } from '@algorandfoundation/algorand-typescript-te
 import { describe, it } from 'vitest'
 import { Superbox } from './contract.algo'
 
-describe('Sueprbox contract', () => {
+describe('Superbox contract', () => {
   const ctx = new TestExecutionContext()
   it('Logs the returned value when sayHello is called', () => {
     const contract = ctx.contract.create(Superbox)

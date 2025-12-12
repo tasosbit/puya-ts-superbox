@@ -35,21 +35,22 @@ npm i @d13co/superbox
 Import the `sb*` functions from your puya-ts files, e.g.
 
 ```typescript
-import { sbCreate } from "@d13co/superbox";
+import { sbCreate, sbAppend } from "@d13co/superbox";
+import * as arc4 from "@algorandfoundation/algorand-typescript/arc4";
 
 // ... inside your contract:
 
 public startAddingData() {
   sbCreate("myBox", 2048, 2, "uint16")
 
-  const singleValue = new arc4.Uint16(13).bytes)
+  const singleValue = new arc4.Uint16(13).bytes
 
   // add one value
   sbAppend("myBox", singleValue)
 }
 
 public addMoreData() {
-  sbAppend("myBox", arc4.Uint16(13).bytes)
+  sbAppend("myBox", new arc4.Uint16(13).bytes)
 
   const multipleValues = new arc4.Uint16(13).bytes
     .concat(new arc4.Uint16(37).bytes)
@@ -158,7 +159,7 @@ Provide the index of the value - not the byte offset.
 ### `sbDeleteBox(name, boxNum)`
 
 Delete an entire box by its number.
-Only allowed if the box is empty.
+Note: The current implementation deletes the box if it exists and updates metadata accordingly; it does not enforce that the box is already empty.
 
 **Parameters:**
 
@@ -223,7 +224,7 @@ export class SuperboxMeta extends arc4.Struct<{
   /**
    * Size of individual boxes backing superbox
    */
-  boxByteLengths: DynamicArray<UintN16>
+  boxByteLengths: DynamicArray<Uint16>
   /**
    * Total data in superbox
    */
@@ -343,7 +344,7 @@ This template provides a set of [algokit generators](https://github.com/algorand
 
 ### Generate Smart Contract 
 
-By default the template creates a single `HelloWorld` contract under sueprbox folder in the `smart_contracts` directory. To add a new contract:
+By default the template creates a single `HelloWorld` contract under superbox folder in the `smart_contracts` directory. To add a new contract:
 
 1. From the root of the project (`../`) execute `algokit generate smart-contract`. This will create a new starter smart contract and deployment configuration file under `{your_contract_name}` subfolder in the `smart_contracts` directory.
 2. Each contract potentially has different creation parameters and deployment steps. Hence, you need to define your deployment logic in `deploy-config.ts` file.
@@ -377,7 +378,7 @@ To define custom `algokit project run` commands refer to [documentation](https:/
 #### Setting up GitHub for CI/CD workflow and TestNet deployment
 
   1. Every time you have a change to your smart contract, and when you first initialize the project you need to [build the contract](#initial-setup) and then commit the `smart_contracts/artifacts` folder so the [output stability](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/articles/output_stability.md) tests pass
-  2. Decide what values you want to use for the `allowUpdate` and `allowDelete` parameters specified in [`deploy-config.ts`](./smart_contracts/sueprbox/deploy-config.ts).
+  2. Decide what values you want to use for the `allowUpdate` and `allowDelete` parameters specified in [`deploy-config.ts`](./smart_contracts/superbox/deploy-config.ts).
      When deploying to LocalNet these values are both set to `true` for convenience. But for non-LocalNet networks
      they are more conservative and use `false`
      These default values will allow the smart contract to be deployed initially, but will not allow the app to be updated or deleted if is changed and the build will instead fail.
