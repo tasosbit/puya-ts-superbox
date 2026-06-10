@@ -386,6 +386,60 @@ describe('Superbox contract', () => {
     const { return: retVal } = await client.send.superboxExists({ args: { name: 'a' + name } })
     expect(retVal).toBe(false)
   })
+
+  // Regression: data box names must be prefix-free. Committee storage names its
+  // superbox `S` + numericId (raw decimal, no delimiter). With the old naming
+  // (name + itoa(page)), two superboxes whose numeric ids are decimal prefixes of
+  // each other could resolve to the same data box key, silently sharing storage:
+  //   S1  page 10 -> "S110"
+  //   S11 page  0 -> "S110"   (collision!)
+  // The `_` delimiter (S1_10 vs S11_0) makes the key space prefix-free.
+  test('prefix-colliding superbox names do not share data boxes', async () => {
+    const { testAccount } = localnet.context
+    const small = { maxBoxSize: 8n, valueSize: 2n, valueSchema: 'uint16' }
+
+    // Two superboxes in the same app whose names are decimal prefixes (numIds 1 & 11)
+    const { client } = await deploy(testAccount, { name: 'S1', ...small })
+    await client.send.superboxCreate({ args: { name: 'S11', ...small } })
+
+    // 8 bytes per box (4 uint16 values). Fill S1 across 11 boxes (pages 0..10) so
+    // it reaches page 10. Distinct, non-zero bytes so any cross-write is visible.
+    const s1Data = Buffer.from(new Array(88).fill(0).map((_, i) => (i + 1) & 0xff))
+    const s11Data = Buffer.alloc(8, 0xaa)
+
+    // Append one box (8 bytes) at a time to stay within per-call opcode/box-ref
+    // limits, filling S1 boxes 0..10.
+    for (let page = 0; page < 11; page++) {
+      await client.send.superboxAppend({ args: { name: 'S1', data: s1Data.subarray(page * 8, page * 8 + 8) } })
+    }
+    // S11 page 0 -> "S110", which collides with S1 page 10 under the old naming.
+    await client.send.superboxAppend({ args: { name: 'S11', data: s11Data } })
+
+    // Each superbox's metadata must be independent and intact.
+    const s1Meta = (await getSuperboxMeta(client, 'S1'))!
+    const s11Meta = (await getSuperboxMeta(client, 'S11'))!
+    expect(s1Meta.boxByteLengths).toEqual(new Array(11).fill(8))
+    expect(s1Meta.totalByteLength).toBe(88n)
+    expect(s11Meta.boxByteLengths).toEqual([8])
+    expect(s11Meta.totalByteLength).toBe(8n)
+
+    // The previously-colliding keys must exist as two distinct boxes on-chain.
+    const boxNames = (await client.algorand.app.getBoxNames(client.appId)).map((b) => b.name)
+    expect(boxNames).toContain('S1_10')
+    expect(boxNames).toContain('S11_0')
+
+    // Every value reads back exactly as written for both superboxes.
+    for (let i = 0; i < 44; i++) {
+      expect(await getSuperboxValue(client, 'S1', i)).toEqual(Buffer.from(s1Data.subarray(i * 2, i * 2 + 2)))
+    }
+    for (let i = 0; i < 4; i++) {
+      expect(await getSuperboxValue(client, 'S11', i)).toEqual(Buffer.from(s11Data.subarray(i * 2, i * 2 + 2)))
+    }
+
+    // Bulk reads confirm neither superbox's data was disturbed by the other.
+    expect(await getSuperboxData(client, 'S1')).toEqual(s1Data)
+    expect(await getSuperboxData(client, 'S11')).toEqual(s11Data)
+  })
 })
 
 export function makeData(len: number): Buffer {

@@ -19,10 +19,10 @@ export function itoa(i: uint64): string {
  * Get data box key
  * @param name Superbox name/prefix
  * @param num Data box index
- * @returns
+ * @returns Data box key as Bytes
  */
 export function sbDataBoxName(name: string, num: uint64) {
-  return Bytes(name).concat(Bytes(itoa(num)))
+  return Bytes(name).concat(Bytes('_')).concat(Bytes(itoa(num)))
 }
 
 /**

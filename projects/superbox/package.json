@@ -1,6 +1,6 @@
 {
   "name": "@d13co/superbox",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "Superbox abstraction for puya-ts",
   "files": "smart_contracts/superbox/lib/*.algo.ts",
   "main": "smart_contracts/superbox/lib/superbox.algo.ts",

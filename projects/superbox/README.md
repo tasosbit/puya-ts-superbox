@@ -204,13 +204,23 @@ Boxes are currently named by convention:
 
 Metadata boxes are suffixed with `_m`.
 
-Data boxes are suffixed with an integer counter starting from `0`.
+Data boxes are suffixed with `_` followed by an integer counter starting from `0`.
+
+The `_` delimiter keeps the key space prefix-free: the counter is plain decimal
+digits, so the delimiter can never appear inside it. Without the delimiter, two
+superboxes with names that are decimal prefixes of each other (e.g. `S1` and
+`S11`) could resolve to the same data box key — `S1` page `10` and `S11` page `0`
+would both produce `S110` — silently sharing storage.
+
+> ⚠️ The `_` delimiter was introduced in **2.0.0** and changes data box keys.
+> See the [Changelog](#changelog). Prior to 2.0.0 data boxes were named
+> `name` + counter with no delimiter (`chunky0`, `chunky1`).
 
 Example: A Superbox named `chunky` with two data boxes would have the following keys;
 
 - chunky_m
-- chunky0
-- chunky1
+- chunky_0
+- chunky_1
 
 ## Metadata
 
@@ -279,6 +289,34 @@ In order to facilitate efficient insertion at arbitrary locations, we could opti
 - optimalBoxSize: would be the box size at which we stop appending
 
 An example would be a maxBoxSize of 1024, with a smaller optinal size of ~80% / 820 bytes. When appending data, boxes would be kept to 820 bytes, with capacity to grow from arbitrary insertions up to 1024 before a new box is created.
+
+## Changelog
+
+### 2.0.0 — ⚠️ schema-breaking
+
+**Data box keys changed.** Data boxes are now named `name` + `_` + counter
+(e.g. `chunky_0`) instead of `name` + counter (`chunky0`). This adds a `_`
+delimiter between the superbox name/prefix and the page counter.
+
+The previous scheme was not prefix-free. Because the counter is raw
+decimal digits appended directly to the name, two superboxes whose names are
+decimal prefixes of each other could resolve to the same data box key — e.g.
+superbox `S1` page `10` and superbox `S11` page `0` both produced key `S110`.
+Such superboxes silently shared a backing box, corrupting stored values and
+desynchronizing the metadata (`boxByteLengths` / `totalByteLength`) of the data
+structure. The `_` delimiter makes the key space prefix-free (`S1_10` vs
+`S11_0`); it can never appear inside the counter, which is digits only, and does
+not collide with the `_m` metadata suffix.
+
+**Impact / migration:** this is a storage-layout change, not an ABI change. Data
+boxes written by `1.x` are **not** readable by `2.0.0`, since the derived box
+keys differ. There is no in-place upgrade: a contract holding superbox data under
+the old naming must either drain/rewrite that data (read out under old keys,
+re-append under new keys) before upgrading, or remain on `1.x`. New
+deployments are unaffected. Metadata boxes (`name_m`) are unchanged.
+
+Consumers that derived data box keys off-chain (rather than via the library)
+must add the `_` delimiter to match.
 
 
 # Development Setup - Algokit README

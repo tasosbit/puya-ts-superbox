@@ -7,10 +7,11 @@ export async function getSuperboxMeta(client: SuperboxClient, name: string) {
 
 export async function getSuperboxBoxNames(client: SuperboxClient, name: string): Promise<string[]> {
   const boxNames = await client.algorand.app.getBoxNames(client.appId)
+  const prefix = `${name}_`
   return boxNames
-    .filter(({ name }) => name.startsWith(name) && !name.endsWith('_m'))
-    .map(({ name }) => name)
-    .sort((a, b) => (Number(a.slice(name.length)) < Number(b.slice(name.length)) ? -1 : 1))
+    .filter(({ name: boxName }) => boxName.startsWith(prefix) && !boxName.endsWith('_m'))
+    .map(({ name: boxName }) => boxName)
+    .sort((a, b) => (Number(a.slice(prefix.length)) < Number(b.slice(prefix.length)) ? -1 : 1))
 }
 
 export async function getSuperboxData(client: SuperboxClient, name: string): Promise<Buffer> {
