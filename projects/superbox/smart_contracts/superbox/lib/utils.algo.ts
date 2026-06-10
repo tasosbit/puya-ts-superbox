@@ -1,4 +1,4 @@
-import { assert, Box, BoxMap, bytes, Bytes, uint64 } from '@algorandfoundation/algorand-typescript'
+import { assert, Box, bytes, Bytes, uint64 } from '@algorandfoundation/algorand-typescript'
 import { SuperboxMeta } from './types.algo'
 
 /**
@@ -41,8 +41,7 @@ export function sbDataBoxRef(name: string, num: uint64): Box<bytes> {
  * @returns Box
  */
 export function sbMetaBox(name: string): Box<SuperboxMeta> {
-  const metaBoxMap = BoxMap<string, SuperboxMeta>({ keyPrefix: '' })
-  return metaBoxMap(name + '_m')
+  return Box<SuperboxMeta>({ key: Bytes(name).concat(Bytes('_m')) })
 }
 
 /**

@@ -107,21 +107,21 @@ itoa_after_if_else@2:
 
 // smart_contracts/superbox/lib/utils.algo.ts::sbMetaBoxValue(name: bytes) -> bytes:
 sbMetaBoxValue:
-    // smart_contracts/superbox/lib/utils.algo.ts:53
+    // smart_contracts/superbox/lib/utils.algo.ts:52
     // export function sbMetaBoxValue(name: string): SuperboxMeta {
     proto 1 1
-    // smart_contracts/superbox/lib/utils.algo.ts:45
-    // return metaBoxMap(name + '_m')
+    // smart_contracts/superbox/lib/utils.algo.ts:44
+    // return Box<SuperboxMeta>({ key: Bytes(name).concat(Bytes('_m')) })
     frame_dig -1
     bytec_0 // "_m"
     concat
-    // smart_contracts/superbox/lib/utils.algo.ts:55
+    // smart_contracts/superbox/lib/utils.algo.ts:54
     // assert(metaBox.exists, 'ERR:SBNEXIST')
     dup
     box_len
     bury 1
     assert // ERR:SBNEXIST
-    // smart_contracts/superbox/lib/utils.algo.ts:56
+    // smart_contracts/superbox/lib/utils.algo.ts:55
     // return metaBox.value
     box_get
     pop
@@ -297,8 +297,8 @@ superboxCreate:
     concat
     swap
     concat
-    // smart_contracts/superbox/lib/utils.algo.ts:45
-    // return metaBoxMap(name + '_m')
+    // smart_contracts/superbox/lib/utils.algo.ts:44
+    // return Box<SuperboxMeta>({ key: Bytes(name).concat(Bytes('_m')) })
     swap
     bytec_0 // "_m"
     concat
@@ -804,8 +804,8 @@ superboxAppend_after_while@21:
     // smart_contracts/superbox/lib/superbox.algo.ts:59
     // meta.totalByteLength = au64(meta.totalByteLength.asUint64() + dataWritten)
     replace2 2
-    // smart_contracts/superbox/lib/utils.algo.ts:45
-    // return metaBoxMap(name + '_m')
+    // smart_contracts/superbox/lib/utils.algo.ts:44
+    // return Box<SuperboxMeta>({ key: Bytes(name).concat(Bytes('_m')) })
     dig 7
     bytec_0 // "_m"
     concat
@@ -865,8 +865,8 @@ superboxDeleteIndex:
     ==
     assert // invalid number of bytes for arc4.uint64
     btoi
-    // smart_contracts/superbox/lib/utils.algo.ts:45
-    // return metaBoxMap(name + '_m')
+    // smart_contracts/superbox/lib/utils.algo.ts:44
+    // return Box<SuperboxMeta>({ key: Bytes(name).concat(Bytes('_m')) })
     dig 1
     bytec_0 // "_m"
     concat
@@ -1043,8 +1043,8 @@ superboxDeleteBox:
     ==
     assert // invalid number of bytes for arc4.uint64
     btoi
-    // smart_contracts/superbox/lib/utils.algo.ts:45
-    // return metaBoxMap(name + '_m')
+    // smart_contracts/superbox/lib/utils.algo.ts:44
+    // return Box<SuperboxMeta>({ key: Bytes(name).concat(Bytes('_m')) })
     dig 1
     bytec_0 // "_m"
     concat
@@ -1190,8 +1190,8 @@ superboxDeleteSuperbox:
     ==
     assert // invalid number of bytes for arc4.dynamic_array<arc4.uint8>
     extract 2 0
-    // smart_contracts/superbox/lib/utils.algo.ts:45
-    // return metaBoxMap(name + '_m')
+    // smart_contracts/superbox/lib/utils.algo.ts:44
+    // return Box<SuperboxMeta>({ key: Bytes(name).concat(Bytes('_m')) })
     bytec_0 // "_m"
     concat
     // smart_contracts/superbox/lib/superbox.algo.ts:203
@@ -1234,8 +1234,8 @@ superboxGetMeta:
     ==
     assert // invalid number of bytes for arc4.dynamic_array<arc4.uint8>
     extract 2 0
-    // smart_contracts/superbox/lib/utils.algo.ts:45
-    // return metaBoxMap(name + '_m')
+    // smart_contracts/superbox/lib/utils.algo.ts:44
+    // return Box<SuperboxMeta>({ key: Bytes(name).concat(Bytes('_m')) })
     bytec_0 // "_m"
     concat
     // smart_contracts/superbox/contract.algo.ts:39
@@ -1395,8 +1395,8 @@ superboxExists:
     ==
     assert // invalid number of bytes for arc4.dynamic_array<arc4.uint8>
     extract 2 0
-    // smart_contracts/superbox/lib/utils.algo.ts:45
-    // return metaBoxMap(name + '_m')
+    // smart_contracts/superbox/lib/utils.algo.ts:44
+    // return Box<SuperboxMeta>({ key: Bytes(name).concat(Bytes('_m')) })
     bytec_0 // "_m"
     concat
     // smart_contracts/superbox/lib/superbox.algo.ts:120
